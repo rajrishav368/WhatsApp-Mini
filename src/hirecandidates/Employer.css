@@ -1,12 +1,13 @@
 .hire__employerdirection_emp{
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 .hire__signup_logo_emp img{
   margin-right: 4rem;
 }
 .hire__header_text1_emp h1{
     text-align: center;
+    align-items: center;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 32px;
@@ -33,6 +34,7 @@
   flex-direction: column;
   margin-left: 15rem;
   width: 100%;
+  align-items: center;
 }
 .hire__data_right_box1_emp{
   display: flex;
@@ -118,6 +120,7 @@
 }
 .hire__continue_button_emp{
   margin-left: 50rem;
+  align-items: center;
   justify-content: center;
 }
 .hire__continue_button_emp button{

@@ -10,11 +10,11 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 32px;
-    text-align: center;
     justify-content: center;
 }
 .hire__header_text2_wf h2{
     text-align: center;
+    justify-content: center;
     font-family: var(--font-family);
     font-weight: 470;
     font-size: 18.5px;
