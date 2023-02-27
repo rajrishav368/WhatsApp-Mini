@@ -1,130 +1,206 @@
-.hire_employers{
-  height: 100%;
+.hire__employerdirection_epw {
   width: 100%;
 }
-.hire__signup_logo_epw img{
-  margin-right: 4rem;
-}
-.hire__header_text1_epw h1{
-    text-align: center;
-    /* margin-top: -2rem; */
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 32px;
-    text-align: center;
-    justify-content: center;
-}
-.hire__header_text2_epw h2{
-    /* padding-top: -4rem; */
-    text-align: center;
-    font-family: var(--font-family);
-    font-weight: 470;
-    font-size: 18.5px;
-    padding-bottom: 2rem;
-}
-.hire__employers_image_epw{
-  display: flex;
-  width: 100%;
-}
-.hire__employers_image_epw img{
-  margin-left:15rem;
-  margin-top: 3rem;
-}
-.hire__data_right_epw{
+.hire__header_text_epw  {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin-left: 15rem;
-}
-.hire__data_right_box1_epw{
-  display: flex;
-  margin-top: 1rem;
-  padding-bottom: 1.5rem;
-}
-.hire__data_right_box2_epw{
-  display: flex;
-  padding-bottom: 1.5rem;
-}
-.hire__data_right_box3_epw{
-  display: flex;
-  padding-bottom: 3rem;
-}
-.hire__data_box1_epw{
-  display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  flex-direction: column;
-  border: 1px solid black;
-  width: 3rem;
-  height: 3rem;
 }
-.hire__data_box1_epw h3{
-  text-align:justify;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+.hire__header_text1_epw  h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
 }
-.hire__box2_epw{
-  display: flex;
-  align-items: center;
-  justify-content:center;
-  flex-direction: column;
-  border: 1px solid black;
-  width: 3rem;
-  height: 3rem;
-}
-.hire__box2_epw h3{
-  text-align:justify;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-
-.hire__box3_epw{
-  display: flex;
-  align-items: center;
-  justify-content:center;
-  flex-direction: column;
-  border: 1px solid black;
-  width: 3rem;
-  height: 3rem;
-}
-.hire__box3_epw h3{
-  text-align:justify;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-.hire__data_paragraph_epw{
-  padding-left: 1rem;
-}
-.hire__data_paragraph_epw h3{
+.hire__header_text2_epw  h2 {
+  font-family: var(--font-family);
+  font-weight: 470;
+  font-size: 18.5px;
   padding-bottom: 0.5rem;
+}
+.hire__body_epw  {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.hire__body_epw  img {
+  margin-left: 10rem;
+}
+.hire__body_right_epw  {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  width: 100%;
+}
+.hire__body_box1_epw  {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.hire__body_box1_number_epw  {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.hire__body_box1_number_epw  h3 {
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+.hire__body_box1_text_epw  {
+  padding-left: 1rem;
+  max-width: 500px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+}
+.hire__body_box1_text_epw  h3 {
   font-family: var(--font-family);
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0em;
+  padding-bottom: 0.3rem;
   text-align: left;
+  align-items: left;
+  justify-content: left;
 }
-.hire__data_paragraph_epw p{
+.hire__body_box1_text_epw  p {
   font-family: var(--font-family);
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0em;
-}
-.hire__more_button_epw{
-  margin-left: 50rem;
+  text-align: left;
+  align-items: center;
   justify-content: center;
 }
-.hire__more_button_epw button{
+.hire__body_box2_epw  {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.hire__body_box2_number_epw  {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.hire__body_box2_number_epw  h3 {
+  font-family: var(--font-family);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.hire__body_box2_text_epw  {
+  padding-left: 1rem;
+  max-width: 500px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+}
+.hire__body_box2_text_epw  h3 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  padding-bottom: 0.3rem;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+}
+.hire__body_box2_text_epw  p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+.hire__body_box3_epw  {
+  display: flex;
+  padding-bottom: 3rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.hire__body_box3_number_epw  {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.hire__body_box3_number_epw  h3 {
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.hire__body_box3_text_epw  {
+  padding-left: 1rem;
+  max-width: 500px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+}
+.hire__body_box3_text_epw  h3 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  padding-bottom: 0.3rem;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+}
+.hire__body_box3_text_epw  p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+.hire__more_button_epw  {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.hire__more_button_epw  button {
   position: relative;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   width: 100%;
   max-width: 5rem;
   min-height: 1rem;
-  background: #00ADB5;
+  background: #00adb5;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   z-index: 2;
@@ -132,10 +208,9 @@
   font-weight: 200;
   font-size: 12px;
   line-height: 26px;
-  color: #EEEEEE;
+  color: #eeeeee;
   outline: none;
   cursor: pointer;
   padding: 0 1rem;
   border: none;
 }
-
