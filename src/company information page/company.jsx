@@ -32,7 +32,7 @@ function App() {
           <img src={logo} alt=""></img>
         </div>
         <div className="hire_company_information">
-          <h2></h2>
+          <h2>Company information</h2>
         </div>
       </div>
 
@@ -51,22 +51,6 @@ function App() {
         </div>
         <div className="hire_company_mail">
           <input className="email" placeholder="Contact E-mail"></input>
-        </div>
-      
-        <div className="hire_phone_number">
-          <input type="text" placeholder="Phone number optional"></input>
-        </div>
-        <div className="hire_country_dropdown">
-          <Select options={options} value={value} onChange={changeHandler}/>
-        </div>
-        <div className="hire_state">
-          <input type="text" placeholder="Region/state"></input>
-        </div>
-        <div className="hire_company_size">
-          <input type="text" placeholder="Company size"></input>
-        </div>
-        <div className="hire_company_description">
-          <input type="text" placeholder="Company description"></input>
         </div>
 
         <div className="hire_company_links">
@@ -94,6 +78,22 @@ function App() {
           <div className="hire_youtube">
             <img src={youtube} alt=""></img>
           </div>
+        </div>
+      
+        <div className="hire_phone_number">
+          <input type="text" placeholder="Phone number optional"></input>
+        </div>
+        <div className="hire_country_dropdown">
+          <Select options={options} value={value} onChange={changeHandler}/>
+        </div>
+        <div className="hire_state">
+          <input type="text" placeholder="Region/state"></input>
+        </div>
+        <div className="hire_company_size">
+          <input type="text" placeholder="Company size"></input>
+        </div>
+        <div className="hire_company_description">
+          <input type="text" placeholder="Company description"></input>
         </div>
 
         <div className="hire_create_button">
