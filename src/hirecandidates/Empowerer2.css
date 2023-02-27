@@ -9,7 +9,6 @@
 
 .hire__header_text1_epw2 h1{
     text-align: center;
-    margin-top: -2rem;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 32px;
@@ -17,7 +16,6 @@
     justify-content: center;
 }
 .hire__header_text2_epw2 h2{
-    padding-top: -4rem;
     text-align: center;
     font-family: var(--font-family);
     font-weight: 470;
@@ -26,15 +24,17 @@
 }
 .hire__employers_image_epw2{
   display: flex;
+  width: 100%;
 }
 .hire__employers_image_epw2 img{
-  margin-left:12rem;
-  margin-top: 2rem;
+  margin-left:15rem;
+  margin-top: 3rem;
 }
 .hire__data_right_epw2{
   display: flex;
   flex-direction: column;
-  margin-left: 6rem;
+  width: 100%;
+  margin-left: 10rem;
 }
 .hire__data_right_box1_epw2{
   display: flex;
@@ -58,7 +58,7 @@
   text-align:justify;
   align-items: center;
   justify-content: center;
-  padding: 1px;
+  padding: 1rem;
 }
 .hire__box2_epw2{
   display: flex;
@@ -73,7 +73,7 @@
   text-align:justify;
   align-items: center;
   justify-content: center;
-  padding: 1px;
+  padding: 1rem;
 }
 
 .hire__data_paragraph_epw2{
@@ -99,7 +99,7 @@
 }
 .hire__continue_button_epw2{
   padding-bottom: 0.5rem;
-  margin-left: 40rem;
+  margin-left: 45rem;
   justify-content: center;
 }
 .hire__continue_button_epw2 button{

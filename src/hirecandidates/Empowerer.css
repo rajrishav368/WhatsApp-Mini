@@ -7,7 +7,7 @@
 }
 .hire__header_text1_epw h1{
     text-align: center;
-    margin-top: -2rem;
+    /* margin-top: -2rem; */
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 32px;
@@ -15,7 +15,7 @@
     justify-content: center;
 }
 .hire__header_text2_epw h2{
-    padding-top: -4rem;
+    /* padding-top: -4rem; */
     text-align: center;
     font-family: var(--font-family);
     font-weight: 470;
@@ -24,15 +24,17 @@
 }
 .hire__employers_image_epw{
   display: flex;
+  width: 100%;
 }
 .hire__employers_image_epw img{
-  margin-left:12rem;
-  margin-top: 2rem;
+  margin-left:15rem;
+  margin-top: 3rem;
 }
 .hire__data_right_epw{
   display: flex;
   flex-direction: column;
-  margin-left: 5.5rem;
+  width: 100%;
+  margin-left: 10rem;
 }
 .hire__data_right_box1_epw{
   display: flex;
@@ -60,7 +62,7 @@
   text-align:justify;
   align-items: center;
   justify-content: center;
-  padding: 1px;
+  padding: 1rem;
 }
 .hire__box2_epw{
   display: flex;
@@ -104,7 +106,6 @@
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 .hire__data_paragraph_epw p{
   font-family: var(--font-family);
@@ -115,9 +116,8 @@
 }
 .hire__more_button_epw{
   padding-bottom: 0.5rem;
-  margin-left: 40rem;
+  margin-left: 45rem;
   justify-content: center;
-  margin-top: -2rem;
 }
 .hire__more_button_epw button{
   position: relative;

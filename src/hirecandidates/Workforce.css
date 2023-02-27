@@ -7,7 +7,6 @@
 }
 .hire__header_text1_wf h1{
     text-align: center;
-    margin-top: -2rem;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 32px;
@@ -15,7 +14,6 @@
     justify-content: center;
 }
 .hire__header_text2_wf h2{
-    padding-top: -4rem;
     text-align: center;
     font-family: var(--font-family);
     font-weight: 470;
@@ -26,13 +24,14 @@
   display: flex;
 }
 .hire__employers_image_wf img{
-  margin-left:12rem;
-  margin-top: 2rem;
+  margin-left:15rem;
+  margin-top: 3rem;
 }
 .hire__data_right_wf{
   display: flex;
   flex-direction: column;
-  margin-left: 6rem;
+  margin-left: 10rem;
+  width: 100%;
 }
 .hire__data_right_box1_wf{
   display: flex;
@@ -76,7 +75,7 @@
   align-items: center;
   font-family: var(--font-family);
   justify-content: center;
-  padding: 1px;
+  padding: 1rem;
 }
 
 .hire__box3_wf{
@@ -92,7 +91,7 @@
   text-align:justify;
   align-items: center;
   justify-content: center;
-  padding: 1re;
+  padding: 1rem;
 }
 .hire__data_paragraph_wf{
   padding-left: 1rem;
@@ -116,9 +115,8 @@
 }
 .hire__continue_button_wf{
   padding-bottom: 0.5rem;
-  margin-left: 40rem;
+  margin-left: 45rem;
   justify-content: center;
-  margin-top: -2.3rem;
 }
 .hire__continue_button_wf button{
   position: relative;
