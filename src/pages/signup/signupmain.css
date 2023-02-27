@@ -1,0 +1,268 @@
+.hire__signupheader_main {
+    display: flex;
+    height: 100vh;
+}
+
+.hire__signupleft_main {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column ;
+    background-image: url("../../assets/signup-left.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hire__signup_logo_main {
+    margin-right: 4rem;
+}
+
+.hire__signup_text1_main {
+   padding-left: 30vh;
+   padding-top: 10vh;
+   padding-bottom: 1vh;
+}
+
+.hire__signup_text1_main h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 66px;
+    color: #EEEEEE;
+ }
+
+.hire__signup_text2_main {
+    padding-left: 30vh;
+    padding-right: 5vh;
+ }
+
+ .hire__signup_text2_main h2{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EEEEEE;
+ }
+
+.hire__signup_main {
+    flex: 1;
+    display: flex;
+    flex-direction: column ;
+
+}
+
+.hire__signup_back_main {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: left;
+}
+
+.hire__signup_back_main img {
+    align-self: left;
+    justify-self: center;
+    flex: auto;
+    max-width: 10px;
+}
+
+.hire__signup_back_main button {
+    background: #F1F5F8;
+    border: 1px solid #F1F5F8;
+    border-radius: 18px;
+    height: 30px;
+    max-width: 70px;
+    flex: 0.2;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    cursor: pointer;
+    color: #8692A6;
+}
+
+.hire__signup_input_main {
+    margin: 5rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.hire__signup_input_main input {
+    width: 100%;
+    max-width: 25rem;
+    min-width: 100px;
+    min-height: 60px;
+    margin: 0.5rem;
+    border: 1px solid #D2D2D2;
+    border-radius: 8px;
+    padding: 0 1rem;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.hire__signup_button1_main {
+    margin: 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.hire__signup_button1_main button {
+    position: relative;
+    margin-top: 0.4rem;
+    justify-content: center;
+    flex: 0.2;
+    width: 100%;
+    max-width: 25rem;
+    min-height: 60px;
+    background: #222831;
+    border: 1px solid #222831;
+    border-radius: 8px;
+    z-index: 1;
+
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+    padding: 0 2rem;
+}
+
+.hire__signupright_employer {
+    display: flex;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    box-shadow: 0px 6px 14px rgba(24, 39, 75, 0.12);
+    border-radius: 8px;
+    margin: 4rem 0rem 2rem 5rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 35rem;
+    min-height: 128px;
+    align-items: center;
+}
+
+.hire__signupright_employer img {
+    min-width: 64px;
+    min-height: 64px;
+}
+
+.hire__signupright_employer_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5rem;
+}
+
+.hire__signupright_employer_text h2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.hire__signupright_employer_text h3 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.hire__signupright_empowerer {
+    display: flex;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    box-shadow: 0px 6px 14px rgba(24, 39, 75, 0.12);
+    border-radius: 8px;
+    margin: 0rem 1rem 5rem 5rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 35rem;
+    min-height: 128px;
+    align-items: center;
+}
+
+.hire__signupright_empowerer img {
+    min-width: 64px;
+    min-height: 64px;
+}
+
+.hire__signupright_empowerer_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5rem;
+}
+
+.hire__signupright_empowerer_text h2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.hire__signupright_empowerer_text h3 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.hire__signupright_workforce {
+    display: flex;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    box-shadow: 0px 6px 14px rgba(24, 39, 75, 0.12);
+    border-radius: 8px;
+    margin: 0rem 1rem 2rem 5rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 35rem;
+    min-height: 128px;
+    align-items: center;
+}
+
+.hire__signupright_workforce img {
+    min-width: 64px;
+    min-height: 64px;
+}
+
+.hire__signupright_workforce_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5rem;
+}
+
+.hire__signupright_workforce_text h2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.hire__signupright_workforce_text h3 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}

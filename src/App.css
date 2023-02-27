@@ -1,260 +1,95 @@
-.hire_employers{
-    height: 100vh;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg);
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.kenburns-top {
+	-webkit-animation: kenburns-top 30s linear both;
+	        animation: kenburns-top 30s linear both;
+}
+
+.gradient--text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
   }
-  .hire_logo{
-    margin-right: 1.5rem;
-    margin-bottom: -3rem;
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
   }
-  .hire_company_information{
-    background-image: url("../../rishav/src/company\ information/background.png");
-    width: 1220px;
-  }
-  .hire_company_information h2{
-    text-align: center;
-    color: white;
-    height: 6rem;
-    padding-top: 3rem;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 37.5px;
-  }
-  .hire_camera_pic{
-    background-image: url("../../rishav/src/company\ information/Rectangle camera.png");
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 210px;
-    top: 280px;
-  }
-  .hire_camera_pic img{
-    justify-content: right;
-    position: absolute;
-    left: 34px;
-    top: 34px;
-  }
-  .hire_upload_company{
-    display: flex;
-  }
-  .hire_upload_pic h3{
-    position:absolute;
-    left: 20rem;
-    margin-top: 5rem;
-    font-size: 24px;
-    font-weight: 400;
-    margin-left: 0.5rem;
-  }
-  .hire_employee_data{
-    margin-left: 13rem;
-    margin-top: 10rem;
-  }
-  .hire_company_name input{
-      width: 100%;
-      max-width: 25rem;
-      min-width: 780px;
-      min-height: 60px;
-      margin-bottom: 0.5rem;
-      border: 1px solid #D2D2D2;
-      border-radius: 8px;
-      padding: 0 1rem;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 19px;
-  }
-  .hire_company_mail input{
-    width: 100%;
-    max-width: 25rem;
-    min-width: 780px;
-    min-height: 60px;
+  
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .section__margin {
+        margin: 4rem;
+    }
     
-    border: 1px solid #D2D2D2;
-    border-radius: 8px;
-    padding: 0 1rem;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-  }
-  .hire_social_links{
-    display: flex;
-    flex-direction: row;
+}
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+        margin: 4rem 2rem;
+    }
     
-  }
-  .hire_www{
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 6px;
-    margin-right: 1rem;
-    width: 45px;
-    cursor: pointer;
-  }
-  .hire_www img{
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
-  }
-  .hire_linkedin{
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 6px;
-    margin-right: 1rem;
-    width: 45px;
-    cursor: pointer;
-  }
-  .hire_linkedin img{
-    padding-left: 0.3rem;
-    padding-top: 0.5rem;
-  }
-  .hire_facebook{
-    border: 1px solid black;
-    border-radius: 6px;
-    text-align: center;
-    padding: 6px;
-    margin-right: 1rem;
-    width: 45px;
-    cursor: pointer;
-  }
-  .hire_facebook img{
-    padding-left: 0.1rem;
-    padding-top: 0.5rem;
-  }
-  .hire_github{
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 6px;
-    margin-right: 1rem;
-    width: 45px;
-    cursor: pointer;
-  }
-  .hire_github img{
-    padding-left: 0.4rem;
-    padding-top: 0.5rem;
-  }
-  .hire_instagram{
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 6px;
-    margin-right: 1rem;;
-    width: 45px;
-    cursor: pointer;
-  }
-  .hire_instagram img{
-    padding-left: 0.4rem;
-    padding-top: 0.5rem;
-  }
-  .hire_telegram{
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 6px;
-    margin-right: 1rem;
-    width: 45px;
-    cursor: pointer;
-  }
-  .hire_telegram img{
-    padding-left: 0.4rem;
-    padding-top: 0.5rem;
-  }
-  .hire_youtube{
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 6px;
-    cursor: pointer;
-    width: 45px;
-  }
-  .hire_youtube img{
-    padding-left: 0.4rem;
-    padding-top: 0.8rem;
-  }
-  .hire_phone_number input{
-      width: 100%;
-      max-width: 25rem;
-      min-width: 780px;
-      min-height: 60px;
-      margin-top: 0.5rem;
-      border: 1px solid #D2D2D2;
-      border-radius: 8px;
-      padding: 0 1rem;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 19px;
-  }
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/bg.png");
   
-  .hire_country_dropdown{
-    max-width: 25rem;
-    min-width: 810px;
-    min-height: 60px;
-    padding-top: 0.5rem;
-  }
-  .hire_country_dropdown select{
-    min-height: 60px;
-  }
-  .hire_create_button{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .hire_company_description{
-    display: flex;
-  }
+    height: 50%;
   
-  .hire_create_button button{
-      position: relative;
-      align-items: center;
-      width: 100%;
-      max-width: 150px;
-      min-height: 40px;
-      background: #00ADB5;
-      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
-      border-radius: 8px;
-      z-index: 2;
-      font-weight: 200;
-      font-size: 12px;
-      line-height: 26px;
-      color: #EEEEEE;
-      outline: none;
-      cursor: pointer;
-      padding: 0 1rem;
-      border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
-  .hire_state input{
-    width: 100%;
-    max-width: 25rem;
-    min-width: 780px;
-    min-height: 60px;
-    margin-top: 0.5rem;
-    border: 1px solid #D2D2D2;
-    border-radius: 8px;
-    padding: 0 1rem;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-  }
-  .hire_company_size input{
-      width: 100%;
-      max-width: 25rem;
-      min-width: 780px;
-      min-height: 60px;
-      margin-top: 0.5rem;
-      border: 1px solid #D2D2D2;
-      border-radius: 8px;
-      padding: 0 1rem;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 19px;
-  }
-  .hire_company_description input{
-    width: 100%;
-    max-width: 25rem;
-    min-width: 810px;
-    min-height: 100px;
-    margin-top: 0.5rem;
-    border: 1px solid #D2D2D2;
-    border-radius: 8px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-  }
-  
   

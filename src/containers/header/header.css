@@ -1,0 +1,127 @@
+.hire__header {
+    display: flex;
+}
+
+.hire__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.hire__header-content h1 {
+     font-family: var(--font-family);
+     font-weight: 600;
+     font-size: 58px;
+     padding-top: 10rem;
+     line-height: 66px;
+
+     color: #111111;
+}
+
+.hire__header-content h4{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px; 
+    font-family: var(--font-family);
+    margin-top: 0.2rem;
+
+    color: #111111;
+}
+
+.hire__header-content__input {
+    margin: 2rem 0 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.hire__header-content__input input {
+    position: absolute;
+    width: 100%;
+    max-width: 580px;
+    min-width: 100px;
+    min-height: 80px;
+    background: #F1F1F1;
+    box-shadow: 0px 13px 30px rgba(12, 20, 33, 0.25);
+    border-radius: 8px;
+    padding: 0 1rem;
+    outline: none;
+    color:#111111;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+}
+
+.hire__header-content__input button{
+    position: relative;
+    margin-top: 0.4rem;
+    left: 14rem;
+    display: inline-block;
+    justify-content: center;
+    flex: 0.2;
+    width: 100%;
+    max-width: 120px;
+    min-height: 68px;
+    background: #00ADB5;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    z-index: 2;
+
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #EEEEEE;
+    outline: none;
+    cursor: pointer;
+    padding: 0 1rem;
+    border: none;
+}
+
+@media screen and (max-width: 725px) {
+    .hire__header-content h1{
+        text-align: center;
+    }
+
+    .hire__header-content__input button{
+        left: 8rem;
+    }
+}
+
+
+.hire__header-content__reserve{
+    padding-bottom: 8rem;
+}
+
+
+.hire__header-content__reserve button{
+    margin-top: 1rem;
+    justify-content: center;
+    flex: 0.2;
+    width: fit-content;
+    min-height: 50px;
+    background: #F1F5F8;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #393E46;
+    outline: none;
+    cursor: pointer;
+    padding: 0 2rem;
+    border: none;
+}
+
+
+

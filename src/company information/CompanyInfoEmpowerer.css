@@ -1,0 +1,316 @@
+.hire__employerempowerer{
+  height: 100vh;
+  position:absolute;
+ 
+}
+.hire__header_ciepw{
+  display: flex;
+}
+.hire__header_logo_ciepw img{
+  margin-right: 4rem;
+}
+.hire__header_username_ciepw{
+  display: flex;
+  padding-top: 20px;
+  padding-left: 800px;
+}
+.hire__header_username_background_ciepw{
+    background-image: url("../assets/background.png");
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    left: 915px;
+    top: 25px;
+}
+.hire__header_username_background_ciepw h5{
+    border-radius: nullpx;
+    font-family: var(--font_family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    padding-left: 7px;
+    padding-top: 2px;
+    color: white;
+}
+.hire__header_username_text_ciepw{
+  padding-top: 4px;
+  padding-left: 3px;
+}
+.hire__header_username_text_ciepw h5{
+  height: 26px;
+  width: 64px;
+  left: 953px;
+  top: 27px;
+  border-radius: nullpx;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.hire__header_username_downlogo_ciepw{
+  padding-top: 6px;
+  margin-left: -4px;
+}
+.hire__companyinformation_ciepw h2{
+  margin-top: -20px;
+  width: 1200px;
+  height: 155px;
+  text-align: center;
+  background-image: url("../assets/background.png");
+  color: white;
+  background-repeat: no-repeat;
+}
+.hire__upload_photo_ciepw{
+  display: flex;
+  text-align: center;
+}
+.hire__camera_pic_ciepw{
+  background-image: url("../assets/Rectanglecamera.png");
+  height: 112px;
+  width: 112px;
+  left: 210px;
+  top: 250px;
+  position:absolute;
+  border-radius: 8px;
+}
+.hire__camera_pic_ciepw img{
+  height: 30px;
+  width: 33px;
+  left: 3px;
+  top: 37px;
+  border-radius: 0px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+.hire__upload_text_ciepw h3{
+  position:absolute;
+  height: 29px;
+  width: 246px;
+  left: 342px;
+  top: 290px;
+  border-radius: nullpx;
+  font-family: var(--font_family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.hire__employee_data_ciepw{
+  margin-left: 13rem;
+  margin-top: 10rem;
+}
+.hire__company_name_ciepw input{
+    width: 100%;
+    max-width: 25rem;
+    min-width: 780px;
+    min-height: 60px;
+    margin-bottom: 0.5rem;
+    border: 1px solid #D2D2D2;
+    border-radius: 8px;
+    padding: 0 1rem;
+    font-family: var(--font_family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.hire__company_mail_ciepw input{
+  width: 100%;
+  max-width: 25rem;
+  min-width: 780px;
+  min-height: 60px;
+  border: 1px solid #D2D2D2;
+  border-radius: 8px;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.hire__phone_number_ciepw input{
+    width: 100%;
+    max-width: 25rem;
+    min-width: 780px;
+    min-height: 60px;
+    margin-top: 0.5rem;
+    border: 1px solid #D2D2D2;
+    border-radius: 8px;
+    padding: 0 1rem;
+    font-family: var(--font_family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.hire__country_dropdown_ciepw{
+  max-width: 25rem;
+  min-width: 780px;
+  min-height: 60px;
+  padding-top: 0.5rem;
+  border-radius: 8px;
+}
+.hire__country_dropdown_ciepw select{
+  min-height: 60px;
+}
+.hire__state_region_ciepw input{
+  width: 100%;
+  max-width: 25rem;
+  min-width: 780px;
+  min-height: 60px;
+  margin-top: 0.5rem;
+  border: 1px solid #D2D2D2;
+  border-radius: 8px;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.hire__company_size_ciepw input{
+    width: 100%;
+    max-width: 25rem;
+    min-width: 780px;
+    min-height: 60px;
+    margin-top: 0.5rem;
+    border: 1px solid #D2D2D2;
+    border-radius: 8px;
+    padding: 0 1rem;
+    font-family: var(--font_family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.hire__company_description_ciepw{
+  display: flex;
+}
+.hire__company_description_ciepw input{
+  width: 100%;
+  max-width: 26.75rem;
+  min-width: 780px;
+  min-height: 100px;
+  margin-top: 0.5rem;
+  border: 1px solid #D2D2D2;
+  border-radius: 8px;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.hire__company_links_ciepw{
+  padding-top: 15px;
+}
+.hire__social_links_ciepw{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+.hire__www_ciepw{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 6px;
+  margin-right: 1rem;
+  width: 60px;
+  cursor: pointer;
+}
+.hire__www_ciepw img{
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.hire__linkedin_ciepw{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 6px;
+  margin-right: 1rem;
+  width: 60px;
+  cursor: pointer;
+}
+.hire__linkedin_ciepw img{
+  padding-left: 0.4rem;
+  padding-top: 0.5rem;
+}
+.hire__facebook_ciepw{
+  border: 1px solid black;
+  border-radius: 6px;
+  text-align: center;
+  padding: 6px;
+  margin-right: 1rem;
+  width: 60px;
+  cursor: pointer;
+}
+.hire__facebook_ciepw img{
+  padding-left: 0.1rem;
+  padding-top: 0.5rem;
+}
+.hire__github_ciepw{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 6px;
+  margin-right: 1rem;
+  width: 60px;
+  cursor: pointer;
+}
+.hire__github_ciepw img{
+  padding-left: 0.4rem;
+  padding-top: 0.5rem;
+}
+.hire__instagram_ciepw{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 6px;
+  margin-right: 1rem;;
+  width: 60px;
+  cursor: pointer;
+}
+.hire__instagram_ciepw img{
+  padding-left: 0.4rem;
+  padding-top: 0.5rem;
+}
+.hire__telegram_ciepw{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 6px;
+  margin-right: 1rem;
+  width: 60px;
+  cursor: pointer;
+}
+.hire__telegram_ciepw img{
+  padding-left: 0.6rem;
+  padding-top: 0.5rem;
+}
+.hire__youtube_ciepw{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  width: 60px;
+}
+.hire__youtube_ciepw img{
+  padding-left: 0.6rem;
+  padding-top: 0.8rem;
+}
+.hire__create_button_ciepw{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.hire__create_button_ciepw button{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    min-height: 40px;
+    background: #00ADB5;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    z-index: 2;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 26px;
+    color: #EEEEEE;
+    outline: none;
+    cursor: pointer;
+    padding: 0 1rem;
+    border: none;
+}
