@@ -11,6 +11,8 @@ const Employer = ()=>{
     <Link to='/'><img src={logo} alt="" /></Link>
   </div>
   
+  <div className="hire__straight_emp">
+  
   <div className="hire__header_text1_emp">
     <h1>How does Hiremploye work?</h1>
   </div>
@@ -18,7 +20,7 @@ const Employer = ()=>{
     <h2>Quick and easy registration process for employers</h2>
   </div>
   
-  <div className="hire___straight_emp">
+
   
   <div className="hire__employers_image_emp">
     <div className="hire__employers_image1_emp">
