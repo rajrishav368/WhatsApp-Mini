@@ -18,6 +18,8 @@ const Employer = ()=>{
     <h2>Quick and easy registration process for employers</h2>
   </div>
   
+  <div className="hire___straight_emp">
+  
   <div className="hire__employers_image_emp">
     <div className="hire__employers_image1_emp">
       <img src={body} alt=""></img>
@@ -78,6 +80,7 @@ const Employer = ()=>{
         </div>
       </div>
     </div>
+  </div>
   </div>
   <div className="hire__continue_button_emp">
     <Link to='/signupEmployer'><button type="button">Continue</button></Link>

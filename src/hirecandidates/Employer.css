@@ -22,6 +22,10 @@
     font-size: 18.5px;
     padding-bottom: 1.5rem;
 }
+.hire__straight_emp{
+  align-items: center;
+  justify-content: center;
+}
 .hire__employers_image_emp{
   display: flex;
   width: 100%;
