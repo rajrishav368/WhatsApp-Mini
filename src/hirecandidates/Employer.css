@@ -7,7 +7,6 @@
 }
 .hire__header_text1_emp h1{
     text-align: center;
-    /* margin-top: -2rem; */
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 32px;
@@ -15,8 +14,6 @@
     justify-content: center;
 }
 .hire__header_text2_emp h2{
-    /* padding-top: -4rem; */
-  
     text-align: center;
     font-family: var(--font-family);
     font-weight: 470;
@@ -34,7 +31,7 @@
 .hire__data_right_emp{
   display: flex;
   flex-direction: column;
-  margin-left: 10rem;
+  margin-left: 15rem;
   width: 100%;
 }
 .hire__data_right_box1_emp{
@@ -120,9 +117,8 @@
   text-align: left;
 }
 .hire__continue_button_emp{
-  margin-left: 45rem;
+  margin-left: 50rem;
   justify-content: center;
-  /* margin-top: -2.3rem; */
 }
 .hire__continue_button_emp button{
     position: relative;
