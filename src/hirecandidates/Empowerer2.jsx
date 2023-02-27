@@ -45,11 +45,11 @@ const Empowerer2 = () => {
               </p>
             </div>
           </div>
-          <div className="hire__body_box3_epw2">
-            <div className="hire__body_box3_number_epw2">
+          <div className="hire__body_box2_epw2">
+            <div className="hire__body_box2_number_epw2">
               <h3>5</h3>
             </div>
-            <div className="hire__body_box3_text_epw2">
+            <div className="hire__body_box2_text_epw2">
               <h3>Add employees</h3>
               <p>
                 Once you have an account, you can browse vacancies by going to
