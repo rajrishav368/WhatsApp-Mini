@@ -25,13 +25,13 @@ const CompanyEmployer = () => {
   };
   return (
     <div className="hire__employerinfo_cie">
+
       <div className="hire__header_cie">
         <Link to="/">
-          <div className="hire__header_logo_cie">
+          <div className="hire__signup_logo_cie">
             <img src={logo} alt=""></img>
           </div>
         </Link>
-
         <div className="hire__header_username_cie">
           <div className="hire__header_username_background_cie">
             <h5>U</h5>
@@ -46,16 +46,16 @@ const CompanyEmployer = () => {
       </div>
 
       <div className="hire__companyinformation_cie">
-        <h2></h2>
+        <h2>Company information</h2>
       </div>
 
       <div className="hire__upload_photo_cie">
         <div className="hire__camera_pic_cie">
           <img src={camera} alt=""></img>
         </div>
-      </div>
-      <div className="hire__upload_text_cie">
-        <h3>upload company logo</h3>
+        <div className="hire__upload_text_cie">
+          <h3>upload company logo</h3>
+        </div>
       </div>
 
       <div className="hire__employee_data_cie">

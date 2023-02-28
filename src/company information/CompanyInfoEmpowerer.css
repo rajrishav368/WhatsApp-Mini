@@ -15,7 +15,7 @@
   padding-left: 800px;
 }
 .hire__header_username_background_ciepw{
-    background-image: url("../assets/background.png");
+    background-image: url("../assets/background.jpg");
     border-radius: 50%;
     height: 30px;
     width: 30px;
@@ -59,7 +59,7 @@
   width: 1200px;
   height: 155px;
   text-align: center;
-  background-image: url("../assets/background.png");
+  background-image: url("../assets/background.jpg");
   color: white;
   background-repeat: no-repeat;
 }
