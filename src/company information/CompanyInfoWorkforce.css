@@ -1,96 +1,101 @@
 .hire__employerworkforce{
-  height: 100vh;
-  position:absolute;
+  width: 100%;
 }
 .hire__header_ciwf{
   display: flex;
-}
-.hire__header_logo_ciwf img{
-  margin-right: 4rem;
+  flex-direction: row;
+  width: 100%;
 }
 .hire__header_username_ciwf{
   display: flex;
-  padding-top: 20px;
-  padding-left: 800px;
+  flex-direction: row;
+  margin-left: 55rem;
+  padding-top: 1rem;
 }
 .hire__header_username_background_ciwf{
-    background-image: url("../assets/background.jpg");
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    left: 915px;
-    top: 25px;
+  width:100%;
+  height: 1.5rem;
+  width: 1.5rem;
+  border :1px;
+  border-radius: 50%;
+  background-color: #00ADB5;
 }
 .hire__header_username_background_ciwf h5{
-    border-radius: nullpx;
     font-family: var(--font_family);
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
-    padding-left: 7px;
-    padding-top: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 .hire__header_username_text_ciwf{
-  padding-top: 4px;
-  padding-left: 3px;
+  padding-left: 0.2rem;
 }
 .hire__header_username_text_ciwf h5{
-  height: 26px;
-  width: 64px;
-  left: 953px;
-  top: 27px;
+  height: 4rem;
+  width: 4rem;
   border-radius: nullpx;
-  font-family: Roboto;
+  font-family: var(--font_family);
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left;
 }
-.hire__header_username_downlogo_ciwf{
-  padding-top: 6px;
-  margin-left: -4px;
+.hire__companyinformation_ciwf{
+  display:inline-flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .hire__companyinformation_ciwf h2{
-  margin-top: -20px;
-  width: 1200px;
-  height: 155px;
-  text-align: center;
+  margin-top: -1rem;
+  width: 100%;
+  max-width: 100rem;
+  min-height: 9rem;
+  font-family: var(--font_family);
+  color: rgba(255,255,255,1);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
   background-image: url("../assets/background.jpg");
-  color: white;
-  background-repeat: no-repeat;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3.4rem;
 }
 .hire__upload_photo_ciwf{
   display: flex;
+  flex-direction:row;
   text-align: center;
+  justify-content: center;
+  align-items: left;
+  margin-top: 2rem;
 }
 .hire__camera_pic_ciwf{
   background-image: url("../assets/Rectanglecamera.png");
-  height: 112px;
-  width: 112px;
-  left: 210px;
-  top: 250px;
-  position:absolute;
+  height: 6rem;
+  width: 6rem;
   border-radius: 8px;
+  margin-left: -29rem;
+  cursor: pointer;
 }
 .hire__camera_pic_ciwf img{
-  height: 30px;
-  width: 33px;
-  left: 3px;
-  top: 37px;
+  height: 2rem;
+  width: 2rem;
+  margin-top: 2rem;
   border-radius: 0px;
-  position: relative;
-  justify-content: center;
-  text-align: center;
+}
+.hire__upload_text_ciwf{
+  padding-top: 2rem;
 }
 .hire__upload_text_ciwf h3{
-  position:absolute;
-  height: 29px;
-  width: 246px;
-  left: 342px;
-  top: 290px;
+  width: 100%;
+  min-height: 2rem;
+  max-width: 15rem;
+  margin-left: 1rem;
   border-radius: nullpx;
   font-family: var(--font_family);
   font-size: 24px;
@@ -100,8 +105,12 @@
   text-align: left;
 }
 .hire__employee_data_ciwf{
-  margin-left: 13rem;
-  margin-top: 10rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .hire__company_name_ciwf input{
     width: 100%;
@@ -187,9 +196,6 @@
     font-size: 16px;
     line-height: 19px;
 }
-.hire__company_description_ciwf{
-  display: flex;
-}
 .hire__company_description_ciwf input{
   width: 100%;
   max-width: 26.75rem;
@@ -205,17 +211,32 @@
   line-height: 19px;
 }
 .hire__company_links_ciwf{
-  padding-top: 15px;
+  padding-top: 1rem;
+}
+.hire__company_links_ciwf h2{
+  font-family: var(--font_family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  margin-left: -39rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .hire__social_links_ciwf{
   display: flex;
   flex-direction: row;
-  padding-top: 10px;
+  padding-top: 1rem;
+  margin-left: -16rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .hire__www_ciwf{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;
   width: 60px;
   cursor: pointer;
@@ -227,7 +248,7 @@
 .hire__linkedin_ciwf{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;
   width: 60px;
   cursor: pointer;
@@ -240,7 +261,7 @@
   border: 1px solid black;
   border-radius: 6px;
   text-align: center;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;
   width: 60px;
   cursor: pointer;
@@ -252,7 +273,7 @@
 .hire__github_ciwf{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;
   width: 60px;
   cursor: pointer;
@@ -264,7 +285,7 @@
 .hire__instagram_ciwf{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;;
   width: 60px;
   cursor: pointer;
@@ -276,7 +297,7 @@
 .hire__telegram_ciwf{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;
   width: 60px;
   cursor: pointer;
@@ -288,7 +309,7 @@
 .hire__youtube_ciwf{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   cursor: pointer;
   width: 60px;
 }
@@ -299,6 +320,10 @@
 .hire__create_button_ciwf{
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin-left: -39rem;
+  text-align:center;
+  align-items: center;
+  justify-content:center;
 }
 .hire__create_button_ciwf button{
     position: relative;
@@ -310,6 +335,7 @@
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     z-index: 2;
+    font-family: var(--font_family);
     font-weight: 200;
     font-size: 12px;
     line-height: 26px;
