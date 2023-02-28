@@ -16,7 +16,7 @@ import countryList from "react-select-country-list";
 import downarrow from "../assets/downarrow.png";
 import { Link } from "react-router-dom";
 
-const CompanyEmployer = () => {
+const CompanyInfoEmployer = () => {
   const [value, setValue] = useState("");
   const options = useMemo(() => countryList().getData(), []);
 
@@ -116,4 +116,4 @@ const CompanyEmployer = () => {
   );
 };
 
-export default CompanyEmployer;
+export default CompanyInfoEmployer;

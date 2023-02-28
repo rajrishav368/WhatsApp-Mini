@@ -16,7 +16,7 @@ import countryList from "react-select-country-list";
 import downarrow from "../assets/downarrow.png";
 import { Link } from "react-router-dom";
 
-const CompanyEmpowerer = () => {
+const CompanyInfoEmpowerer = () => {
   const [value, setValue] = useState("");
   const options = useMemo(() => countryList().getData(), []);
 
@@ -114,4 +114,4 @@ const CompanyEmpowerer = () => {
   );
 };
 
-export default CompanyEmpowerer;
+export default CompanyInfoEmpowerer;
