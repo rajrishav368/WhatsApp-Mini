@@ -4,13 +4,14 @@
 .hire__header_ciepw{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
 }
 .hire__header_username_ciepw{
   display: flex;
   flex-direction: row;
-  margin-left: 55rem;
-  padding-top: 1rem; 
+  margin-right: 5rem;
+  padding-top: 2rem; 
 }
 .hire__header_username_background_ciepw{
   width:100%;

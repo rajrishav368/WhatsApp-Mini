@@ -4,15 +4,17 @@
  .hire__header_cie{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
 }
+
 .hire__header_username_cie{
-  width: 100%;
   display: flex;
   flex-direction: row;
-  margin-left: 55rem;
-  padding-top: 1rem; 
+  padding-top: 2rem;
+  margin-right: 5rem; 
 }
+
 .hire__header_username_background_cie{
     width:100%;
     height: 1.5rem;
