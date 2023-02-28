@@ -1,25 +1,26 @@
-.hire__employerinfo{
-  height: 100vh;
-  position:absolute;
+.hire__employerinfo_cie{
+  width: 100%;
 }
 .hire__header_cie{
   display: flex;
-}
-.hire__header_logo_cie img{
-  margin-right: 4rem;
+  width: 100%;
 }
 .hire__header_username_cie{
   display: flex;
-  padding-top: 20px;
-  padding-left: 800px;
+  flex-direction: row;
+  align-items: right;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-left: 55rem;
 }
 .hire__header_username_background_cie{
+    width:100%;
     background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    left: 915px;
-    top: 25px;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: 0.2rem;
 }
 .hire__header_username_background_cie h5{
     border-radius: nullpx;
@@ -28,44 +29,54 @@
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
-    padding-left: 7px;
-    padding-top: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 .hire__header_username_text_cie{
-  padding-top: 4px;
-  padding-left: 3px;
+    padding-top: 4px;
+    padding-left: 3px;
+    align-items: right;
 }
 .hire__header_username_text_cie h5{
-  height: 26px;
-width: 64px;
-left: 953px;
-top: 27px;
-border-radius: nullpx;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0em;
-text-align: left;
-
+    height: 4rem;
+    width: 4rem;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .hire__header_username_downlogo_cie{
-  padding-top: 6px;
-  margin-left: -4px;
+  padding-top: 0.4rem;
+  margin-left:-0.2rem;
+}
+.hire__companyinformation_cie{
+  width: 100%;
+  max-width: 75rem;
+  min-height: 10rem;
+  align-items: center;
+  justify-content: center;
 }
 .hire__companyinformation_cie h2{
-  margin-top: -20px;
-  width: 1200px;
-  height: 155px;
+  margin-top: -2rem;
+  width: 100%;
+  max-width: 75rem;
+  min-height: 10rem;
   text-align: center;
   background-image: url("../assets/background.png");
-  color: white;
   background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
 }
 .hire__upload_photo_cie{
   display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .hire__camera_pic_cie{
   background-image: url("../assets/Rectanglecamera.png");
@@ -101,8 +112,11 @@ text-align: left;
   text-align: left;
 }
 .hire__employee_data_cie{
-  margin-left: 13rem;
   margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .hire__company_name_cie input{
     width: 100%;
@@ -183,9 +197,7 @@ text-align: left;
     font-size: 16px;
     line-height: 19px;
 }
-.hire__company_description_cie{
-  display: flex;
-}
+
 .hire__company_description_cie input{
   width: 100%;
   max-width: 26.75rem;
@@ -201,6 +213,7 @@ text-align: left;
 }
 .hire__company_links_cie{
   padding-top: 15px;
+  margin-left: 14rem;
 }
 .hire__company_links_cie h2{
   font-family: var(--font_family);
@@ -209,17 +222,19 @@ text-align: left;
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 .hire__social_links_cie{
   display: flex;
   flex-direction: row;
   padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  
 }
 .hire__www_cie{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;
   width: 60px;
   cursor: pointer;
@@ -231,7 +246,7 @@ text-align: left;
 .hire__linkedin_cie{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;
   width: 60px;
   cursor: pointer;
@@ -244,7 +259,7 @@ text-align: left;
   border: 1px solid black;
   border-radius: 6px;
   text-align: center;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;
   width: 60px;
   cursor: pointer;
@@ -256,7 +271,7 @@ text-align: left;
 .hire__github_cie{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;
   width: 60px;
   cursor: pointer;
@@ -268,7 +283,7 @@ text-align: left;
 .hire__instagram_cie{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;;
   width: 60px;
   cursor: pointer;
@@ -280,7 +295,7 @@ text-align: left;
 .hire__telegram_cie{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   margin-right: 1rem;
   width: 60px;
   cursor: pointer;
@@ -292,7 +307,7 @@ text-align: left;
 .hire__youtube_cie{
   border: 1px solid black;
   border-radius: 6px;
-  padding: 6px;
+  padding: 0.5rem;
   cursor: pointer;
   width: 60px;
 }
@@ -303,6 +318,9 @@ text-align: left;
 .hire__create_button_cie{
   padding-top: 1rem;
   padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
 }
 .hire__create_button_cie button{
     position: relative;

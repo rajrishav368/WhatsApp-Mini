@@ -9,29 +9,29 @@ import linkedin from "../assets/linkedin.png";
 import facebook from "../assets/facebook.png";
 import telegram from "../assets/telegram.png";
 import youtube from "../assets/youtube.png";
-import {useState} from "react";
+import { useState } from "react";
 import Select from "react-select";
 import { useMemo } from "react";
 import countryList from "react-select-country-list";
-import downarrow from "../assets/downarrow.png"
-import{ Link } from "react-router-dom";
+import downarrow from "../assets/downarrow.png";
+import { Link } from "react-router-dom";
 
 const CompanyEmployer = () => {
+  const [value, setValue] = useState("");
+  const options = useMemo(() => countryList().getData(), []);
 
-  const [value,setValue]= useState("");
-  const options= useMemo(()=>countryList().getData(),[]);
-
-  const changeHandler=(value)=>{
+  const changeHandler = (value) => {
     setValue(value);
-    
   };
   return (
-    <div className="hire__employerinfo">
+    <div className="hire__employerinfo_cie">
       <div className="hire__header_cie">
         <Link to="/">
-        <div className="hire__header_logo_cie">
-          <img src={logo} alt=""></img>
-        </div></Link>
+          <div className="hire__header_logo_cie">
+            <img src={logo} alt=""></img>
+          </div>
+        </Link>
+
         <div className="hire__header_username_cie">
           <div className="hire__header_username_background_cie">
             <h5>U</h5>
@@ -44,6 +44,7 @@ const CompanyEmployer = () => {
           </div>
         </div>
       </div>
+
       <div className="hire__companyinformation_cie">
         <h2></h2>
       </div>
@@ -62,13 +63,13 @@ const CompanyEmployer = () => {
           <input type="text" placeholder="Company name"></input>
         </div>
         <div className="hire__company_mail_cie">
-          <input className="email" placeholder="Contact E-mail" ></input>
+          <input className="email" placeholder="Contact E-mail"></input>
         </div>
         <div className="hire__phone_number_cie">
           <input type="text" placeholder="Phone number optional"></input>
         </div>
         <div className="hire__country_dropdown_cie">
-          <Select options={options} value={value} onChange={changeHandler}/>
+          <Select options={options} value={value} onChange={changeHandler} />
         </div>
         <div className="hire__state_region_cie">
           <input type="text" placeholder="Region/state"></input>
@@ -79,43 +80,40 @@ const CompanyEmployer = () => {
         <div className="hire__company_description_cie">
           <input type="text" placeholder="Company description"></input>
         </div>
+      </div>
 
-        <div className="hire__company_links_cie">
-          <h2>Add your links:</h2>
+      <div className="hire__company_links_cie">
+        <h2>Add your links:</h2>
+      </div>
+      <div className="hire__social_links_cie">
+        <div className="hire__www_cie">
+          <img src={www} alt=""></img>
         </div>
-        <div className="hire__social_links_cie">
-          <div className="hire__www_cie">
-            <img src={www} alt=''></img>
-          </div>
-          <div className="hire__linkedin_cie">
-            <img src={linkedin} alt=""></img>
-          </div>
-          <div className="hire__facebook_cie">
-            <img src={facebook} alt=""></img>
-          </div>
-          <div className="hire__github_cie">
-            <img src={github} alt=""></img>
-          </div>
-          <div className="hire__instagram_cie">
-            <img src={instagram} alt=""></img>
-          </div>
-          <div className="hire__telegram_cie">
-            <img src={telegram} alt=""></img>
-          </div>
-          <div className="hire__youtube_cie">
-            <img src={youtube} alt=""></img>
-          </div>
+        <div className="hire__linkedin_cie">
+          <img src={linkedin} alt=""></img>
         </div>
+        <div className="hire__facebook_cie">
+          <img src={facebook} alt=""></img>
+        </div>
+        <div className="hire__github_cie">
+          <img src={github} alt=""></img>
+        </div>
+        <div className="hire__instagram_cie">
+          <img src={instagram} alt=""></img>
+        </div>
+        <div className="hire__telegram_cie">
+          <img src={telegram} alt=""></img>
+        </div>
+        <div className="hire__youtube_cie">
+          <img src={youtube} alt=""></img>
+        </div>
+      </div>
 
-        <div className="hire__create_button_cie">
-          <button type="button">Create an account</button>
-        </div>
-        
-      
+      <div className="hire__create_button_cie">
+        <button type="button">Create an account</button>
       </div>
     </div>
   );
-}
-
+};
 
 export default CompanyEmployer;
