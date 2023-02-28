@@ -25,7 +25,6 @@ const CompanyInfoEmployer = () => {
   };
   return (
     <div className="hire__employerinfo_cie">
-
       <div className="hire__header_cie">
         <Link to="/">
           <div className="hire__signup_logo_cie">
