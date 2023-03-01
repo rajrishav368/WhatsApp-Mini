@@ -145,6 +145,9 @@
   line-height: 19px;
 }
 .hire__phone_number_cie input{
+    /* background-image: url(../assets/india.png);
+    background-repeat: no-repeat;
+    padding-top: 10px; */
     width: 100%;
     max-width: 25rem;
     min-width: 780px;

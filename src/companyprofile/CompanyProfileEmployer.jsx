@@ -18,9 +18,13 @@ const CompanyProfileEmployer = () => {
   return (
     <div className="hire__company_profile_cpe">
       <div className="hire__company_profile_left_cpe">
-        <Link to='/'><div className="hire__logo_cpe">
-          <img src={logo} alt=""></img>
-        </div></Link>
+
+        <div className="hire__logo_cpe">
+          <Link to="/">
+            <img src={logo} alt=""></img>
+          </Link>
+        </div>
+
         <div className="hire__username_cpe">
           <div className="hire__username_logo_cpe">
             <img src={username} alt=""></img>
@@ -30,40 +34,42 @@ const CompanyProfileEmployer = () => {
             <h6>Employer</h6>
           </div>
         </div>
+
         <div className="hire__createvacancy_cpe">
-          <h3>Create vacancy</h3>
+          <button type="button">Create vacancy</button>
         </div>
         <div className="hire__notifications_cpe">
-          <h3>Notifications</h3>
+          <button type="button">Notifications</button>
         </div>
         <div className="hire__vacancies_cpe">
-          <h3>Vacancies</h3>
+          <button type="button">Vacancies</button>
         </div>
         <div className="hire__messages_cpe">
-          <h3>Messages</h3>
+          <button>Messages</button>
         </div>
         <div className="hire__settings_cpe">
-          <h3>Settings</h3>
+          <button type="button">Settings</button>
         </div>
 
         <div className="hire__feedback_cpe">
-          <div className="hire__feedback_logo_cpe">
-            <img src={feedback} alt=""></img>
-          </div>
           <div className="hire__feedback_text_cpe">
-            <h3>Feedback</h3>
+            <button type="button">
+              <img src={feedback} alt=""></img>Feedback
+            </button>
           </div>
         </div>
 
         <div className="hire__logout_cpe">
           <div className="hire__logout_logo_cpe">
-            <img src={logout} alt=""></img>
+            <button type="button">
+              <img src={logout} alt=""></img>Logout
+            </button>
           </div>
-          <h3>Log out</h3>
         </div>
       </div>
-
+      
       <div className="hire__company_profile_right_cpe">
+
         <div className="hire__company_header_cpe">
           <div className="hire__company_profile_header_cpe">
             <h2>Company profile</h2>
@@ -75,6 +81,7 @@ const CompanyProfileEmployer = () => {
             <button type="button">Edit</button>
           </div>
         </div>
+        
         <div className="hire__company_body_cpe">
           <div className="hire__rectangle_username_location_cpe">
             <div className="hire__rectangle_camera_cpe">
@@ -163,7 +170,7 @@ const CompanyProfileEmployer = () => {
             <h5>Description</h5>
           </div>
           <div className="hire__company_description_arrow_cpe">
-          <h6>-------</h6>
+            <h6>-------</h6>
           </div>
         </div>
       </div>
