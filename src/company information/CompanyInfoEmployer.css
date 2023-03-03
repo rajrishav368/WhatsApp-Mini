@@ -230,7 +230,7 @@
   display: flex;
   flex-direction: row;
   padding-top: 1rem;
-  margin-left: -16rem;
+  margin-left: -14.5rem;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -240,11 +240,12 @@
   border-radius: 6px;
   padding: 0.5rem;
   margin-right: 1rem;
-  width: 60px;
+  width: 100%;
+  width: 4rem;
   cursor: pointer;
 }
 .hire__www_cie img{
-  padding-left: 0.5rem;
+  padding-left: 0.1rem;
   padding-top: 0.5rem;
 }
 .hire__linkedin_cie{
@@ -252,11 +253,11 @@
   border-radius: 6px;
   padding: 0.5rem;
   margin-right: 1rem;
-  width: 60px;
+  width: 100%;
+  width: 4rem;
   cursor: pointer;
 }
 .hire__linkedin_cie img{
-  padding-left: 0.4rem;
   padding-top: 0.5rem;
 }
 .hire__facebook_cie{
@@ -265,7 +266,8 @@
   text-align: center;
   padding: 0.5rem;
   margin-right: 1rem;
-  width: 60px;
+  width: 100%;
+  width: 4rem;
   cursor: pointer;
 }
 .hire__facebook_cie img{
@@ -277,11 +279,12 @@
   border-radius: 6px;
   padding: 0.5rem;
   margin-right: 1rem;
-  width: 60px;
+  width: 100%;
+  width: 4rem;
   cursor: pointer;
 }
 .hire__github_cie img{
-  padding-left: 0.4rem;
+  padding-left: 0.1rem;
   padding-top: 0.5rem;
 }
 .hire__instagram_cie{
@@ -289,11 +292,12 @@
   border-radius: 6px;
   padding: 0.5rem;
   margin-right: 1rem;;
-  width: 60px;
+  width: 100%;
+  width: 4rem;
   cursor: pointer;
 }
 .hire__instagram_cie img{
-  padding-left: 0.4rem;
+  padding-left: 0.1rem;
   padding-top: 0.5rem;
 }
 .hire__telegram_cie{
@@ -301,11 +305,12 @@
   border-radius: 6px;
   padding: 0.5rem;
   margin-right: 1rem;
-  width: 60px;
+  width: 100%;
+  width: 4rem;
   cursor: pointer;
 }
 .hire__telegram_cie img{
-  padding-left: 0.6rem;
+  padding-left: 0.1rem;
   padding-top: 0.5rem;
 }
 .hire__youtube_cie{
@@ -313,10 +318,10 @@
   border-radius: 6px;
   padding: 0.5rem;
   cursor: pointer;
-  width: 60px;
+  width: 4rem;
 }
 .hire__youtube_cie img{
-  padding-left: 0.6rem;
+  padding-left: 0.1rem;
   padding-top: 0.8rem;
 }
 .hire__create_button_cie{

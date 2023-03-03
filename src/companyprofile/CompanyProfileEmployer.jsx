@@ -18,7 +18,6 @@ const CompanyProfileEmployer = () => {
   return (
     <div className="hire__company_profile_cpe">
       <div className="hire__company_profile_left_cpe">
-
         <div className="hire__logo_cpe">
           <Link to="/">
             <img src={logo} alt=""></img>
@@ -67,9 +66,8 @@ const CompanyProfileEmployer = () => {
           </div>
         </div>
       </div>
-      
-      <div className="hire__company_profile_right_cpe">
 
+      <div className="hire__company_profile_right_cpe">
         <div className="hire__company_header_cpe">
           <div className="hire__company_profile_header_cpe">
             <h2>Company profile</h2>
@@ -81,7 +79,7 @@ const CompanyProfileEmployer = () => {
             <button type="button">Edit</button>
           </div>
         </div>
-        
+
         <div className="hire__company_body_cpe">
           <div className="hire__rectangle_username_location_cpe">
             <div className="hire__rectangle_camera_cpe">
