@@ -13,16 +13,19 @@ import facebook from "../assets/facebook.png";
 import telegram from "../assets/telegram.png";
 import youtube from "../assets/youtube.png";
 import addphoto from "../assets/addphotocamera.png";
-import building from "../assets/Buildings.png"
+import building from "../assets/Buildings.png";
 import { Link } from "react-router-dom";
 
 const CompanyProfileWorkforce = () => {
   return (
     <div className="hire__company_profile_cpwf">
       <div className="hire__company_profile_left_cpwf">
-        <Link to='/'><div className="hire__logo_cpwf">
-          <img src={logo} alt=""></img>
-        </div></Link>
+        <div className="hire__logo_cpwf">
+          <Link to="/">
+            <img src={logo} alt=""></img>
+          </Link>
+        </div>
+
         <div className="hire__username_cpwf">
           <div className="hire__username_logo_cpwf">
             <img src={username} alt=""></img>
@@ -32,68 +35,80 @@ const CompanyProfileWorkforce = () => {
             <h6>Employer</h6>
           </div>
         </div>
+
         <div className="hire__createvacancy_cpwf">
-          <h3>Create vacancy</h3>
+          <button type="button">Create vacancy</button>
         </div>
         <div className="hire__notifications_cpwf">
-          <h3>Notifications</h3>
+          <button type="button">Notifications</button>
         </div>
         <div className="hire__vacancies_cpwf">
-          <h3>Vacancies</h3>
+          <button type="button">Vacancies</button>
         </div>
         <div className="hire__messages_cpwf">
-          <h3>Messages</h3>
+          <button>Messages</button>
         </div>
         <div className="hire__settings_cpwf">
-          <h3>Settings</h3>
+          <button type="button">Settings</button>
         </div>
 
         <div className="hire__feedback_cpwf">
-          <div className="hire__feedback_logo_cpwf">
-            <img src={feedback} alt=""></img>
-          </div>
           <div className="hire__feedback_text_cpwf">
-            <h3>Feedback</h3>
+            <button type="button">
+              <img src={feedback} alt=""></img>Feedback
+            </button>
           </div>
         </div>
 
         <div className="hire__logout_cpwf">
           <div className="hire__logout_logo_cpwf">
-            <img src={logout} alt=""></img>
+            <button type="button">
+              <img src={logout} alt=""></img>Logout
+            </button>
           </div>
-          <h3>Log out</h3>
         </div>
       </div>
 
       <div className="hire__company_profile_right_cpwf">
+
         <div className="hire__company_header_cpwf">
           <div className="hire__company_profile_header_cpwf">
             <h2>Application completeness</h2>
             <p>This section shows you how complete your application is</p>
           </div>
         </div>
+
         <div className="hire__photocompany_cpwf">
+
           <div className="hire__addphoto_cpwf">
             <div className="hire__addphoto_logo_cpwf">
-              <img src={addphoto} alt=''></img>
+              <img src={addphoto} alt=""></img>
             </div>
             <div className="hire__addphoto_text_cpwf">
               <h4>Add a photo</h4>
             </div>
-        </div>
+          </div>
+          
           <div className="hire__aboutcompany_cpwf">
             <div className="hire__aboutcompany_logo_cpwf">
-              <img src={building} alt=''></img>
+              <img src={building} alt=""></img>
             </div>
             <div className="hire__aboutcompany_text_cpwf">
               <h4>Write about your company</h4>
             </div>
           </div>
         </div>
-       
-        <div className="hire__edit_button_cpwf">
-        <button type="button">Edit</button>
+
+        <div className="hire__generalbutton_cpwf">
+          <div className="hire__general_info_cpwf">
+            <h2>General Information</h2>
+          </div>
+          <div className="hire__edit_button_cpwf">
+            <button type="button">Edit</button>
+          </div>
         </div>
+       
+
         <div className="hire__company_body_cpwf">
           <div className="hire__rectangle_username_location_cpwf">
             <div className="hire__rectangle_camera_cpwf">
@@ -102,8 +117,8 @@ const CompanyProfileWorkforce = () => {
 
             <div className="hire__username_text_2_cpwf">
               <h1>Username</h1>
-              <div className="hire__location_logo_cpwf">
-                <img src={locationlogo}></img>
+              <div className="hire__location_logo_cpe">
+                <img src={locationlogo} alt=""></img>
                 <h4>Location</h4>
               </div>
             </div>
@@ -182,7 +197,7 @@ const CompanyProfileWorkforce = () => {
             <h5>Description</h5>
           </div>
           <div className="hire__company_description_arrow_cpwf">
-          <h6>-------</h6>
+            <h6>-------</h6>
           </div>
         </div>
       </div>

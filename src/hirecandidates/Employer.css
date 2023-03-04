@@ -21,11 +21,12 @@
 }
 .hire__body_emp {
   display: flex;
+  flex-direction: row;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
-.hire__body_emp img {
+.hire__body_image_emp img {
   margin-left: 10rem;
 }
 .hire__body_right_emp {
