@@ -18,6 +18,7 @@ import CompanyInfoEmployer from './company information/CompanyInfoEmployer';
 import CompanyInfoWorkforce from './company information/CompanyInfoWorkforce';
 import CompanyInfoEmpowerer from './company information/CompanyInfoEmpowerer';
 import CompanyProfileEmployer from './companyprofile/CompanyProfileEmployer';
+import CompanyProfileEmployer2 from './companyprofile/CompanyProfileEmployer2';
 import CompanyProfileWorkforce from './companyprofile/CompanyProfileWorkforce';
 import CreateVacancy from './createvacancy/CreateVacancy';
 import './index.css';
@@ -95,6 +96,10 @@ import {
     {
         path:"CompanyProfileEmployer",
         element:<CompanyProfileEmployer/>
+    },
+    {
+        path:"CompanyProfileEmployer2",
+        element:<CompanyProfileEmployer2/>
     },
     {
         path:"CompanyProfileWorkforce",
