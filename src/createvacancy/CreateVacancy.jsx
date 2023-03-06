@@ -57,51 +57,57 @@ const CreateVacancy = () => {
   };
   return (
     <div className="hire__create_vacancy_crva">
-      <div className="hire__create_vacancy_left_crva">
+    <div className="hire__create_vacancy_left_crva">
+      <div className="hire__logo_crva">
         <Link to="/">
-          <div className="hire__logo_crva">
-            <img src={logo} alt=""></img>
-          </div>
+          <img src={logo} alt=""></img>
         </Link>
-        <div className="hire__username_crva">
-          <div className="hire__username_logo_crva">
-            <img src={username} alt=""></img>
-          </div>
-          <div className="hire__username_text_crva">
-            <h5>Username</h5>
-            <h6>Employer</h6>
-          </div>
+      </div>
+
+      <div className="hire__username_crva">
+        <div className="hire__username_logo_crva">
+          <img src={username} alt=""></img>
         </div>
-        <div className="hire__createvacancy_crva">
-          <h3>Create vacancy</h3>
-        </div>
-        <div className="hire__notifications_crva">
-          <h3>Notifications</h3>
-        </div>
-        <div className="hire__vacancies_crva">
-          <h3>Vacancies</h3>
-        </div>
-        <div className="hire__messages_crva">
-          <h3>Messages</h3>
-        </div>
-        <div className="hire__settings_crva">
-          <h3>Settings</h3>
-        </div>
-        <div className="hire__feedback_crva">
-          <div className="hire__feedback_logo_crva">
-            <img src={feedback} alt=""></img>
-          </div>
-          <div className="hire__feedback_text_crva">
-            <h3>Feedback</h3>
-          </div>
-        </div>
-        <div className="hire__logout_crva">
-          <div className="hire__logout_logo_crva">
-            <img src={logout} alt=""></img>
-          </div>
-          <h3>Log out</h3>
+        <div className="hire__username_text_crva">
+          <h5>Username</h5>
+          <h6>Employer</h6>
         </div>
       </div>
+
+      <div className="hire__createvacancy_crva">
+        <button type="button">Create vacancy</button>
+      </div>
+      <div className="hire__notifications_crva">
+        <button type="button">Notifications</button>
+      </div>
+      <div className="hire__vacancies_crva">
+        <button type="button">Vacancies</button>
+      </div>
+      <div className="hire__messages_crva">
+        <button>Messages</button>
+      </div>
+      <div className="hire__settings_crva">
+        <button type="button">Settings</button>
+      </div>
+
+      <div className="hire__feedback_crva">
+        <div className="hire__feedback_text_crva">
+          <button type="button">
+            <img src={feedback} alt=""></img>Feedback
+          </button>
+        </div>
+      </div>
+
+      <div className="hire__logout_crva">
+        <div className="hire__logout_logo_crva">
+          <button type="button">
+            <img src={logout} alt=""></img>Logout
+          </button>
+        </div>
+      </div>
+    </div>
+
+
       <div className="hire__create_vacancy_right_crva">
         <div className="hire__jobvacancy_crva">
           <h5>Job</h5>

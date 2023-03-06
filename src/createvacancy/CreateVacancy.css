@@ -1,250 +1,200 @@
-.hire__create_vacancy_crva{
+.hire__create_vacancy_crva {
     display: flex;
+    flex-direction: row;
     width: 100%;
-}
-.hire__create_vacancy_left_crva{
+  }
+  .hire__create_vacancy_left_crva {
     display: flex;
     flex-direction: column;
-    border: 1px solid #EEEEEE;
-    width: 200px;
-    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
-}
-.hire__logo_crva{
-    margin-top: -0.6rem;
-    margin-left:20px;
-}
-.hire__username_crva{
-    display: flex;
-    width: 157px;
-    height: 72px;
-    left: 24px;
-    top: 107px;
-    background: rgba(238, 238, 238, 1);
-    border: 1px solid #EEEEEE;
-    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    margin-bottom: 22px;
-    margin-left: 20px;
-}
-.hire__username_logo_crva img{
+    align-items: center;
     text-align: center;
     justify-content: center;
-    padding-left: 15px;
-    padding-top: 15px;
-}
-.hire__username_text_crva h5{
-    height: 19px;
-    width: 70px;
-    left: 85px;
-    top: 126px;
+    border: 1px solid #eeeeee;
+    width: 100%;
+    max-width: 13rem;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+  }
+  .hire__username_crva {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 10rem;
+    min-height: 5rem;
+    background: rgba(238, 238, 238, 1);
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .hire__username_text_crva h5 {
     border-radius: nullpx;
-    padding-top: 17px;
-    padding-left: 2px;
     font-family: var(--font-family);
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
-    text-align: left;
-    margin-bottom: 2px;
-}
-.hire__username_text_crva h6{
-    padding-top: 10px;
-    height: 12px;
-    width: 42px;
-    left: 85px;
-    top: 143px;
+    margin-left: 0.5rem;
+  }
+  .hire__username_text_crva h6 {
     border-radius: nullpx;
-    padding-left: 3px;
     font-family: var(--font-family);
     font-size: 10px;
     font-weight: 400;
     line-height: 12px;
     letter-spacing: 0em;
-    text-align: left;
-}
-.hire__createvacancy_crva{
-    height: 24px;
-    width: 161px;
-    top: 0px;
-    border: 1px solid black;
+  }
+  .hire__createvacancy_crva {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .hire__createvacancy_crva button {
+    justify-content: center;
+    flex: 0.2;
+    width: 10rem;
+    min-height: 2.5rem;
     background: rgba(0, 173, 181, 1);
+    border: 1px solid;
     border-radius: 8px;
-    margin-bottom: 22px;
-    margin-left: 20px;
-}
-.hire__createvacancy_crva h3{
-    font-family: var(--font-family);
+    z-index: 1;
+    font-weight: 400;
     font-size: 12px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+  }
+  .hire__notifications_crva {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .hire__notifications_crva button {
     justify-content: center;
-    color: rgba(255,255,255,1);
-
-}
-.hire__notifications_crva{
-    height: 43px;
-    width: 157px;
-    left: 0px;
-    top: 0px;
-    margin-bottom: 24px;
-    border-radius: 4px;
-    background: rgba(255,255,255,255);
-    border: 1px solid rgba(241, 241, 241, 1);
-    margin-left: 20px;
-}
-.hire__notifications_crva h3{
-    height: 14px;
-    width: 81px;
-    left: 38px;
-    top: 14px;
-    border-radius: nullpx;
-    font-family: var(--font-family);
-    font-size: 14px;
+    flex: 0.2;
+    width: 100%;
+    max-width: 10rem;
+    min-height: 2.5rem;
+    background: rgba(241, 241, 241, 1);
+    border-radius: 8px;
+    z-index: 1;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: center;
+    font-size: 12px;
+    color: #000000;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  .hire__vacancies_crva {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .hire__vacancies_crva button {
     justify-content: center;
-    padding-left: 35px;
-    padding-top: 15px;
-}
-.hire__vacancies_crva{
-    height: 43px;
-    width: 157px;
-    margin-bottom: 24px;
-    border-radius: 4px;
-    background: rgba(255,255,255,255);
-    border: 1px solid rgba(241, 241, 241, 1);
-    margin-left: 20px;
-    padding-left: 20px;
-    padding-top: 15px;
-}
-.hire__vacancies_crva h3{
-    height: 14px;
-    width: 100px;
-    left: 38px;
-    top: 14px;
-    border-radius: nullpx;
-    font-family: var(--font-family);
-    font-size: 14px;
+    flex: 0.2;
+    width: 100%;
+    max-width: 10rem;
+    min-height: 2.5rem;
+    background: rgba(241, 241, 241, 1);
+    border-radius: 8px;
+    z-index: 1;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-.hire__messages_crva{
-    height: 43px;
-    width: 157px;
-    left: 0px;
-    top: 0px;
-    margin-bottom: 24px;
-    border-radius: 4px;
-    background: rgba(255,255,255,255);
-    border: 1px solid rgba(241, 241, 241, 1);
-    margin-left: 20px;
-}
-.hire__messages_crva h3{
-    height: 14px;
-    width: 100px;
-    left: 38px;
-    top: 14px;
-    border-radius: nullpx;
-    font-family: var(--font-family);
-    font-size: 14px;
+    font-size: 12px;
+    color: #000000;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  .hire__messages_crva {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .hire__messages_crva button {
+    justify-content: center;
+    flex: 0.2;
+    width: 100%;
+    max-width: 10rem;
+    min-height: 2.5rem;
+    background: rgba(241, 241, 241, 1);
+    border-radius: 8px;
+    z-index: 1;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-left: 40px;
-    padding-top: 15px;
-}
-.hire__settings_crva{
-    height: 43px;
-    width: 157px;
-    left: 0px;
-    top: 0px;
-    margin-bottom: 25px;
-    border-radius: 4px;
-    background: rgba(255,255,255,255);
-    border: 1px solid rgba(241, 241, 241, 1);
-    margin-left: 20px;
-}
-.hire__settings_crva h3{
-    height: 14px;
-    width: 100px;
-    left: 38px;
-    top: 14px;
-    border-radius: nullpx;
-    font-family:var(--font-family);
-    font-size: 14px;
+    font-size: 12px;
+    color: #000000;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  .hire__settings_crva {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .hire__settings_crva button {
+    justify-content: center;
+    flex: 0.2;
+    width: 100%;
+    max-width: 10rem;
+    min-height: 2.5rem;
+    background: rgba(241, 241, 241, 1);
+    border-radius: 8px;
+    z-index: 1;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-left: 40px;
-    padding-top: 15px;
-}
-.hire__feedback_crva{
+    font-size: 12px;
+    color: #000000;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  .hire__feedback_crva {
     display: flex;
-    height: 43px;
-    width: 157px;
-    left: 0px;
-    top: 0px;
-    margin-bottom: 22px;
-    border-radius: 4px;
-    background: rgba(255,255,255,255);
-    border: 1px solid rgba(241, 241, 241, 1);
-    margin-left: 20px;
-}
-.hire__feedback_logo_crva img{
-    height: 14.999970436096191px;
-    width: 16px;
-    left: 0px;
-    top: 0.3331298828125px;
-    border-radius: 0px;
-    margin-left: 40px;
-    margin-top: 15px;
-}
-.hire__feedback_text_crva h3{
-    font-family: var(--font-family);
-    font-size: 14px;
+    align-items: center;
+    padding-bottom: 2rem;
+    width: 100%;
+    max-width: 10rem;
+    min-height: 2.5rem;
+  }
+  .hire__feedback_text_crva button {
+    justify-content: center;
+    flex: 0.2;
+    width: 100%;
+    width: 10rem;
+    min-height: 2.5rem;
+    background-color: rgba(241, 241, 241, 1);
+    border: 1px solid;
+    border-radius: 8px;
+    z-index: 1;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-top: 15px;
-}
-.hire__logout_crva{
+    font-size: 12px;
+    color: #000000;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  .hire__logout_crva {
     display: flex;
-    height: 43px;
-    width: 157px;
-    border-radius: 4px;
-    background: rgba(255,255,255,255);
-    border: 1px solid rgba(241, 241, 241, 1);
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-.hire__logout_logo_crva img{
-    height: 15.068743705749512px;
-    width: 15.66670036315918px;
-    left: 0px;
-    top: 0.4655418395996094px;
-    border-radius: 0px;
-    margin-left: 40px;
-    margin-top: 15px;
-}
-.hire__logout_crva h3{
-    font-family: var(--font-family);
-    font-size: 14px;
+    align-items: center;
+    width: 100%;
+    max-width: 10rem;
+    min-height: 2.5rem;
+    padding-bottom: 4.5rem;
+  }
+  .hire__logout_crva button {
+    justify-content: center;
+    flex: 0.2;
+    width: 100%;
+    width: 10rem;
+    min-height: 2.5rem;
+    background-color: rgba(241, 241, 241, 1);
+    border: 1px solid;
+    border-radius: 8px;
+    z-index: 1;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-top: 15px;
-}
+    font-size: 12px;
+    color: #000000;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
 .hire__create_vacancy_right_crva{
     display: flex;
     flex-direction: column;

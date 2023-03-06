@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import App from './App';
 import LoginMain from './pages/login/LoginMain';
 import LoginEmployer from './pages/login/LoginEmployer';
@@ -21,6 +20,7 @@ import CompanyProfileEmployer from './companyprofile/CompanyProfileEmployer';
 import CompanyProfileEmployer2 from './companyprofile/CompanyProfileEmployer2';
 import CompanyProfileWorkforce from './companyprofile/CompanyProfileWorkforce';
 import CreateVacancy from './createvacancy/CreateVacancy';
+import VacancyPage from "./createvacancy/VacancyPage";
 import './index.css';
 
 import {
@@ -109,6 +109,10 @@ import {
         path:"CreateVacancy",
         element:<CreateVacancy/>
     },
+    {
+        path:"VacancyPage",
+        element:<VacancyPage/>
+    }
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
