@@ -57,56 +57,55 @@ const CreateVacancy = () => {
   };
   return (
     <div className="hire__create_vacancy_crva">
-    <div className="hire__create_vacancy_left_crva">
-      <div className="hire__logo_crva">
-        <Link to="/">
-          <img src={logo} alt=""></img>
-        </Link>
-      </div>
-
-      <div className="hire__username_crva">
-        <div className="hire__username_logo_crva">
-          <img src={username} alt=""></img>
+      <div className="hire__create_vacancy_left_crva">
+        <div className="hire__logo_crva">
+          <Link to="/">
+            <img src={logo} alt=""></img>
+          </Link>
         </div>
-        <div className="hire__username_text_crva">
-          <h5>Username</h5>
-          <h6>Employer</h6>
+
+        <div className="hire__username_crva">
+          <div className="hire__username_logo_crva">
+            <img src={username} alt=""></img>
+          </div>
+          <div className="hire__username_text_crva">
+            <h5>Username</h5>
+            <h6>Employer</h6>
+          </div>
+        </div>
+
+        <div className="hire__createvacancy_crva">
+          <button type="button">Create vacancy</button>
+        </div>
+        <div className="hire__notifications_crva">
+          <button type="button">Notifications</button>
+        </div>
+        <div className="hire__vacancies_crva">
+          <button type="button">Vacancies</button>
+        </div>
+        <div className="hire__messages_crva">
+          <button>Messages</button>
+        </div>
+        <div className="hire__settings_crva">
+          <button type="button">Settings</button>
+        </div>
+
+        <div className="hire__feedback_crva">
+          <div className="hire__feedback_text_crva">
+            <button type="button">
+              <img src={feedback} alt=""></img>Feedback
+            </button>
+          </div>
+        </div>
+
+        <div className="hire__logout_crva">
+          <div className="hire__logout_logo_crva">
+            <button type="button">
+              <img src={logout} alt=""></img>Logout
+            </button>
+          </div>
         </div>
       </div>
-
-      <div className="hire__createvacancy_crva">
-        <button type="button">Create vacancy</button>
-      </div>
-      <div className="hire__notifications_crva">
-        <button type="button">Notifications</button>
-      </div>
-      <div className="hire__vacancies_crva">
-        <button type="button">Vacancies</button>
-      </div>
-      <div className="hire__messages_crva">
-        <button>Messages</button>
-      </div>
-      <div className="hire__settings_crva">
-        <button type="button">Settings</button>
-      </div>
-
-      <div className="hire__feedback_crva">
-        <div className="hire__feedback_text_crva">
-          <button type="button">
-            <img src={feedback} alt=""></img>Feedback
-          </button>
-        </div>
-      </div>
-
-      <div className="hire__logout_crva">
-        <div className="hire__logout_logo_crva">
-          <button type="button">
-            <img src={logout} alt=""></img>Logout
-          </button>
-        </div>
-      </div>
-    </div>
-
 
       <div className="hire__create_vacancy_right_crva">
         <div className="hire__jobvacancy_crva">
@@ -125,7 +124,8 @@ const CreateVacancy = () => {
           </div>
 
           <div className="hire__employmentfrom_crva">
-            <ReactDatePicker wrapperClassName="jhh"
+            <ReactDatePicker
+              wrapperClassName="jhh"
               selected={startDate}
               onChange={(date) => setStartDate(date)}
             />
@@ -193,7 +193,7 @@ const CreateVacancy = () => {
               <option value="USD" selected="selected">
                 United States Dollars
               </option>
-              
+
               <option value="DZD">Algeria Dinars</option>
               <option value="ARP">Argentina Pesos</option>
               <option value="AUD">Australia Dollars</option>
@@ -278,31 +278,31 @@ const CreateVacancy = () => {
         </div>
         <div className="hire__educationexperience_crva">
           <div className="hire__educationlevel_crva">
-          <input type="text" placeholder="Education level"></input>
-        </div>
-        <div className="hire__yearexperience_crva">
-          <select
-            placeholder="Experience level"
-            defaultValue={experiencelevel}
-            value={experiencelevel}
-            onChange={handleexperiencelevel}
-          >
-            {experience.map((option) => (
-              <option value={option.value}>{option.label}</option>
-            ))}
-          </select>
-        </div>
+            <input type="text" placeholder="Education level"></input>
+          </div>
+          <div className="hire__yearexperience_crva">
+            <select
+              placeholder="Experience level"
+              defaultValue={experiencelevel}
+              value={experiencelevel}
+              onChange={handleexperiencelevel}
+            >
+              {experience.map((option) => (
+                <option value={option.value}>{option.label}</option>
+              ))}
+            </select>
+          </div>
         </div>
         <div className="hire__jobdescription_crva">
           <input type="text" placeholder="Jobdescription"></input>
         </div>
         <div className="hire__cancelpostbutton_crva">
-            <div className="hire__cancelbutton_crva">
-              <button type="button">cancel</button>
-            </div>
-            <div className="hire__postbutton_crva">
-              <button type="button">post</button>
-            </div>
+          <div className="hire__cancelbutton_crva">
+            <button type="button">cancel</button>
+          </div>
+          <div className="hire__postbutton_crva">
+            <button type="button">post</button>
+          </div>
         </div>
       </div>
     </div>

@@ -1,538 +1,484 @@
 .hire__create_vacancy_crva {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-  .hire__create_vacancy_left_crva {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    border: 1px solid #eeeeee;
-    width: 100%;
-    max-width: 13rem;
-    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
-  }
-  .hire__username_crva {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    max-width: 10rem;
-    min-height: 5rem;
-    background: rgba(238, 238, 238, 1);
-    border: 1px solid #eeeeee;
-    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    margin-bottom: 2rem;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-  }
-  .hire__username_text_crva h5 {
-    border-radius: nullpx;
-    font-family: var(--font-family);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    margin-left: 0.5rem;
-  }
-  .hire__username_text_crva h6 {
-    border-radius: nullpx;
-    font-family: var(--font-family);
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0em;
-  }
-  .hire__createvacancy_crva {
-    width: 100%;
-    padding-bottom: 2rem;
-  }
-  .hire__createvacancy_crva button {
-    justify-content: center;
-    flex: 0.2;
-    width: 10rem;
-    min-height: 2.5rem;
-    background: rgba(0, 173, 181, 1);
-    border: 1px solid;
-    border-radius: 8px;
-    z-index: 1;
-    font-weight: 400;
-    font-size: 12px;
-    color: #ffffff;
-    outline: none;
-    cursor: pointer;
-  }
-  .hire__notifications_crva {
-    width: 100%;
-    padding-bottom: 2rem;
-  }
-  .hire__notifications_crva button {
-    justify-content: center;
-    flex: 0.2;
-    width: 100%;
-    max-width: 10rem;
-    min-height: 2.5rem;
-    background: rgba(241, 241, 241, 1);
-    border-radius: 8px;
-    z-index: 1;
-    font-weight: 400;
-    font-size: 12px;
-    color: #000000;
-    outline: none;
-    cursor: pointer;
-    border: none;
-  }
-  .hire__vacancies_crva {
-    width: 100%;
-    padding-bottom: 2rem;
-  }
-  .hire__vacancies_crva button {
-    justify-content: center;
-    flex: 0.2;
-    width: 100%;
-    max-width: 10rem;
-    min-height: 2.5rem;
-    background: rgba(241, 241, 241, 1);
-    border-radius: 8px;
-    z-index: 1;
-    font-weight: 400;
-    font-size: 12px;
-    color: #000000;
-    outline: none;
-    cursor: pointer;
-    border: none;
-  }
-  .hire__messages_crva {
-    width: 100%;
-    padding-bottom: 2rem;
-  }
-  .hire__messages_crva button {
-    justify-content: center;
-    flex: 0.2;
-    width: 100%;
-    max-width: 10rem;
-    min-height: 2.5rem;
-    background: rgba(241, 241, 241, 1);
-    border-radius: 8px;
-    z-index: 1;
-    font-weight: 400;
-    font-size: 12px;
-    color: #000000;
-    outline: none;
-    cursor: pointer;
-    border: none;
-  }
-  .hire__settings_crva {
-    width: 100%;
-    padding-bottom: 2rem;
-  }
-  .hire__settings_crva button {
-    justify-content: center;
-    flex: 0.2;
-    width: 100%;
-    max-width: 10rem;
-    min-height: 2.5rem;
-    background: rgba(241, 241, 241, 1);
-    border-radius: 8px;
-    z-index: 1;
-    font-weight: 400;
-    font-size: 12px;
-    color: #000000;
-    outline: none;
-    cursor: pointer;
-    border: none;
-  }
-  .hire__feedback_crva {
-    display: flex;
-    align-items: center;
-    padding-bottom: 2rem;
-    width: 100%;
-    max-width: 10rem;
-    min-height: 2.5rem;
-  }
-  .hire__feedback_text_crva button {
-    justify-content: center;
-    flex: 0.2;
-    width: 100%;
-    width: 10rem;
-    min-height: 2.5rem;
-    background-color: rgba(241, 241, 241, 1);
-    border: 1px solid;
-    border-radius: 8px;
-    z-index: 1;
-    font-weight: 400;
-    font-size: 12px;
-    color: #000000;
-    outline: none;
-    cursor: pointer;
-    border: none;
-  }
-  .hire__logout_crva {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 10rem;
-    min-height: 2.5rem;
-    padding-bottom: 4.5rem;
-  }
-  .hire__logout_crva button {
-    justify-content: center;
-    flex: 0.2;
-    width: 100%;
-    width: 10rem;
-    min-height: 2.5rem;
-    background-color: rgba(241, 241, 241, 1);
-    border: 1px solid;
-    border-radius: 8px;
-    z-index: 1;
-    font-weight: 400;
-    font-size: 12px;
-    color: #000000;
-    outline: none;
-    cursor: pointer;
-    border: none;
-  }
-.hire__create_vacancy_right_crva{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  width: 100%;
 }
-.hire__jobvacancy_crva{
-    height: 100px;
-    width: 1022px;
-    background: rgba(0, 173, 181, 1);
-    text-align: center;
+.hire__create_vacancy_left_crva {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 13rem;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  text-align: center;
 }
-.hire__jobvacancy_crva h5{
-    height: 16px;
-    width: 30px;
-    left: 687px;
-    top: 37px;
-    font-family: var(--font-family);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
+.hire__username_crva {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 5rem;
+  background: rgba(238, 238, 238, 1);
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
-.hire__jobvacancy_crva h2{
-    height: 36px;
-    width: 326px;
-    top: 80px;
-    font-family: var(--font-family);
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 42px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #EEEEEE;
+.hire__username_text_crva h5 {
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
 }
-.hire__title_crva{
-    padding-left: 20px;
-    padding-top: 20px;
+.hire__username_text_crva h6 {
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
 }
-.hire__title_crva input{
-    height: 45px;
-    width: 921px;
-    left: 250px;
-    top: 159px;
-    border-radius: 8px;
-    border: 1px solid #D2D2D2;
-    border-radius: 8px;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__createvacancy_crva {
+  width: 100%;
+  padding-bottom: 2rem;
 }
-.hire__characters_crva{
-    padding-left: 25px;
+.hire__createvacancy_crva button {
+  justify-content: center;
+  flex: 0.2;
+  width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(0, 173, 181, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
 }
-.hire__characters_crva h6{
-    height: 13px;
-    width: 238px;
-    left: 241px;
-    top: 215px;
-    border-radius: nullpx;
-    font-family: var(--font-family);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
+.hire__notifications_crva {
+  width: 100%;
+  padding-bottom: 2rem;
 }
-.hire__deadlinefromtype_crva{
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
-    padding-top: 20px;
+.hire__notifications_crva button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
 }
-.hire__applicationdeadline_crva input{
-    height: 51px;
-    width: 301px;
-    left: 237px;
-    top: 250px;
-    border-radius: 8px;
-    border: 1px solid #D2D2D2;
-    border-radius: 8px;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__vacancies_crva {
+  width: 100%;
+  padding-bottom: 2rem;
 }
-.hire__employmentfrom_crva{
-    padding-left: 20px;
-
+.hire__vacancies_crva button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__messages_crva {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.hire__messages_crva button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__settings_crva {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.hire__settings_crva button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__feedback_crva {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+}
+.hire__feedback_text_crva button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  width: 10rem;
+  min-height: 2.5rem;
+  background-color: rgba(241, 241, 241, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__logout_crva {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+.hire__logout_crva button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  width: 10rem;
+  min-height: 2.5rem;
+  background-color: rgba(241, 241, 241, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__create_vacancy_right_crva {
+  display: flex;
+  flex-direction: column;
+}
+.hire__jobvacancy_crva {
+  width: 82rem;
+  height: 7rem;
+  background: rgba(0, 173, 181, 1);
+  text-align: center;
+}
+.hire__jobvacancy_crva h5 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  padding-top: 2rem;
+}
+.hire__jobvacancy_crva h2 {
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: #eeeeee;
+}
+.hire__title_crva {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.hire__title_crva input {
+  width: 75rem;
+  height: 3.5rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.hire__characters_crva {
+  padding-left: 2rem;
+}
+.hire__characters_crva h6 {
+  height: 13px;
+  width: 238px;
+  left: 241px;
+  top: 215px;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-/* .hire__employmentfrom_crva{
-    height: 51px;
-    width: 301px;
-    left: 237px;
-    top: 250px;
-    border-radius: 8px;
-    border: 1px solid #D2D2D2;
-    border-radius: 8px;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-} */
-.hire__employmentype_crva{
-    padding-left: 20px;
+.hire__deadlinefromtype_crva {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
-.hire__employmentype_crva select{
-    height: 51px;
-    width: 301px;
-    left: 237px;
-    top: 250px;
-    border-radius: 8px;
-    border: 1px solid #D2D2D2;
-    border-radius: 8px;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__applicationdeadline_crva input {
+  width: 22rem;
+  height: 3.5rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__countrystate_crva{
-    padding-left: 20px;
-    padding-top: 20px;
+.hire__employmentfrom_crva {
+  padding-left: 2rem;
 }
-
-.hire__languagelevel_crva{
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
-    padding-top: 20px;
+.hire__employmentype_crva {
+  padding-left: 2rem;
 }
-.hire__employmentlevel_crva{
-    padding-left: 20px;
+.hire__employmentype_crva select {
+  width: 23rem;
+  height: 3.5rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__employmentlevel_crva select{
-    height: 51px;
-    width: 465px;
-    left: 717px;
-    top: 392px;
-    border-radius: 4px;
-    border: 1px solid #D2D2D2;
-    border-radius: 8px;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__countrystate_crva {
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
-.hire__marketlevel_crva{
-    padding-left: 20px;
-    padding-top: 20px;
+.hire__languagelevel_crva {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
-.hire__marketlevel_crva select{
-    height: 54px;
-    width: 945px;
-    left: 237px;
-    top: 483px;
-    border-radius: 8px;
-    border: 1px solid #D2D2D2;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__employmentlevel_crva {
+  padding-left: 2rem;
 }
-.hire__salarycurrency_crva{
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
-    padding-top: 20px;
+.hire__employmentlevel_crva select {
+  width: 22rem;
+  height: 3.5rem;
+  border-radius: 4px;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__minsalary_crva input{
-    height: 51px;
-    width: 221px;
-    left: 237px;
-    top: 558px;
-    border-radius: 8px;
-    border: 1px solid #D2D2D2;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__marketlevel_crva {
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
-.hire__maxsalary_crva{
-    padding-left: 15px;
+.hire__marketlevel_crva select {
+  width: 75rem;
+  height: 3.5rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__maxsalary_crva input{
-    height: 51px;
-    width: 221px;
-    left: 237px;
-    top: 558px;
-    border-radius: 8px;
-    border: 1px solid #D2D2D2;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__salarycurrency_crva {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
-.hire__currency_crva{
-    padding-left: 15px;
+.hire__minsalary_crva input {
+  width: 18rem;
+  height: 3.5rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__currency_crva select{
-    height: 51px;
-    width: 221px;
-    left: 237px;
-    top: 558px;
-    border-radius: 8px;
-    border: 1px solid #D2D2D2;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__maxsalary_crva {
+  padding-left: 2rem;
 }
-.hire__salaryperiod_crva{
-    padding-left: 15px;
+.hire__maxsalary_crva input {
+  width: 18rem;
+  height: 3.5rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__salaryperiod_crva select{
-    height: 51px;
-    width: 221px;
-    left: 237px;
-    top: 558px;
-    border-radius: 8px;
-    border: 1px solid #D2D2D2;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__currency_crva {
+  padding-left: 2rem;
 }
-.hire__educationexperience_crva{
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
-    padding-top: 20px;
+.hire__currency_crva select {
+  width: 18rem;
+  height: 3.5rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__educationlevel_crva input{
-    height: 51px;
-    width: 463px;
-    left: 237px;
-    top: 629px;
-    border-radius: 4px;
-    border: 1px solid #D2D2D2;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__salaryperiod_crva {
+  padding-left: 2rem;
 }
-.hire__yearexperience_crva{
-    padding-left: 20px;
+.hire__salaryperiod_crva select {
+  height: 3.5rem;
+  width: 18rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__yearexperience_crva select{
-    height: 51px;
-    width: 463px;
-    left: 719px;
-    top: 629px;
-    border-radius: 4px;
-    border: 1px solid #D2D2D2;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__educationexperience_crva {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
-.hire__jobdescription_crva{
-    padding-left: 20px;
-    padding-top: 20px;
+.hire__educationlevel_crva input {
+  height: 3.5rem;
+  width: 35rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__jobdescription_crva input{
-    height: 97px;
-    width: 945px;
-    left: 237px;
-    top: 701px;
-    border-radius: 8px;
-    border: 1px solid #D2D2D2;
-    padding: 0 1rem;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.hire__yearexperience_crva {
+  padding-left: 20px;
 }
-.hire__cancelpostbutton_crva{
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
-    padding-top: 20px;
+.hire__yearexperience_crva select {
+  height: 3.5rem;
+  width: 35rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__cancelbutton_crva button{
-    height: 35px;
-    width: 81px;
-    left: 18px;
-    top: 0px;
-    border-radius: 8px;
-    background: rgba(238, 238, 238, 1);
-    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    z-index: 2;
-    outline: none;
-    cursor: pointer;
-    padding: 0 1rem;
-    border: none;
-    font-family: var(--font-family);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-
+.hire__jobdescription_crva {
+  padding-left: 20px;
+  padding-top: 20px;
 }
-.hire__postbutton_crva{
-    padding-left: 20px;
+.hire__jobdescription_crva input {
+  height: 6rem;
+  width: 75rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.hire__postbutton_crva button{
-    height: 35px;
-    width: 81px;
-    left: 18px;
-    top: 0px;
-    border-radius: 8px;
-    background: rgba(0, 173, 181, 1);
-    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    z-index: 2;
-    color: rgba(255, 255, 255, 1);
-    outline: none;
-    cursor: pointer;
-    padding: 0 1rem;
-    border: none;
-    font-family: var(--font-family);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
+.hire__cancelpostbutton_crva {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.hire__cancelbutton_crva button {
+  width: 6rem;
+  height: 3rem;
+  border-radius: 8px;
+  background: rgba(238, 238, 238, 1);
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  z-index: 2;
+  outline: none;
+  cursor: pointer;
+  padding: 0 1rem;
+  border: none;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.hire__postbutton_crva {
+  padding-left: 1rem;
+}
+.hire__postbutton_crva button {
+    width: 6rem;
+    height: 3rem;
+  border-radius: 8px;
+  background: rgba(0, 173, 181, 1);
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  z-index: 2;
+  color: rgba(255, 255, 255, 1);
+  outline: none;
+  cursor: pointer;
+  padding: 0 1rem;
+  border: none;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 2rem;
 }
