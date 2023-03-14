@@ -4,6 +4,9 @@ import logo from "../assets/logo.png";
 import username from "../assets/username logo.png";
 import feedback from "../assets/Feedback.png";
 import logout from "../assets/logout.png";
+import Trash from "../assets/Trash.png";
+import Pencil from "../assets/Pencil.png";
+import views from "../assets/Views.png";
 
 const VacancyPage = () => {
   return (
@@ -61,7 +64,99 @@ const VacancyPage = () => {
       </div>
 
       <div className="hire__vacancy_page_right_vp">
-        <div>hello</div>
+        <div className="hire__vacancy_header_vp">
+          <div className="hire__vacancy_header1_vp">
+            <h3>Active Vacancies</h3>
+          </div>
+          <div className="hire__vacancy_header2_vp">
+            <h3>Archived Vacancies</h3>
+          </div>
+        </div>
+        <div className="hire__search_vacancy_vp">
+          <div className="hire__search_vp">
+            <input type="search" placeholder="Search"></input>
+          </div>
+          <div className="hire__vacancy_button_vp">
+            <button type="button">+ Create Vacancy</button>
+          </div>
+        </div>
+        <div className="hire__job_vacancy_vp">
+          <div className="hire__job_title_1_vp">
+            <div className="hire__job_title_1_text_vp">
+              <h3>Job Title 1</h3>
+            </div>
+            <div className="hire__job_title_1_image_vp">
+              <img src={Pencil} alt=""></img>
+              <img src={Trash} alt=""></img>
+            </div>
+            <div className="hire__job_tile_1_viewapplication_vp">
+              <button type="button">View applicants</button>
+            </div>
+          </div>
+
+          <div className="hire__job_title_2_vp">
+            <div className="hire__job_title_2_text_vp">
+              <h3>Job Title 2</h3>
+            </div>
+            <div className="hire__job_title_2_image_vp">
+              <img src={Pencil} alt=""></img>
+              <img src={Trash} alt=""></img>
+            </div>
+            <div className="hire__job_tile_2_viewapplication_vp">
+              <button type="button">View applicants</button>
+            </div>
+          </div>
+
+          <div className="hire__job_title_3_vp">
+            <div className="hire__job_title_3_text_vp">
+              <h3>Job Title 3</h3>
+            </div>
+            <div className="hire__job_title_3_image_vp">
+              <img src={Pencil} alt=""></img>
+              <img src={Trash} alt=""></img>
+            </div>
+            <div className="hire__job_tile_3_viewapplication_vp">
+              <button type="button">View applicants</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="hire__datetime_right_vp">
+        <div className="hire__vacancyposted_vp">
+          <h4>Vacancy posted on:</h4>
+          <h3>DD/MM/YYYY</h3>
+        </div>
+        <div className="hire__vacancyexpire_vp">
+          <h4>Vacancy Expires on:</h4>
+          <h3>DD/MM/YYYY</h3>
+        </div>
+        <div className="hire__totalapplicants_vp">
+          <h4>Total number of applicants:</h4>
+          <h3>0</h3>
+        </div>
+        <div className="hire__screeningstage_vp">
+          <h4>Applicants on screening stage:</h4>
+          <h3>0</h3>
+        </div>
+        <div className="hire__interviewstage_vp">
+          <h4>Applicants on interview stage:</h4>
+          <h3>0</h3>
+        </div>
+        <div className="hire__rejectedaccepted_vp">
+          <div className="hire__rejected_vp">
+            <h4>Rejected:</h4>
+            <h3>0</h3>
+          </div>
+          <div className="hire__accepted_vp">
+            <h4>Accepted:</h4>
+            <h3>0</h3>
+          </div>
+        </div>
+        <div className="hire__totalviews_vp">
+          <img src={views} alt=""></img>
+          <h5>Number of views:</h5>
+          <h4>0</h4>
+        </div>
       </div>
     </div>
   );
