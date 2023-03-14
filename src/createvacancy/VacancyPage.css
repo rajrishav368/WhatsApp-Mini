@@ -449,7 +449,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
-  width: 15rem;
+  width: 20rem;
   height: 25rem;
   border: 1px;
   border-radius: 8px;
@@ -460,7 +460,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 .hire__vacancyposted_vp h4 {
   font-family: var(--font-family);
@@ -480,8 +480,8 @@
 .hire__vacancyexpire_vp {
   display: flex;
   flex-direction: column;
-  margin-top: 0.5rem;
-  margin-left: 1rem;
+  margin-top: 0.7rem;
+  margin-left: 2rem;
 }
 .hire__vacancyexpire_vp h4 {
   font-family: var(--font-family);
@@ -500,8 +500,8 @@
 .hire__totalapplicants_vp {
   display: flex;
   flex-direction: column;
-  margin-top: 0.5rem;
-  margin-left: 1rem;
+  margin-top: 0.7rem;
+  margin-left: 2rem;
 }
 .hire__totalapplicants_vp h4 {
   font-family: var(--font-family);
@@ -520,8 +520,8 @@
 .hire__screeningstage_vp {
   display: flex;
   flex-direction: column;
-  margin-top: 0.5rem;
-  margin-left: 1rem;
+  margin-top: 0.7rem;
+  margin-left: 2rem;
 }
 .hire__screeningstage_vp h4 {
   font-family: var(--font-family);
@@ -540,8 +540,8 @@
 .hire__interviewstage_vp{
   display: flex;
   flex-direction: column;
-  margin-top: 0.5rem;
-  margin-left: 1rem;
+  margin-top: 0.7rem;
+  margin-left: 2rem;
 }
 .hire__interviewstage_vp h4{
   font-family: var(--font-family);
@@ -561,7 +561,7 @@
   display: flex;
   flex-direction: row;
   margin-top: 2rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 .hire__rejected_vp h4{
   font-family: var(--font-family);
@@ -598,7 +598,7 @@
   display: flex;
   flex-direction: row;
   margin-top: 2rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 .hire__totalviews_vp h5{
   font-family: var(--font-family);
