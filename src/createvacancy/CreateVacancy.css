@@ -196,6 +196,7 @@
 .hire__create_vacancy_right_crva {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 .hire__jobvacancy_crva {
   width: 82rem;
@@ -419,8 +420,8 @@
   line-height: 19px;
 }
 .hire__jobdescription_crva {
-  padding-left: 20px;
-  padding-top: 20px;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
 .hire__jobdescription_crva input {
   height: 6rem;
