@@ -94,8 +94,6 @@ const Notification = () => {
             <button type="button">View</button>
           </div>
         </div>
-
-
       </div>
     </div>
   );

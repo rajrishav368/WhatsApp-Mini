@@ -22,6 +22,7 @@ import CompanyProfileWorkforce from './companyprofile/CompanyProfileWorkforce';
 import CreateVacancy from './createvacancy/CreateVacancy';
 import VacancyPage from "./createvacancy/VacancyPage";
 import Notification from './createvacancy/Notification';
+import Messages from './createvacancy/Messages';
 import './index.css';
 
 import {
@@ -117,7 +118,11 @@ import {
     {
         path:"Notification",
         element:<Notification/>
-    }
+    },
+    {
+        path:"Messages",
+        element:<Messages/>
+    },
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

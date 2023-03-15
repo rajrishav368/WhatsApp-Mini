@@ -6,6 +6,7 @@ import back_btn from '../../assets/back-btn.png';
 import google from '../../assets/google.png';
 
 const SignupEmployer = () => {
+  
   return (
     <div className='hire__signupheader'>
       <div className='hire__signupleft'>
