@@ -294,7 +294,7 @@ const CreateVacancy = () => {
           </div>
         </div>
         <div className="hire__jobdescription_crva">
-          <input type="text" placeholder="Jobdescription"></input>
+          <input type="text" placeholder="Job Description"></input>
         </div>
         <div className="hire__cancelpostbutton_crva">
           <div className="hire__cancelbutton_crva">

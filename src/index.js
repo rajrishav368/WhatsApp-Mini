@@ -21,6 +21,7 @@ import CompanyProfileEmployer2 from './companyprofile/CompanyProfileEmployer2';
 import CompanyProfileWorkforce from './companyprofile/CompanyProfileWorkforce';
 import CreateVacancy from './createvacancy/CreateVacancy';
 import VacancyPage from "./createvacancy/VacancyPage";
+import Notification from './createvacancy/Notification';
 import './index.css';
 
 import {
@@ -112,6 +113,10 @@ import {
     {
         path:"VacancyPage",
         element:<VacancyPage/>
+    },
+    {
+        path:"Notification",
+        element:<Notification/>
     }
   ]);
 

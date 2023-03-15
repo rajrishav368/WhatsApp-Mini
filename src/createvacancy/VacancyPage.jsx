@@ -7,13 +7,16 @@ import logout from "../assets/logout.png";
 import Trash from "../assets/Trash.png";
 import Pencil from "../assets/Pencil.png";
 import views from "../assets/Views.png";
+import { Link } from "react-router-dom";
 
 const VacancyPage = () => {
   return (
     <div className="hire__vacancy_page_vp">
       <div className="hire__vacancy_page_left_vp">
         <div className="hire__logo_vp">
-          <img src={logo} alt=""></img>
+          <Link to="/">
+            <img src={logo} alt=""></img>
+          </Link>
         </div>
 
         <div className="hire__username_vp">
