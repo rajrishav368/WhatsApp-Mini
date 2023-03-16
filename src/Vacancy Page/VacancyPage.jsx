@@ -1,5 +1,5 @@
 import React from "react";
-import "../createvacancy/VacancyPage.css";
+import "../Vacancy Page/VacancyPage.css";
 import logo from "../assets/logo.png";
 import username from "../assets/username logo.png";
 import feedback from "../assets/Feedback.png";
@@ -124,6 +124,7 @@ const VacancyPage = () => {
           </div>
         </div>
       </div>
+
       <div className="hire__datetime_right_vp">
         <div className="hire__vacancyposted_vp">
           <h4>Vacancy posted on:</h4>

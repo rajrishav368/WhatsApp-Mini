@@ -20,9 +20,12 @@ import CompanyProfileEmployer from './companyprofile/CompanyProfileEmployer';
 import CompanyProfileEmployer2 from './companyprofile/CompanyProfileEmployer2';
 import CompanyProfileWorkforce from './companyprofile/CompanyProfileWorkforce';
 import CreateVacancy from './createvacancy/CreateVacancy';
-import VacancyPage from "./createvacancy/VacancyPage";
-import Notification from './createvacancy/Notification';
-import Messages from './createvacancy/Messages';
+import VacancyPage from "./Vacancy Page/VacancyPage";
+import VacancyPageWorkforce from './Vacancy Page/VacancyPageWorkforce';
+import Notification from "./Notification/Notification";
+import NotificationWorkforce from './Notification/NotificationWorkforce';
+import Messages from "./Messages/Messages";
+import MessagesWorkforce from './Messages/MessagesWorkforce';
 import './index.css';
 
 import {
@@ -116,13 +119,26 @@ import {
         element:<VacancyPage/>
     },
     {
+        path:"VacancyPageWorkforce",
+        element:<VacancyPageWorkforce/>
+    },
+    {
         path:"Notification",
         element:<Notification/>
+    },
+    {
+        path:"NotificationWorkforce",
+        element:<NotificationWorkforce/>
     },
     {
         path:"Messages",
         element:<Messages/>
     },
+    {
+        path:"MessagesWorkforce",
+        element:<MessagesWorkforce/>
+    },
+
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

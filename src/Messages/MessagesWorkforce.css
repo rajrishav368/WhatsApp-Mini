@@ -1,8 +1,8 @@
-.hire__notification_nf {
+.hire__messages_msg_wf {
   display: flex;
   width: 100%;
 }
-.hire__notification_left_nf {
+.hire__messages_left_msg_wf {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
   text-align: center;
   justify-content: center;
 }
-.hire__username_nf {
+.hire__username_msg_wf {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -30,10 +30,10 @@
   justify-content: center;
   margin-bottom: 2rem;
 }
-.hire__username_nf img {
+.hire__username_msg_wf img {
   cursor: pointer;
 }
-.hire__username_text_nf h5 {
+.hire__username_text_msg_wf h5 {
   border-radius: nullpx;
   font-family: var(--font-family);
   font-size: 14px;
@@ -41,20 +41,20 @@
   line-height: 19px;
   letter-spacing: 0em;
 }
-.hire__username_text_nf h6 {
+.hire__username_text_msg_wf h6 {
   border-radius: nullpx;
   font-family: var(--font-family);
   font-size: 12px;
   font-weight: 400;
   line-height: 12px;
 }
-.hire__createvacancy_nf {
+.hire__createvacancy_msg_wf {
   width: 100%;
   max-width: 10rem;
   min-height: 3rem;
   margin-bottom: 2rem;
 }
-.hire__createvacancy_nf button {
+.hire__createvacancy_msg_wf button {
   justify-content: center;
   flex: 0.2;
   width: 10rem;
@@ -69,13 +69,13 @@
   outline: none;
   cursor: pointer;
 }
-.hire__notificationsbutton_nf {
+.hire__notificationsbutton_msg_wf {
   width: 100%;
   max-width: 10rem;
   min-height: 3rem;
   margin-bottom: 2rem;
 }
-.hire__notificationsbutton_nf button {
+.hire__notificationsbutton_msg_wf button {
   justify-content: center;
   flex: 0.2;
   width: 100%;
@@ -91,13 +91,13 @@
   cursor: pointer;
   border: none;
 }
-.hire__vacancies_nf {
+.hire__vacancies_msg_wf {
   width: 100%;
   max-width: 10rem;
   min-height: 3rem;
   margin-bottom: 2rem;
 }
-.hire__vacancies_nf button {
+.hire__vacancies_msg_wf button {
   justify-content: center;
   flex: 0.2;
   width: 100%;
@@ -113,11 +113,11 @@
   cursor: pointer;
   border: none;
 }
-.hire__messages_nf {
+.hire__messagesbutton_msg_wf {
   width: 100%;
   margin-bottom: 2rem;
 }
-.hire__messages_nf button {
+.hire__messagesbutton_msg_wf button {
   justify-content: center;
   flex: 0.2;
   width: 100%;
@@ -133,11 +133,11 @@
   cursor: pointer;
   border: none;
 }
-.hire__settings_nf {
+.hire__settings_msg_wf {
   width: 100%;
   margin-bottom: 2rem;
 }
-.hire__settings_nf button {
+.hire__settings_msg_wf button {
   justify-content: center;
   flex: 0.2;
   width: 100%;
@@ -153,7 +153,7 @@
   cursor: pointer;
   border: none;
 }
-.hire__feedback_nf {
+.hire__feedback_msg_wf {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -161,7 +161,7 @@
   min-height: 3rem;
   margin-bottom: 2rem;
 }
-.hire__feedback_nf button {
+.hire__feedback_msg_wf button {
   justify-content: center;
   flex: 0.2;
   width: 100%;
@@ -178,7 +178,7 @@
   cursor: pointer;
   border: none;
 }
-.hire__logout_nf {
+.hire__logout_msg_wf {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -186,7 +186,7 @@
   min-height: 3rem;
   margin-bottom: 2rem;
 }
-.hire__logout_nf button {
+.hire__logout_msg_wf button {
   justify-content: center;
   flex: 0.2;
   width: 100%;
@@ -203,33 +203,33 @@
   cursor: pointer;
   border: none;
 }
-.hire__notification_right_nf {
+.hire__messages_right_msg_wf {
   display: flex;
   flex-direction: column;
   margin-left: 2rem;
 }
-.hire__notificationclear_nf {
+.hire__messagesmark_msg_wf {
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 80rem;
-  min-width: 75rem;
+  max-width: 72rem;
+  min-width: 67rem;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   margin-top: 1rem;
 }
-.hire__notification_text_nf {
+.hire__messages_text_msg_wf {
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0em;
 }
-.hire__clearallbutton_nf button {
+.hire__markallbutton_msg_wf button {
   align-items: center;
   width: 100%;
-  max-width: 6rem;
+  max-width: 8rem;
   min-height: 2rem;
   background: #00adb5;
   border-radius: 8px;
@@ -243,69 +243,72 @@
   padding: 0 1rem;
   border: none;
 }
-.hire__applicantjobdate_nf {
+.hire__usernamedate_msg_wf {
   display: flex;
   flex-direction: row;
-  width: 75rem;
+  width: 78rem;
   height: 3.5rem;
   margin-top: 2rem;
   border: 1px solid black;
   border-radius: 8px;
   padding-top: 0.7rem;
 }
-.hire__applicantlogo_nf {
+.hire__applicantlogo_msg_wf {
   padding-left: 0.7rem;
 }
-.hire__applicantext_nf {
+.hire__applicantext_msg_wf {
   padding-left: 0.5rem;
+  padding-top: 0.4rem;
 }
-.hire__applicantext_nf h5 {
+.hire__applicantext_msg_wf h5 {
   font-family: var(--font-family);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
 }
-.hire__applicantext_nf h6{
+.hire__applicantext_msg_wf h6 {
   font-family: var(--font-family);
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
 }
-.hire__jobtext_nf{
+.hire__jobtext_msg_wf {
+  padding-left: 18rem;
+  padding-top: 0.4rem;
+}
+.hire__jobtext_msg_wf h6 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__jobtext_msg_wf h6 {
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__date_msg_wf {
   padding-left: 20rem;
+  padding-top: 0.4rem;
 }
-.hire__jobtext_nf h5{
+.hire__date_msg_wf h5 {
   font-family: var(--font-family);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
 }
-.hire__jobtext_nf h6{
-  font-family: var(--font-family);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
-}
-.hire__date_nf{
-  padding-left:20rem;
-}
-.hire__date_nf h5{
-  font-family: var(--font-family);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
-}
-.hire__clearbutton_nf{
+.hire__markbutton_msg_wf {
   padding-left: 5rem;
 }
-.hire__clearbutton_nf button{
+.hire__markbutton_msg_wf button {
   width: 100%;
-  max-width: 6rem;
+  max-width: 8rem;
   min-height: 2rem;
   background: rgba(241, 245, 248, 1);
   border-radius: 8px;
@@ -321,10 +324,10 @@
   letter-spacing: 0em;
   text-align: center;
 }
-.hire__viewbutton_nf{
+.hire__viewbutton_msg_wf {
   padding-left: 1rem;
 }
-.hire__viewbutton_nf button{
+.hire__viewbutton_msg_wf button {
   align-items: center;
   width: 100%;
   max-width: 6rem;

@@ -1,5 +1,5 @@
 import React from "react";
-import "../createvacancy/Notification.css";
+import "../Notification/Notification.css";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import username from "../assets/username logo.png";
