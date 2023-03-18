@@ -1,0 +1,554 @@
+.hire__viewapplicants_viap {
+  display: flex;
+  width: 100%;
+}
+.hire__Viewapplicants_left_viap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 13rem;
+  min-height: 10rem;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.hire__username_viap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 5rem;
+  border: 1px solid #eeeeee;
+  background: rgba(238, 238, 238, 1);
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.hire__username_viap img {
+  cursor: pointer;
+}
+.hire__username_text_viap h5 {
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.hire__username_text_viap h6 {
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}
+.hire__createvacancy_viap {
+  width: 100%;
+  max-width: 10rem;
+  min-height: 3rem;
+  margin-bottom: 2rem;
+}
+.hire__createvacancy_viap button {
+  justify-content: center;
+  flex: 0.2;
+  width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(0, 173, 181, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.hire__notificationsbutton_viap {
+  width: 100%;
+  max-width: 10rem;
+  min-height: 3rem;
+  margin-bottom: 2rem;
+}
+.hire__notificationsbutton_viap button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__vacancies_viap {
+  width: 100%;
+  max-width: 10rem;
+  min-height: 3rem;
+  margin-bottom: 2rem;
+}
+.hire__vacancies_viap button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__messagesbutton_viap {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.hire__messagesbutton_viap button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 3rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__settings_viap {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.hire__settings_viap button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 3rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__feedback_viap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 3rem;
+  margin-bottom: 2rem;
+}
+.hire__feedback_viap button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  width: 10rem;
+  min-height: 2.5rem;
+  background-color: rgba(241, 241, 241, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__logout_viap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 3rem;
+  margin-bottom: 2rem;
+}
+.hire__logout_viap button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  width: 10rem;
+  min-height: 3rem;
+  background-color: rgba(241, 241, 241, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__Viewapplicants_right_viap {
+  display: flex;
+  flex-direction: column;
+}
+.hire__backjobtitle_viap {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+.hire__backbutton_viap {
+  display: flex;
+  flex-direction: row;
+  justify-self: left;
+}
+.hire__backbutton_viap img {
+  align-self: left;
+  justify-self: center;
+}
+.hire__backbutton_viap button {
+  background: #f1f5f8;
+  border: 1px solid #f1f5f8;
+  border-radius: 8px;
+  width: 4rem;
+  height: 2rem;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  color: #8692a6;
+}
+.hire__jobtitle_viap {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__jobtitle_viap h2 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #cccccc;
+}
+.hire__jobtitle_viap h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+.hire__body_header_viap {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  width: 50rem;
+  justify-content: space-between;
+}
+.hire__body_header_viap h4 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: rgba(204, 204, 204, 1);
+}
+.hire__header_appliedate_viap{
+  margin-left: 3rem;
+}
+.hire__header_status_viap{
+  margin-right: 4rem;
+}
+.hire__body_applicantsdata_viap {
+  display: flex;
+  flex-direction: column;
+}
+.hire__applicantsdata1_viap {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  width: 50rem;
+  justify-content: space-between;
+}
+.hire__applicantsname1_viap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__applicantsname1_viap h2 {
+  border: 1px;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background: #00adb5;
+}
+.hire__applicantsname1_viap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
+}
+.hire__applicantsdate1_viap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.hire__applicantstatus1_viap select{
+  border: 1px ;
+  border-radius: 8px;
+  background: rgba(241, 241, 245, 0.973);
+  width: 100%;
+  max-width: 10rem;
+  min-width: 9rem;
+  min-height: 2.5rem;
+  padding-left: 0.5rem;
+}
+.hire__applicantsdata2_viap {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  width: 50rem;
+  justify-content: space-between;
+}
+.hire__applicantsname2_viap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__applicantsname2_viap h2 {
+  border: 1px;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background: #00adb5;
+}
+.hire__applicantsname2_viap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
+}
+.hire__applicantsdate2_viap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.hire__applicantstatus2_viap select{
+  border: 1px ;
+  border-radius: 8px;
+  background: rgba(241, 241, 245, 0.973);
+  width: 100%;
+  max-width: 10rem;
+  min-width: 9rem;
+  min-height: 2.5rem;
+  padding-left: 0.5rem;
+}
+.hire__applicantsdata3_viap {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  width: 50rem;
+  justify-content: space-between;
+}
+.hire__applicantsname3_viap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__applicantsname3_viap h2 {
+  border: 1px;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background: #00adb5;
+}
+.hire__applicantsname3_viap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
+}
+.hire__applicantsdate3_viap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.hire__applicantstatus3_viap select{
+  border: 1px ;
+  border-radius: 8px;
+  background: rgba(241, 241, 245, 0.973);
+  width: 100%;
+  max-width: 10rem;
+  min-width: 9rem;
+  min-height: 2.5rem;
+  padding-left: 0.5rem;
+}
+.hire__applicantsdata4_viap {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  width: 50rem;
+  justify-content: space-between;
+}
+.hire__applicantsname4_viap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__applicantsname4_viap h2 {
+  border: 1px;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background: #00adb5;
+}
+.hire__applicantsname4_viap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
+}
+.hire__applicantsdate4_viap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.hire__applicantstatus4_viap select{
+  border: 1px ;
+  border-radius: 8px;
+  background: rgba(241, 241, 245, 0.973);
+  width: 100%;
+  max-width: 10rem;
+  min-width: 9rem;
+  min-height: 2.5rem;
+  padding-left: 0.5rem;
+}
+.hire__applicantsdata5_viap {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  width: 50rem;
+  justify-content: space-between;
+}
+.hire__applicantsname5_viap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__applicantsname5_viap h2 {
+  border: 1px;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background: #00adb5;
+}
+.hire__applicantsname5_viap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
+}
+.hire__applicantsdate5_viap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.hire__applicantstatus5_viap select{
+  border: 1px ;
+  border-radius: 8px;
+  background: rgba(241, 241, 245, 0.973);
+  width: 100%;
+  max-width: 10rem;
+  min-width: 9rem;
+  min-height: 2.5rem;
+  padding-left: 0.5rem;
+}

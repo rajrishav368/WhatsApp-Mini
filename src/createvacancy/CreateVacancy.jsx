@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../createvacancy/CreateVacancy.css";
 import logo from "../assets/logo.png";
 import username from "../assets/username logo.png";
@@ -33,7 +33,7 @@ const CreateVacancy = () => {
   ];
   const [selectedlevel, setselectedlevel] = useState(null);
   const handlelevel = (event) => {
-    setValue(event.target.value);
+    setselectedlevel(event.target.value);
   };
 
   const market = [
@@ -43,7 +43,7 @@ const CreateVacancy = () => {
   ];
   const [marketlevel, setmarketlevel] = useState(null);
   const handlemarketlevel = (event) => {
-    setValue(event.target.value);
+    setmarketlevel(event.target.value);
   };
   const experience = [
     { label: "0-3", value: "0-3" },
@@ -53,7 +53,7 @@ const CreateVacancy = () => {
   ];
   const [experiencelevel, setexperiencelevel] = useState(null);
   const handleexperiencelevel = (event) => {
-    setValue(event.target.value);
+    setexperiencelevel(event.target.value);
   };
   return (
     <div className="hire__create_vacancy_crva">
@@ -160,7 +160,7 @@ const CreateVacancy = () => {
               placeholder="Employment level"
               defaultValue={selectedlevel}
               value={selectedlevel}
-              onChange={handleChange}
+              onChange={handlelevel}
             >
               {level.map((option) => (
                 <option value={option.value}>{option.label}</option>

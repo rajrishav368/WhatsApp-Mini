@@ -26,6 +26,7 @@ import Notification from "./Notification/Notification";
 import NotificationWorkforce from './Notification/NotificationWorkforce';
 import Messages from "./Messages/Messages";
 import MessagesWorkforce from './Messages/MessagesWorkforce';
+import ViewApplicants from './ViewApplicants/ViewApplicants';
 import './index.css';
 
 import {
@@ -137,6 +138,10 @@ import {
     {
         path:"MessagesWorkforce",
         element:<MessagesWorkforce/>
+    },
+    {
+        path:"ViewApplicants",
+        element:<ViewApplicants/>
     },
 
   ]);
