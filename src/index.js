@@ -28,6 +28,7 @@ import Messages from "./Messages/Messages";
 import MessagesWorkforce from './Messages/MessagesWorkforce';
 import ViewApplicants from './ViewApplicants/ViewApplicants';
 import EmployerMode from './Empowerer company profile/EmployerMode';
+import WorkforceMode from './Empowerer company profile/Workforcemode';
 import './index.css';
 
 import {
@@ -148,7 +149,10 @@ import {
         path:"EmployerMode",
         element:<EmployerMode/>
     },
-
+    {
+        path:"WorkforceMode",
+        element:<WorkforceMode/>
+    },
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
