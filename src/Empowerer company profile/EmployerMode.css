@@ -1,0 +1,542 @@
+.hire__employermode_emo {
+  display: flex;
+  width: 100%;
+}
+.hire__employermode_left_emo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid #eeeeee;
+  width: 100%;
+  max-width: 13rem;
+  min-height:35rem ;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+}
+.hire__username_emo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 5rem;
+  background: rgba(238, 238, 238, 1);
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.hire__username_text_emo h5 {
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+}
+.hire__username_text_emo h6 {
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+}
+.hire__createvacancy_emo {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.hire__createvacancy_emo button {
+  justify-content: center;
+  flex: 0.2;
+  width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(0, 173, 181, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.hire__notifications_emo {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.hire__notifications_emo button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__vacancies_emo {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.hire__vacancies_emo button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__messages_emo {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.hire__messages_emo button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__settings_emo {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.hire__settings_emo button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  background: rgba(241, 241, 241, 1);
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__feedback_emo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+}
+.hire__feedback_text_emo button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  width: 10rem;
+  min-height: 2.5rem;
+  background-color: rgba(241, 241, 241, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__logout_emo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 10rem;
+  min-height: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+.hire__logout_emo button {
+  justify-content: center;
+  flex: 0.2;
+  width: 100%;
+  width: 10rem;
+  min-height: 2.5rem;
+  background-color: rgba(241, 241, 241, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.hire__employermode_right_emo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.hire__company_header_emo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  width: 100%;
+}
+.hire__company_profile_header_emo {
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.hire__company_profile_header_emo h2 {
+  width: 100%;
+  min-width: 12rem;
+  min-height: 2rem;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.hire__company_members_emo {
+  width: 100%;
+  max-width: 20rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.hire__company_members_emo h2 {
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.hire__switchworkforce_button_emo {
+  text-align: right;
+  align-items: right;
+  justify-content: right;
+  margin-left: 45rem;
+}
+.hire__switchworkforce_button_emo button {
+  flex: 0.2;
+  width: 100%;
+  max-width: 10rem;
+  min-width: 8rem;
+  min-height: 2rem;
+  background: rgba(0, 173, 181, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.hire__edit_button_emo {
+  width: 100%;
+  max-width: 100rem;
+  text-align: right;
+  align-items: right;
+  justify-content: right;
+}
+
+.hire__edit_button_emo button {
+  flex: 0.2;
+  width: 100%;
+  max-width: 70px;
+  min-height: 30px;
+  background: rgba(0, 173, 181, 1);
+  border: 1px solid;
+  border-radius: 8px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+} 
+.hire__company_body_emo {
+  border: 1x solid black;
+  background: rgba(241, 241, 241, 1);
+  height: 25rem;
+  width: 80rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.25);
+}
+.hire__rectangle_camera_emo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 8px;
+  border: 1px solid;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.hire__rectangle_camera_emo img {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 2rem;
+}
+.hire__rectangle_username_location_emo {
+  display: flex;
+}
+.hire__username_text_2_emo {
+  margin-top: 1.3rem;
+  margin-left: 0.5rem;
+}
+.hire__username_text_2_emo h1 {
+  height: 3rem;
+  width: 8rem;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+}
+.hire__location_logo_emo {
+  display: flex;
+}
+.hire__location_logo_emo img {
+  height: 1rem;
+  width: rem;
+  border-radius: 0px;
+}
+.hire__location_logo_emo h4 {
+  height: 1rem;
+  width: 4rem;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 3px;
+}
+.hire__website_email_size_emo {
+  display: flex;
+}
+.hire__rectangle_1_emo {
+  height: 2rem;
+  width: 0.2rem;
+  border-radius: 0px;
+  border: 1px solid black;
+  background: rgba(134, 146, 166, 1);
+  margin-left: 2rem;
+  margin-top: 1.8rem;
+}
+.hire__rectangle_2_emo {
+  height: 2rem;
+  width: 0.2rem;
+  border-radius: 0px;
+  border: 1px solid black;
+  background: rgba(134, 146, 166, 1);
+  margin-left: 10rem;
+  margin-top: 1.8rem;
+}
+.hire__rectangle_3_emo {
+  height: 2rem;
+  width: 0.2rem;
+  border-radius: 0px;
+  border: 1px solid black;
+  background: rgba(134, 146, 166, 1);
+  margin-left: 15rem;
+  margin-top: 1.8rem;
+}
+.hire__company_website_emo {
+  margin-top: 1.8rem;
+  padding-left: 0.2rem;
+}
+.hire__contact_email_emo {
+  margin-top: 1.8rem;
+  padding-left: 0.2rem;
+}
+.hire__company_size_emo {
+  margin-top: 1.8rem;
+  padding-left: 0.2rem;
+}
+.hire__social_media_links_emo {
+  display: flex;
+  cursor: pointer;
+}
+.hire__linkedin_emo {
+  display: flex;
+  margin-left: 2rem;
+}
+.hire__linkedin_logo_emo img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 2rem;
+}
+.hire__linkedin_text_emo h5 {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 0.5rem;
+  margin-top: 2rem;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__facebook_emo {
+  display: flex;
+  margin-left: 13rem;
+}
+.hire__facebook_logo_emo img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 2rem;
+}
+.hire__facebook_text_emo h5 {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 0.5rem;
+  margin-top: 2rem;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__github_emo {
+  display: flex;
+  border: none;
+  margin-left: 10rem;
+}
+.hire__github_logo_emo img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 2rem;
+}
+.hire__github_text_emo h5 {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 0.5rem;
+  margin-top: 2rem;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__instagram_emo {
+  display: flex;
+  margin-left: 10rem;
+}
+.hire__instagram_logo_emo img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 2rem;
+}
+.hire__instagram_text_emo h5 {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 0.5rem;
+  margin-top: 2rem;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__social_media_links_2_emo {
+  display: flex;
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.hire__telegram_emo {
+  display: flex;
+  border: none;
+  margin-left: 2rem;
+}
+.hire__telegram_logo_emo img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 1rem;
+}
+.hire__telegram_text_emo h5 {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 0.5rem;
+  margin-top: 1rem;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__youtube_emo {
+  display: flex;
+  margin-left: 13rem;
+}
+.hire__youtube_logo_emo img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 1rem;
+}
+.hire__youtube_text_emo h5 {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 0.5rem;
+  margin-top: 1rem;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__company_description_emo {
+  height: 2rem;
+  width: 2rem;
+  border-radius: nullpx;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.hire__company_description_arrow_emo {
+  margin-left: 2rem;
+}

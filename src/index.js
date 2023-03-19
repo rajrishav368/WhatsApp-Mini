@@ -27,6 +27,7 @@ import NotificationWorkforce from './Notification/NotificationWorkforce';
 import Messages from "./Messages/Messages";
 import MessagesWorkforce from './Messages/MessagesWorkforce';
 import ViewApplicants from './ViewApplicants/ViewApplicants';
+import EmployerMode from './Empowerer company profile/EmployerMode';
 import './index.css';
 
 import {
@@ -142,6 +143,10 @@ import {
     {
         path:"ViewApplicants",
         element:<ViewApplicants/>
+    },
+    {
+        path:"EmployerMode",
+        element:<EmployerMode/>
     },
 
   ]);
