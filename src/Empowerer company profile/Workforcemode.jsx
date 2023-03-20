@@ -16,9 +16,9 @@ import addphoto from "../assets/addphotocamera.png";
 import building from "../assets/Buildings.png";
 import { Link } from "react-router-dom";
 
-const WorkforceMode = () =>{
-    return(
-        <div className="hire__workforcemode_wfmo">
+const WorkforceMode = () => {
+  return (
+    <div className="hire__workforcemode_wfmo">
       <div className="hire__workforce_left_wfmo">
         <div className="hire__logo_wfmo">
           <Link to="/">
@@ -70,7 +70,6 @@ const WorkforceMode = () =>{
       </div>
 
       <div className="hire__workforce_right_wfmo">
-
         <div className="hire__company_header_wfmo">
           <div className="hire__company_profile_header_wfmo">
             <h2>Application completeness</h2>
@@ -82,7 +81,6 @@ const WorkforceMode = () =>{
         </div>
 
         <div className="hire__photocompany_wfmo">
-
           <div className="hire__addphoto_wfmo">
             <div className="hire__addphoto_logo_wfmo">
               <img src={addphoto} alt=""></img>
@@ -91,7 +89,7 @@ const WorkforceMode = () =>{
               <h4>Add a photo</h4>
             </div>
           </div>
-          
+
           <div className="hire__aboutcompany_wfmo">
             <div className="hire__aboutcompany_logo_wfmo">
               <img src={building} alt=""></img>
@@ -110,7 +108,6 @@ const WorkforceMode = () =>{
             <button type="button">Edit</button>
           </div>
         </div>
-       
 
         <div className="hire__company_body_wfmo">
           <div className="hire__rectangle_username_location_wfmo">
@@ -205,6 +202,6 @@ const WorkforceMode = () =>{
         </div>
       </div>
     </div>
-    );
+  );
 };
 export default WorkforceMode;
