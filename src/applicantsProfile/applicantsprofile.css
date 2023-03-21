@@ -1,0 +1,427 @@
+.hire__applicantsprofile_apr {
+  display: flex;
+  flex-direction: column;
+}
+.hire__applicantsprofile_header_apr {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hire__header_logo_apr img {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.hire__header_vacancy_apr {
+  display: flex;
+  flex-direction: row;
+}
+.hire__header_vacancy_apr p {
+  margin-left: 3rem;
+}
+.hire__header_username_apr {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  margin-right: 5rem;
+}
+.hire__header_username_background_apr {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px;
+  border-radius: 50%;
+  background-color: #00adb5;
+}
+.hire__header_username_background_apr h5 {
+  font-family: var(--font_family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.hire__header_username_text_apr {
+  padding-left: 0.2rem;
+}
+.hire__header_username_text_apr h5 {
+  height: 4rem;
+  width: 4rem;
+  border-radius: nullpx;
+  font-family: var(--font_family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.hire__companyname_apr {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.hire__login_back_apr {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.hire__login_back_apr img {
+  align-self: left;
+  justify-self: center;
+  flex: auto;
+  max-width: 10px;
+}
+.hire__login_back_apr button {
+  background: #f1f5f8;
+  border: 1px solid #f1f5f8;
+  border-radius: 12px;
+  height: 2rem;
+  max-width: 3rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  color: #8692a6;
+}
+.hire__company_apr {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.hire__company_apr img {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.hire__company_apr h5 {
+  margin-top: 1.5rem;
+  font-family: var(--font-family);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #41424d;
+}
+.hire__applicantsprofile_body_apr {
+  background: rgba(241, 241, 245, 0.973);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-left: 2rem;
+  margin-top: 1rem;
+  /* justify-content: center;
+  text-align: center;
+  align-items: center;  */
+}
+.hire__generalinformation_apr h2 {
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+}
+.hire__generalinformationdetails_apr {
+  display: flex;
+  flex-direction: column;
+  width: 80rem;
+  height: 15rem;
+  border: 1px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.hire__applicantsdetails_apr {
+  display: flex;
+  flex-direction: row;
+  flex: 0.2;
+}
+.hire__applicantsdetails_apr h2 {
+  border: 1px;
+  border-radius: 50%;
+  flex: 0.2;
+  max-width: 5rem;
+  height: 5rem;
+  background: rgba(75, 192, 200, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: var(--font-family);
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.7rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.hire__applicantname_apr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.hire__applicantname_apr h1 {
+  font-family: var(--font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+}
+.hire__location_apr {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.hire__joiningroleyears_apr {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -8rem;
+}
+.hire__joiningavailability_apr h5 {
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.hire__joiningavailability_apr h6 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__roletitle_apr h5 {
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.hire__roletitle_apr h6 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__yearsexp_apr h5 {
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.hire__yearsexp_apr h6 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__skills_apr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.hire__skillstext_apr h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+.hire__skillsname_apr {
+  display: flex;
+  flex-direction: row;
+  width: 80rem;
+  height: 5rem;
+  border: 1px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.hire__skillsname_apr h5 {
+  width: 3rem;
+  height: 2rem;
+  border: 1px;
+  border-radius: 8px;
+  background: rgba(65, 66, 77, 1);
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.hire__workexperience_apr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.hire__workexptext_apr h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+.hire__workexpname_apr {
+  display: flex;
+  flex-direction: column;
+  width: 80rem;
+  height: 15rem;
+  border: 1px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.hire__workexpname1_apr {
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.hire__workexpname1_apr h2 {
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.hire__workexpname1_apr h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-top: 0.2rem;
+}
+.hire__workexpname1_apr p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  padding-top: 0.2rem;
+}
+.hire__workexpname2_apr {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.hire__workexpname2_apr h2 {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+  }
+  .hire__workexpname2_apr h3 {
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding-top: 0.2rem;
+  }
+  .hire__workexpname2_apr p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    padding-top: 0.2rem;
+  }
+  .hire__language_apr {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .hire__languagestext_apr h1 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+  }
+  .hire__languagesname_apr {
+    display: flex;
+    flex-direction: row;
+    width: 80rem;
+    height: 5rem;
+    border: 1px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    margin-left: 5rem;
+    margin-top: 1rem;
+  }
+  .hire__languagesname_apr h5 {
+    width: 7rem;
+    height: 2rem;
+    border: 1px;
+    border-radius: 8px;
+    background: rgba(65, 66, 77, 1);
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .hire__achievements_apr {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  .hire__achievementstext_apr h1 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+  }
+  .hire__achievementsname_apr {
+    display: flex;
+    flex-direction: row;
+    width: 80rem;
+    height: 5rem;
+    border: 1px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    margin-left: 5rem;
+    margin-top: 1rem;
+  }
+  .hire__achievementsname_apr h5 {
+    width: 10rem;
+    height: 2rem;
+    border: 1px;
+    border-radius: 8px;
+    background: rgba(65, 66, 77, 1);
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }

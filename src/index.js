@@ -30,6 +30,7 @@ import ViewApplicants from './ViewApplicants/ViewApplicants';
 import EmployerMode from './Empowerer company profile/EmployerMode';
 import WorkforceMode from './Empowerer company profile/Workforcemode';
 import WorkforceAddEmployees from './Workforce Add Employees/WorkforceAddEmployees';
+import ApplicantsProfile from './applicantsProfile/applicantsprofile';
 import './index.css';
 
 import {
@@ -157,6 +158,10 @@ import {
     {
         path:"WorkforceAddEmployees",
         element:<WorkforceAddEmployees/>
+    },
+    {
+        path:"ApplicantsProfile",
+        element:<ApplicantsProfile/>
     }
   ]);
 

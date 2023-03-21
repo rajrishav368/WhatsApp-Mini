@@ -244,6 +244,7 @@
   margin-top: 1.5rem;
   text-align: center;
   justify-content: center;
+  cursor: pointer;
 }
 .hire__addphoto_logo_wfae img {
   height: 2rem;
@@ -284,6 +285,7 @@
   margin-top: 1.5rem;
   text-align: center;
   justify-content: center;
+  cursor: pointer;
 }
 .hire__aboutcompany_logo_wfae img {
   margin-top: 0.5rem;

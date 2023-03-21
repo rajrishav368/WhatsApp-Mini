@@ -11,7 +11,6 @@ import telegram from "../assets/telegram.png";
 import youtube from "../assets/youtube.png";
 import { useState } from "react";
 import Select from "react-select";
-import india from "../assets/india.png";
 import { useMemo } from "react";
 import countryList from "react-select-country-list";
 import downarrow from "../assets/downarrow.png";
