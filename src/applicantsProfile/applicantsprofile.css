@@ -240,6 +240,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
+  flex:1
 }
 .hire__skillstext_apr h1 {
   font-family: var(--font-family);
@@ -272,6 +273,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .hire__workexperience_apr {
   display: flex;
@@ -316,6 +318,7 @@
   padding-top: 0.2rem;
 }
 .hire__workexpname1_apr p {
+  width: 75rem;
   font-family: var(--font-family);
   font-size: 12px;
   font-weight: 400;
@@ -328,100 +331,103 @@
   margin-top: 1rem;
 }
 .hire__workexpname2_apr h2 {
-    font-family: var(--font-family);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0em;
-  }
-  .hire__workexpname2_apr h3 {
-    font-family: var(--font-family);
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    padding-top: 0.2rem;
-  }
-  .hire__workexpname2_apr p {
-    font-family: var(--font-family);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    padding-top: 0.2rem;
-  }
-  .hire__language_apr {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-  }
-  .hire__languagestext_apr h1 {
-    font-family: var(--font-family);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-  }
-  .hire__languagesname_apr {
-    display: flex;
-    flex-direction: row;
-    width: 80rem;
-    height: 5rem;
-    border: 1px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 1);
-    margin-left: 5rem;
-    margin-top: 1rem;
-  }
-  .hire__languagesname_apr h5 {
-    width: 7rem;
-    height: 2rem;
-    border: 1px;
-    border-radius: 8px;
-    background: rgba(65, 66, 77, 1);
-    margin-left: 1rem;
-    margin-top: 1.5rem;
-    padding-top: 0.5rem;
-    color: #ffffff;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .hire__achievements_apr {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-  }
-  .hire__achievementstext_apr h1 {
-    font-family: var(--font-family);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-  }
-  .hire__achievementsname_apr {
-    display: flex;
-    flex-direction: row;
-    width: 80rem;
-    height: 5rem;
-    border: 1px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 1);
-    margin-left: 5rem;
-    margin-top: 1rem;
-  }
-  .hire__achievementsname_apr h5 {
-    width: 10rem;
-    height: 2rem;
-    border: 1px;
-    border-radius: 8px;
-    background: rgba(65, 66, 77, 1);
-    margin-left: 1rem;
-    margin-top: 1.5rem;
-    padding-top: 0.5rem;
-    color: #ffffff;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.hire__workexpname2_apr h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-top: 0.2rem;
+}
+.hire__workexpname2_apr p {
+  width: 75rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  padding-top: 0.2rem;
+}
+.hire__language_apr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.hire__languagestext_apr h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+.hire__languagesname_apr {
+  display: flex;
+  flex-direction: row;
+  width: 80rem;
+  height: 5rem;
+  border: 1px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.hire__languagesname_apr h5 {
+  width: 7rem;
+  height: 2rem;
+  border: 1px;
+  border-radius: 8px;
+  background: rgba(65, 66, 77, 1);
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.hire__achievements_apr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.hire__achievementstext_apr h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+.hire__achievementsname_apr {
+  display: flex;
+  flex-direction: row;
+  width: 80rem;
+  height: 5rem;
+  border: 1px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.hire__achievementsname_apr h5 {
+  width: 10rem;
+  height: 2rem;
+  border: 1px;
+  border-radius: 8px;
+  background: rgba(65, 66, 77, 1);
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
