@@ -31,7 +31,8 @@ import EmployerMode from './Empowerer company profile/EmployerMode';
 import WorkforceMode from './Empowerer company profile/Workforcemode';
 import WorkforceAddEmployees from './Workforce Add Employees/WorkforceAddEmployees';
 import ApplicantsProfile from './applicantsProfile/applicantsprofile';
-import EmployeesProfileWorkforce from './Employeesprofile/EmployeesProfileWorkforce';
+import EmployeesProfileEmployer from './Employees profile/EmployeesProfileEmployer';
+import EmployeesProfileWorkforce from './Employees profile/EmployeesProfileWorkforce';
 import './index.css';
 
 import {
@@ -163,6 +164,10 @@ import {
     {
         path:"ApplicantsProfile",
         element:<ApplicantsProfile/>
+    },
+    {
+        path:"EmployeesProfileEmployer",
+        element:<EmployeesProfileEmployer/>
     },
     {
         path:"EmployeesProfileWorkforce",
