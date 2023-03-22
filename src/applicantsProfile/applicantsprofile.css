@@ -118,28 +118,26 @@
   flex: 1;
   padding-left: 2rem;
   margin-top: 1rem;
-  /* justify-content: center;
-  text-align: center;
-  align-items: center;  */
+  justify-content: center;
+  align-items: center; 
 }
-.hire__generalinformation_apr h2 {
+.hire__generalinformation_text_apr h1{
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0em;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .hire__generalinformationdetails_apr {
   display: flex;
   flex-direction: column;
-  width: 80rem;
+  width: 90rem;
   height: 15rem;
   border: 1px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 1);
   margin-top: 2rem;
-  margin-left: 5rem;
 }
 .hire__applicantsdetails_apr {
   display: flex;
@@ -252,12 +250,11 @@
 .hire__skillsname_apr {
   display: flex;
   flex-direction: row;
-  width: 80rem;
+  width: 90rem;
   height: 5rem;
   border: 1px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 1);
-  margin-left: 5rem;
   margin-top: 1rem;
 }
 .hire__skillsname_apr h5 {
@@ -290,12 +287,11 @@
 .hire__workexpname_apr {
   display: flex;
   flex-direction: column;
-  width: 80rem;
+  width: 90rem;
   height: 15rem;
   border: 1px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 1);
-  margin-left: 5rem;
   margin-top: 1rem;
 }
 .hire__workexpname1_apr {
@@ -354,7 +350,7 @@
   letter-spacing: 0em;
   padding-top: 0.2rem;
 }
-.hire__language_apr {
+.hire__languages_apr {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
@@ -369,12 +365,11 @@
 .hire__languagesname_apr {
   display: flex;
   flex-direction: row;
-  width: 80rem;
+  width: 90rem;
   height: 5rem;
   border: 1px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 1);
-  margin-left: 5rem;
   margin-top: 1rem;
 }
 .hire__languagesname_apr h5 {
@@ -408,12 +403,11 @@
 .hire__achievementsname_apr {
   display: flex;
   flex-direction: row;
-  width: 80rem;
+  width: 90rem;
   height: 5rem;
   border: 1px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 1);
-  margin-left: 5rem;
   margin-top: 1rem;
 }
 .hire__achievementsname_apr h5 {

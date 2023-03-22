@@ -50,30 +50,32 @@ const ApplicantsProfile = () => {
       </div>
       <div className="hire__applicantsprofile_body_apr">
         <div className="hire__generalinformation_apr">
-          <h2>General Information</h2>
-        </div>
-        <div className="hire__generalinformationdetails_apr">
-          <div className="hire__applicantsdetails_apr">
-            <h2>E</h2>
-            <div className="hire__applicantname_apr">
-              <h1>Applicant 1</h1>
-              <div className="hire__location_apr">
-                <img src={Location} alt=""></img> Location
+          <div className="hire__generalinformation_text_apr">
+            <h1>General Information</h1>
+          </div>
+          <div className="hire__generalinformationdetails_apr">
+            <div className="hire__applicantsdetails_apr">
+              <h2>E</h2>
+              <div className="hire__applicantname_apr">
+                <h1>Applicant 1</h1>
+                <div className="hire__location_apr">
+                  <img src={Location} alt=""></img> Location
+                </div>
               </div>
             </div>
-          </div>
-          <div className="hire__joiningroleyears_apr">
-            <div className="hire__joiningavailability_apr">
-              <h5>Joining Availability</h5>
-              <h6>Immediately</h6>
-            </div>
-            <div className="hire__roletitle_apr">
-              <h5>Role Title in Company</h5>
-              <h6>Software Development Engineer 1</h6>
-            </div>
-            <div className="hire__yearsexp_apr">
-              <h5>Years of Experience</h5>
-              <h6>2 Years</h6>
+            <div className="hire__joiningroleyears_apr">
+              <div className="hire__joiningavailability_apr">
+                <h5>Joining Availability</h5>
+                <h6>Immediately</h6>
+              </div>
+              <div className="hire__roletitle_apr">
+                <h5>Role Title in Company</h5>
+                <h6>Software Development Engineer 1</h6>
+              </div>
+              <div className="hire__yearsexp_apr">
+                <h5>Years of Experience</h5>
+                <h6>2 Years</h6>
+              </div>
             </div>
           </div>
         </div>
