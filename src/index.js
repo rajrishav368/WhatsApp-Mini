@@ -31,6 +31,7 @@ import EmployerMode from './Empowerer company profile/EmployerMode';
 import WorkforceMode from './Empowerer company profile/Workforcemode';
 import WorkforceAddEmployees from './Workforce Add Employees/WorkforceAddEmployees';
 import ApplicantsProfile from './applicantsProfile/applicantsprofile';
+import EmployeesProfileWorkforce from './Employeesprofile/EmployeesProfileWorkforce';
 import './index.css';
 
 import {
@@ -162,7 +163,11 @@ import {
     {
         path:"ApplicantsProfile",
         element:<ApplicantsProfile/>
-    }
+    },
+    {
+        path:"EmployeesProfileWorkforce",
+        element:<EmployeesProfileWorkforce/>
+    },
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
