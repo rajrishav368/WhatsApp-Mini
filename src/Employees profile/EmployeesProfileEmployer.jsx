@@ -36,6 +36,9 @@ const EmployeesProfileEmployer = () => {
           </div>
         </div>
       </div>
+      <div className="hire__horizontal_line1_empr">
+        <hr />
+      </div>
       <div className="hire__companyname_empr">
         <div className="hire__login_back_empr">
           <button type="button">

@@ -36,6 +36,9 @@ const EmployeesProfileWorkforce = () => {
           </div>
         </div>
       </div>
+      <div className="hire__horizontal_line1_empr_wf">
+        <hr />
+      </div>
       <div className="hire__companyname_empr_wf">
         <div className="hire__login_back_empr_wf">
           <button type="button">
@@ -48,7 +51,7 @@ const EmployeesProfileWorkforce = () => {
           <h5>Company Name</h5>
         </div>
         <div className="hire__edit_button_empr_wf">
-            <button type="button">Edit</button>
+          <button type="button">Edit</button>
         </div>
       </div>
       <div className="hire__applicantsprofile_body_empr_wf">

@@ -36,6 +36,9 @@ const ApplicantsProfile = () => {
           </div>
         </div>
       </div>
+      <div className="hire__horizontal_line1_apr">
+        <hr />
+      </div>
       <div className="hire__companyname_apr">
         <div className="hire__login_back_apr">
           <button type="button">

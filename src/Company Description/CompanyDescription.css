@@ -1,0 +1,750 @@
+.hire__applicantsprofile_code {
+  display: flex;
+  flex-direction: column;
+}
+.hire__applicantsprofile_header_code {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hire__header_logo_code img {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.hire__header_vacancy_code {
+  display: flex;
+  flex-direction: row;
+}
+.hire__header_vacancy_code p {
+  margin-left: 3rem;
+}
+.hire__header_username_code {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  margin-right: 5rem;
+}
+.hire__header_username_background_code {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px;
+  border-radius: 50%;
+  background-color: #00adb5;
+}
+.hire__header_username_background_code h5 {
+  font-family: var(--font_family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.hire__header_username_text_code {
+  padding-left: 0.2rem;
+}
+.hire__header_username_text_code h5 {
+  height: 4rem;
+  width: 4rem;
+  border-radius: nullpx;
+  font-family: var(--font_family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.hire__horizontal_line1_code {
+  background: rgba(210, 210, 210, 1);
+}
+.hire__companyname_code {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.hire__login_back_code {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.hire__login_back_code img {
+  align-self: left;
+  justify-self: center;
+  flex: auto;
+  max-width: 10px;
+}
+.hire__login_back_code button {
+  background: #f1f5f8;
+  border: 1px solid #f1f5f8;
+  border-radius: 12px;
+  height: 2rem;
+  max-width: 3rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  color: #8692a6;
+}
+.hire__company_code {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.hire__company_code img {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.hire__company_code h5 {
+  margin-top: 1.5rem;
+  font-family: var(--font-family);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #41424d;
+}
+.hire__description_body_code {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: rgba(241, 241, 245, 0.973);
+  padding-left: 2rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.hire__description_details_code {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 25rem;
+  border: 1px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+.hire__description_location_website_size_code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 6em;
+}
+.hire__horizontal_line2_code {
+  background: rgba(210, 210, 210, 1);
+  margin-top: 2rem;
+  margin-left: 3rem;
+  width: 85rem;
+}
+.hire__description_social_links_code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 6em;
+  margin-top: 1.5rem;
+}
+.hire__facebook_code {
+  display: flex;
+  flex-direction: row;
+}
+.hire__facebook_code img {
+  width: 2rem;
+  height: 2rem;
+}
+.hire__facebook_code h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.hire__instagram_code {
+  display: flex;
+  flex-direction: row;
+}
+.hire__instagram_code img {
+  width: 2rem;
+  height: 2rem;
+}
+.hire__instagram_code h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.hire__telegram_code {
+  display: flex;
+  flex-direction: row;
+}
+.hire__telegram_code img {
+  width: 2rem;
+  height: 2rem;
+}
+.hire__telegram_code h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.hire__youtube_code {
+  display: flex;
+  flex-direction: row;
+}
+.hire__youtube_code img {
+  width: 2rem;
+  height: 2rem;
+}
+.hire__youtube_code h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.hire__description_textdata_code {
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.hire__description_text_code h2 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.hire__description_data_code p {
+  width: 85rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+}
+.hire__horizontal_line3_code {
+  background: rgba(210, 210, 210, 1);
+  width: 90rem;
+  margin-top: 2rem;
+}
+.hire__employeesavailable_text_code h2 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: rgba(134, 146, 166, 1);
+}
+.hire__jobrolesdescription1_code {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.hire__jobroles1_code {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  width: 40rem;
+  height: 20rem;
+  border: 1px;
+  border-radius: 8px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.hire__empnamemessage1_code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hire__empname1_code {
+  display: flex;
+  flex-direction: row;
+}
+.hire__empname1_code {
+  cursor: pointer;
+}
+.hire__empname1_code h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.hire__empmessage1_code {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__empmessage1_code img {
+  width: 1rem;
+  padding-top: 0.5rem;
+}
+
+.hire__rolenamedescription1_code {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.hire__rolename1_code h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.hire__roledescription1_code {
+  margin-top: 1rem;
+}
+.hire__roledescription1_code p {
+  width: 35rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+.hire__rolelocationexperiencejoiningview1_code {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-right: 3rem;
+  justify-content: space-between;
+}
+.hire__rolelocation1_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__roleexperience1_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__rolejoining1_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__viewbutton1_code button{
+  background: #f1f5f8;
+  border: 1px solid #f1f5f8;
+  border-radius: 18px;
+  height: 3rem;
+  width: 5rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  color: rgba(53, 88, 174, 1);
+}
+.hire__jobroles2_code {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  width: 40rem;
+  height: 20rem;
+  border: 1px;
+  border-radius: 8px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  margin-left: 1rem;
+}
+.hire__empnamemessage2_code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hire__empname2_code {
+  display: flex;
+  flex-direction: row;
+}
+.hire__empname1_code {
+  cursor: pointer;
+}
+.hire__empname2_code h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.hire__empmessage2_code {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__empmessage2_code img {
+  width: 1rem;
+  padding-top: 0.5rem;
+}
+.hire__rolenamedescription2_code {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.hire__rolename2_code h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.hire__roledescription2_code {
+  margin-top: 1rem;
+}
+.hire__roledescription2_code p {
+  width: 35rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+.hire__rolelocationexperiencejoiningview2_code {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-right: 3rem;
+  justify-content: space-between;
+}
+.hire__rolelocation2_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__roleexperience2_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__rolejoining2_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__viewbutton2_code button{
+  background: #f1f5f8;
+  border: 1px solid #f1f5f8;
+  border-radius: 18px;
+  height: 3rem;
+  width: 5rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  color: rgba(53, 88, 174, 1);
+}
+.hire__jobrolesdescription2_code {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.hire__jobroles3_code {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  width: 40rem;
+  height: 20rem;
+  border: 1px;
+  border-radius: 8px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.hire__empnamemessage3_code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hire__empname3_code {
+  display: flex;
+  flex-direction: row;
+}
+.hire__empname3_code {
+  cursor: pointer;
+}
+.hire__empname3_code h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.hire__empmessage3_code {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__empmessage3_code img {
+  width: 1rem;
+  padding-top: 0.5rem;
+}
+.hire__rolenamedescription3_code {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.hire__rolename3_code h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.hire__roledescription3_code {
+  margin-top: 1rem;
+}
+.hire__roledescription3_code p {
+  width: 35rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+.hire__rolelocationexperiencejoiningview3_code {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-right: 3rem;
+  justify-content: space-between;
+}
+.hire__rolelocation3_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__roleexperience3_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__rolejoining3_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__viewbutton3_code button{
+  background: #f1f5f8;
+  border: 1px solid #f1f5f8;
+  border-radius: 18px;
+  height: 3rem;
+  width: 5rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  color: rgba(53, 88, 174, 1);
+}
+.hire__jobroles4_code {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+}
+.hire__jobroles4_code {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  width: 40rem;
+  height: 20rem;
+  border: 1px;
+  border-radius: 8px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.hire__empnamemessage4_code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hire__empname4_code {
+  display: flex;
+  flex-direction: row;
+}
+.hire__empname4_code {
+  cursor: pointer;
+}
+.hire__empname4_code h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.hire__empmessage4_code {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__empmessage4_code img {
+  width: 1rem;
+  padding-top: 0.5rem;
+}
+.hire__rolenamedescription4_code {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.hire__rolename4_code h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.hire__roledescription4_code {
+  margin-top: 1rem;
+}
+.hire__roledescription4_code p {
+  width: 35rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+.hire__rolelocationexperiencejoiningview4_code {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-right: 3rem;
+  justify-content: space-between;
+}
+.hire__rolelocation4_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__roleexperience4_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__rolejoining4_code h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(53, 88, 174, 1);
+  cursor: pointer;
+}
+.hire__viewbutton4_code button{
+  background: #f1f5f8;
+  border: 1px solid #f1f5f8;
+  border-radius: 18px;
+  height: 3rem;
+  width: 5rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  color: rgba(53, 88, 174, 1);
+}
