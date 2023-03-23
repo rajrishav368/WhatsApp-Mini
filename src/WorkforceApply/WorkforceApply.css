@@ -1,0 +1,509 @@
+.hire__applicantsprofile_wfap {
+  display: flex;
+  flex-direction: column;
+}
+.hire__applicantsprofile_header_wfap {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hire__header_logo_wfap img {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.hire__header_vacancy_wfap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__header_vacancy_wfap p {
+  margin-left: 3rem;
+}
+.hire__header_username_wfap {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  margin-right: 5rem;
+}
+.hire__header_username_background_wfap {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px;
+  border-radius: 50%;
+  background-color: #00adb5;
+}
+.hire__header_username_background_wfap h5 {
+  font-family: var(--font_family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.hire__header_username_text_wfap {
+  padding-left: 0.2rem;
+}
+.hire__header_username_text_wfap h5 {
+  height: 4rem;
+  width: 4rem;
+  border-radius: nullpx;
+  font-family: var(--font_family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.hire__horizontal_line1_wfap {
+  background: rgba(210, 210, 210, 1);
+}
+.hire__companyname_wfap {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.hire__login_back_wfap {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.hire__login_back_wfap img {
+  align-self: left;
+  justify-self: center;
+  flex: auto;
+  max-width: 10px;
+}
+.hire__login_back_wfap button {
+  background: #f1f5f8;
+  border: 1px solid #f1f5f8;
+  border-radius: 12px;
+  height: 2rem;
+  max-width: 3rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  color: #8692a6;
+}
+.hire__company_wfap {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.hire__company_wfap img {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.hire__company_wfap h5 {
+  margin-top: 1.5rem;
+  font-family: var(--font-family);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #41424d;
+}
+.hire__description_body_wfap {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: rgba(241, 241, 245, 0.973);
+  padding-left: 2rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.hire__description_details_wfap {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 25rem;
+  border: 1px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+.hire__description_location_website_size_wfap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 6em;
+}
+.hire__horizontal_line2_wfap {
+  background: rgba(210, 210, 210, 1);
+  margin-top: 2rem;
+  margin-left: 3rem;
+  width: 85rem;
+}
+.hire__description_social_links_wfap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 6em;
+  margin-top: 1.5rem;
+}
+.hire__facebook_wfap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__facebook_wfap img {
+  width: 2rem;
+  height: 2rem;
+}
+.hire__facebook_wfap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.hire__instagram_wfap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__instagram_wfap img {
+  width: 2rem;
+  height: 2rem;
+}
+.hire__instagram_wfap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.hire__telegram_wfap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__telegram_wfap img {
+  width: 2rem;
+  height: 2rem;
+}
+.hire__telegram_wfap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.hire__youtube_wfap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__youtube_wfap img {
+  width: 2rem;
+  height: 2rem;
+}
+.hire__youtube_wfap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.hire__description_textdata_wfap {
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.hire__description_text_wfap h2 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.hire__description_data_wfap p {
+  width: 85rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+}
+.hire__horizontal_line3_wfap {
+  background: rgba(210, 210, 210, 1);
+  width: 90rem;
+  margin-top: 2rem;
+}
+.hire__employeesavailable_wfap {
+  margin-top: 2rem;
+  width: 90rem;
+  justify-content: left;
+}
+.hire__employeesavailable_text_wfap h2 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: rgba(134, 146, 166, 1);
+}
+.hire__candidatedetailsheader_wfap {
+  display: flex;
+  flex-direction: row;
+  width: 90rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.hire__candidatedetailsheader_wfap h3 {
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: rgba(134, 146, 166, 1);
+}
+.hire__candidatedetails1_wfap {
+  display: flex;
+  flex-direction: row;
+  width: 85rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.hire__candidatedetails1_wfap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.hire__candidatename1_wfap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__candidatename1_wfap h2 {
+  border: 1px;
+  border-radius: 50%;
+  flex: 1;
+  width: 2rem;
+  height: 2rem;
+  background: rgba(75, 192, 200, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.hire__candidatename1_wfap h4 {
+  padding-left: 0.3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.hire__candidatedetails2_wfap {
+  display: flex;
+  flex-direction: row;
+  width: 85rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.hire__candidatedetails2_wfap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.hire__candidatename2_wfap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__candidatename2_wfap h2 {
+  border: 1px;
+  border-radius: 50%;
+  flex: 1;
+  width: 2rem;
+  height: 2rem;
+  background: rgba(75, 192, 200, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.hire__candidatename2_wfap h4 {
+  padding-left: 0.3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.hire__candidatedetails3_wfap {
+  display: flex;
+  flex-direction: row;
+  width: 85rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.hire__candidatedetails3_wfap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.hire__candidatename3_wfap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__candidatename3_wfap h2 {
+  border: 1px;
+  border-radius: 50%;
+  flex: 1;
+  width: 2rem;
+  height: 2rem;
+  background: rgba(75, 192, 200, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.hire__candidatename3_wfap h4 {
+  padding-left: 0.3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.hire__candidatedetails4_wfap {
+  display: flex;
+  flex-direction: row;
+  width: 85rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.hire__candidatedetails4_wfap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.hire__candidatename4_wfap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__candidatename4_wfap h2 {
+  border: 1px;
+  border-radius: 50%;
+  flex: 1;
+  width: 2rem;
+  height: 2rem;
+  background: rgba(75, 192, 200, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.hire__candidatename4_wfap h4 {
+  padding-left: 0.3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.hire__candidatedetails5_wfap {
+  display: flex;
+  flex-direction: row;
+  width: 85rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.hire__candidatedetails5_wfap h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.hire__candidatename5_wfap {
+  display: flex;
+  flex-direction: row;
+}
+.hire__candidatename5_wfap h2 {
+  border: 1px;
+  border-radius: 50%;
+  flex: 1;
+  width: 2rem;
+  height: 2rem;
+  background: rgba(75, 192, 200, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+.hire__candidatename5_wfap h4 {
+  padding-left: 0.3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.hire__sendapplication_button_wfap {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.hire__sendapplication_button_wfap button {
+  width: 100%;
+  max-width: 10rem;
+  min-height: 1rem;
+  background: #00adb5;
+  border-radius: 8px;
+  z-index: 2;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 26px;
+  color: #eeeeee;
+  outline: none;
+  cursor: pointer;
+  padding: 0 1rem;
+  border: none;
+}

@@ -249,6 +249,11 @@
   width: 90rem;
   margin-top: 2rem;
 }
+.hire__employeesavailable_code {
+  margin-top: 2rem;
+  width: 90rem;
+  justify-content: left;
+}
 .hire__employeesavailable_text_code h2 {
   font-family: var(--font-family);
   font-size: 24px;
