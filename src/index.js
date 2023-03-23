@@ -35,6 +35,7 @@ import EmployeesProfileEmployer from './Employees profile/EmployeesProfileEmploy
 import EmployeesProfileWorkforce from './Employees profile/EmployeesProfileWorkforce';
 import CompanyDescription from './Company Description/CompanyDescription';
 import WorkforceApply from './WorkforceApply/WorkforceApply';
+import WorkforceEmployees from './WorkforceEmployees/WorkforceEmployees';
 import './index.css';
 
 import {
@@ -183,6 +184,10 @@ import {
         path:"WorkforceApply",
         element:<WorkforceApply/>
     },
+    {
+        path:"WorkforceEmployees",
+        element:<WorkforceEmployees/>
+    }
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

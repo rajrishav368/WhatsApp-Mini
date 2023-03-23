@@ -223,7 +223,7 @@ const CompanyDescription = () => {
               </div>
             </div>
             <div className="hire__rolenamedescription3_code">
-              <div className="hire__rolename3_code">
+              <div className="hire__rolename3_wf_emp">
                 <h1>Role</h1>
               </div>
               <div className="hire__roledescription3_code">
