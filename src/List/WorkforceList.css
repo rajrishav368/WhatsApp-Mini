@@ -1,0 +1,734 @@
+.hire__workforcelist_wfli {
+  display: flex;
+  flex-direction: column;
+}
+.hire__workforcelist_header_wfli {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hire__header_logo_wfli img {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.hire__header_vacancy_wfli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__header_vacancy_wfli p {
+  margin-left: 3rem;
+}
+.hire__header_username_wfli {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  margin-right: 5rem;
+}
+.hire__header_username_background_wfli {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px;
+  border-radius: 50%;
+  background-color: #00adb5;
+}
+.hire__header_username_background_wfli h5 {
+  font-family: var(--font_family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.hire__header_username_text_wfli {
+  padding-left: 0.2rem;
+}
+.hire__header_username_text_wfli h5 {
+  height: 4rem;
+  width: 4rem;
+  border-radius: nullpx;
+  font-family: var(--font_family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.hire__workforcelist_body_wfli {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: rgba(241, 241, 245, 0.973);
+  justify-content: center;
+  align-items: center;
+}
+.hire__workforcelist_menudropdown_wfli {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  background: rgba(255, 255, 255, 1);
+  width: 80rem;
+  height: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.hire__searchbar_wfli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__searchbar_wfli input {
+  width: 36rem;
+  height: 2rem;
+  border: 1px;
+  border-radius: 6px;
+  padding: 0 1rem;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background: rgba(241, 245, 248, 1);
+  margin-left: 1rem;
+}
+.hire__searchbar_wfli button {
+  border: 1px;
+  border-radius: 18px;
+  height: 2rem;
+  width: 3rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  background: rgba(0, 173, 181, 1);
+  margin-left: 1rem;
+}
+.hire__workforce_dropdownboxes_wfli {
+  display: flex;
+  flex-direction: row;
+  width: 76rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.hire__workforce_dropdownboxes_wfli select {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+.hire__clearbutton_wfli button {
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  height: 2rem;
+  width: 5rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 1);
+}
+.hire__foundresults_wfli {
+  width: 80rem;
+}
+.hire__foundresults_text_wfli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__foundresults_text_wfli h2 {
+  font-family: var(--font-family);
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: rgba(134, 146, 166, 1);
+}
+.hire__foundresults_text_wfli h1 {
+  font-family: var(--font-family);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.hire__employeedescription1_wfli {
+  display: flex;
+  flex-direction: row;
+  width: 85rem;
+  margin-top: 2rem;
+}
+.hire__employee_details1_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+}
+.hire__photoname1_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname1_wfli img {
+  cursor: pointer;
+}
+.hire__photoname1_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable1_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable1_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employee_details2_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.hire__photoname2_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname2_wfli img {
+  cursor: pointer;
+}
+.hire__photoname2_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable2_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable2_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employee_details3_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+  margin-left: 3rem;
+}
+.hire__photoname3_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname3_wfli img {
+  cursor: pointer;
+}
+.hire__photoname3_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable3_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable3_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employeedescription2_wfli {
+  display: flex;
+  flex-direction: row;
+  width: 85rem;
+  margin-top: 2rem;
+}
+.hire__employee_details4_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+}
+.hire__photoname4_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname14_wfli img {
+  cursor: pointer;
+}
+.hire__photoname4_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable4_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable4_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employee_details5_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.hire__photoname5_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname5_wfli img {
+  cursor: pointer;
+}
+.hire__photoname5_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable5_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable5_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employee_details6_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+  margin-left: 3rem;
+}
+.hire__photoname6_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname6_wfli img {
+  cursor: pointer;
+}
+.hire__photoname6_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable6_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable6_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employeedescription3_wfli {
+  display: flex;
+  flex-direction: row;
+  width: 85rem;
+  margin-top: 2rem;
+}
+.hire__employee_details7_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+}
+.hire__photoname7_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname7_wfli img {
+  cursor: pointer;
+}
+.hire__photoname7_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable7_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable7_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employee_details8_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.hire__photoname8_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname8_wfli img {
+  cursor: pointer;
+}
+.hire__photoname8_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable8_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable8_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employee_details9_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+  margin-left: 3rem;
+}
+.hire__photoname9_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname9_wfli img {
+  cursor: pointer;
+}
+.hire__photoname9_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable9_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable9_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employeedescription4_wfli {
+  display: flex;
+  flex-direction: row;
+  width: 85rem;
+  margin-top: 2rem;
+}
+.hire__employee_details10_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+}
+.hire__photoname10_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname10_wfli img {
+  cursor: pointer;
+}
+.hire__photoname10_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable10_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable10_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employee_details11_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.hire__photoname11_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname11_wfli img {
+  cursor: pointer;
+}
+.hire__photoname11_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable11_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable11_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__employee_details12_wfli {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 9rem;
+  border: 1px;
+  border-radius: 8px;
+  background: #ffffff;
+  justify-content: center;
+  margin-left: 3rem;
+}
+.hire__photoname12_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.hire__photoname12_wfli img {
+  cursor: pointer;
+}
+.hire__photoname12_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.hire__location_employeesavailable12_wfli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+.hire__location_employeesavailable12_wfli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  color: #3558ae;
+  cursor: pointer;
+}
+.hire__load_button_wfli{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.hire__load_button_wfli button{
+    border: 1px;
+    border-radius: 8px;
+    height: 2rem;
+    width: 6rem;
+    flex: 1;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    cursor: pointer;
+    background: rgba(0, 173, 181, 1);
+    color: #ffffff;
+}
