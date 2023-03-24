@@ -1,0 +1,682 @@
+.hire__vacancylist_vcli {
+  display: flex;
+  flex-direction: column;
+}
+.hire__vacancylist_header_vcli {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hire__header_logo_vcli img {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.hire__header_vacancy_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__header_vacancy_vcli p {
+  margin-left: 3rem;
+}
+.hire__header_username_vcli {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  margin-right: 5rem;
+}
+.hire__header_username_background_vcli {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px;
+  border-radius: 50%;
+  background-color: #00adb5;
+}
+.hire__header_username_background_vcli h5 {
+  font-family: var(--font_family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.hire__header_username_text_vcli {
+  padding-left: 0.2rem;
+}
+.hire__header_username_text_vcli h5 {
+  height: 4rem;
+  width: 4rem;
+  border-radius: nullpx;
+  font-family: var(--font_family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.hire__vacancylist_body_vcli {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: rgba(241, 241, 245, 0.973);
+  justify-content: center;
+  align-items: center;
+}
+.hire__vacancylist_menudropdown_vcli {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  background: rgba(255, 255, 255, 1);
+  width: 80rem;
+  height: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.hire__searchbar_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__searchbar_vcli input {
+  width: 36rem;
+  height: 2rem;
+  border: 1px;
+  border-radius: 6px;
+  padding: 0 1rem;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background: rgba(241, 245, 248, 1);
+  margin-left: 1rem;
+}
+.hire__searchbar_vcli button {
+  border: 1px;
+  border-radius: 18px;
+  height: 2rem;
+  width: 3rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  background: rgba(0, 173, 181, 1);
+  margin-left: 1rem;
+}
+.hire__vacancy_dropdownboxes_vcli {
+  display: flex;
+  flex-direction: row;
+  width: 76rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.hire__vacancy_dropdownboxes_vcli select {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  padding: 0 1rem;
+  font-family: var(--font_family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+.hire__clearbutton_vcli button {
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  height: 2rem;
+  width: 5rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 1);
+}
+.hire__vacancylist_body_left_vcli {
+  display: flex;
+  flex-direction: column;
+}
+.hire__found_viewall_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__foundcompanies_vcli {
+  display: flex;
+  flex-direction: row;
+  width: 18rem;
+  height: 3rem;
+  border: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+}
+.hire__foundcompanies_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: rgba(134, 146, 166, 1);
+}
+.hire__foundcompanies_vcli h1 {
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+}
+.hire__viewallcompanies_button_vcli {
+  margin-left: 1rem;
+}
+.hire__viewallcompanies_button_vcli button {
+  border: 1px;
+  border-radius: 8px;
+  height: 3rem;
+  width: 14rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 1);
+  margin-left: 1rem;
+}
+.hire__jobrolesdescription_vcli {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.hire__jobroles1_vcli {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  width: 35rem;
+  height: 15rem;
+  border: 1px;
+  border-radius: 8px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.hire__empnamemessage1_vcli {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hire__empname1_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__empname1_vcli {
+  cursor: pointer;
+}
+.hire__empname1_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.hire__empmessage1_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__image1_vcli {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__image1_vcli img {
+  width: 1rem;
+  padding-top: 0.5rem;
+}
+.hire__image2_vcli {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__image2_vcli img {
+  width: 0.7rem;
+  padding-top: 0.5rem;
+}
+.hire__rolenamedescription1_vcli {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.hire__rolename1_vcli h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.hire__roledescription1_vcli {
+  margin-top: 1rem;
+}
+.hire__roledescription1_vcli p {
+  width: 30rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+.hire__locationjobtypeform1_vcli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.hire__location1_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+.hire__jobtype1_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  margin-left: 5rem;
+}
+.hire__jobform1_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.hire__jobroles2_vcli {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  width: 35rem;
+  height: 15rem;
+  border: 1px;
+  border-radius: 8px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  margin-top: 1rem;
+}
+.hire__empnamemessage2_vcli {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hire__empname2_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__empname2_vcli {
+  cursor: pointer;
+}
+.hire__empname2_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.hire__empmessage2_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__image3_vcli {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__image3_vcli img {
+  width: 1rem;
+  padding-top: 0.5rem;
+}
+.hire__image4_vcli {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__image4_vcli img {
+  width: 0.7rem;
+  padding-top: 0.5rem;
+}
+.hire__rolenamedescription2_vcli {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.hire__rolename2_vcli h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.hire__roledescription2_vcli {
+  margin-top: 1rem;
+}
+.hire__roledescription2_vcli p {
+  width: 35rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+.hire__locationjobtypeform2_vcli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.hire__location2_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+.hire__jobtype2_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  margin-left: 5rem;
+}
+.hire__jobform2_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.hire__jobroles3_vcli {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  width: 35rem;
+  height: 15rem;
+  border: 1px;
+  border-radius: 8px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  margin-top: 1rem;
+}
+.hire__empnamemessage3_vcli {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hire__empname3_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__empname1_vcli {
+  cursor: pointer;
+}
+.hire__empname3_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.hire__empmessage3_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__image5_vcli {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__image5_vcli img {
+  width: 1rem;
+  padding-top: 0.5rem;
+}
+.hire__image6_vcli {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__image6_vcli img {
+  width: 0.7rem;
+  padding-top: 0.5rem;
+}
+.hire__rolenamedescription3_vcli {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.hire__rolename3_vcli h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.hire__roledescription3_vcli {
+  margin-top: 1rem;
+}
+.hire__roledescription3_vcli p {
+  width: 30rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+.hire__locationjobtypeform3_vcli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.hire__location3_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+.hire__jobtype3_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  margin-left: 5rem;
+}
+.hire__jobform3_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.hire__jobroles4_vcli {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  width: 35rem;
+  height: 15rem;
+  border: 1px;
+  border-radius: 8px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  margin-top: 1rem;
+}
+.hire__empnamemessage4_vcli {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hire__empname4_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__empname4_vcli {
+  cursor: pointer;
+}
+.hire__empname4_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.hire__empmessage4_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__image7_vcli {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__image7_vcli img {
+  width: 1rem;
+  padding-top: 0.5rem;
+}
+.hire__image8_vcli {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 3rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__image8_vcli img {
+  width: 0.7rem;
+  padding-top: 0.5rem;
+}
+.hire__rolenamedescription1_vcli {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.hire__rolename4_vcli h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.hire__roledescription4_vcli {
+  margin-top: 1rem;
+}
+.hire__roledescription4_vcli p {
+  width: 30rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+.hire__locationjobtypeform4_vcli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.hire__location4_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+.hire__jobtype4_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  margin-left: 5rem;
+}
+.hire__jobform4_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  margin-left: 2rem;
+}

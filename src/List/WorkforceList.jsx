@@ -37,7 +37,7 @@ const WorkforceList = () => {
   ];
   const [marketlevel, setmarketlevel] = useState(null);
   const handlemarketlevel = (event) => {
-    setselectedlevel(event.target.value);
+    setmarketlevel(event.target.value);
   };
   const experience = [
     { label: "0-3", value: "0-3" },
@@ -117,7 +117,7 @@ const WorkforceList = () => {
             </div>
             <div className="hire__dateposted_wfli">
               <ReactDatePicker
-                wrapperClassName="jhh"
+                wrapperClassName=""
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
               />
