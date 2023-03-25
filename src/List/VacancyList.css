@@ -143,6 +143,11 @@
   cursor: pointer;
   background: rgba(255, 255, 255, 1);
 }
+.hire__vacancylist_body_left_right_vcli {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rem;
+}
 .hire__vacancylist_body_left_vcli {
   display: flex;
   flex-direction: column;
@@ -203,7 +208,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .hire__jobroles1_vcli {
   display: flex;
@@ -679,4 +684,206 @@
   letter-spacing: 0em;
   cursor: pointer;
   margin-left: 2rem;
+}
+.hire__vacancylist_body_right_vcli {
+  display: flex;
+  flex-direction: column;
+}
+.hire__vacancylist_body_right_vcli {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  border: 1px;
+  width: 35rem;
+  height: 53rem;
+  background: rgba(255, 255, 255, 1);
+  padding-left: 1rem;
+  border-radius: 8px;
+}
+.hire__jobtitle_vcli {
+  margin-top: 1rem;
+}
+.hire__jobtitle_vcli h1 {
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0em;
+  color: #242423;
+}
+.hire__jobtitle_vcli h3 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #8692a6;
+}
+.hire__horizontaline1_vcli {
+  margin-top: 0.5rem;
+  width: 33rem;
+}
+.hire__applysavedmessagebutton_vcli {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-between;
+  width: 32rem;
+}
+.hire__applybutton_vcli button {
+  border: 1px;
+  border-radius: 8px;
+  height: 2rem;
+  width: 5rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  background: rgba(0, 173, 181, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.hire__savedmessagebutton_vcli {
+  display: flex;
+  flex-direction: row;
+}
+.hire__messagebutton_vcli {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+  align-items: center;
+}
+.hire__messagebutton_vcli img {
+  width: 1rem;
+  padding-top: 0.5rem;
+}
+.hire__savedbutton_vcli {
+  border: 1px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  background: rgba(241, 241, 241, 1);
+  cursor: pointer;
+}
+.hire__savedbutton_vcli img {
+  width: 0.7rem;
+  padding-top: 0.5rem;
+}
+.hire__marketdescription_vcli {
+  width: 33rem;
+  margin-top: 0.5rem;
+}
+.hire__marketdescription_vcli h2 {
+  font-family: var(--font-family);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.hire__marketdescription_vcli h1 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  margin-top: 1rem;
+}
+.hire__marketbutton_vcli {
+  margin-top: 0.5rem;
+}
+.hire__marketbutton_vcli button {
+  border: 1px;
+  border-radius: 6px;
+  height: 2rem;
+  width: 6rem;
+  flex: 1;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  background: rgba(57, 62, 70, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.hire__marketdescription_vcli p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+}
+.hire__employeedetails_vcli {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.hire__employeedetails_left_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: #8692a6;
+  margin-left: 0.3rem
+}
+.hire__applicationdeadline_vcli{
+  display: flex;
+  flex-direction: row;
+}
+.hire__employmentform_vcli{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.hire__salaryrange_vcli{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.hire__yearsexperience_vcli{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.hire__employeedetails_right_vcli{
+  margin-right: 2rem;
+}
+.hire__employeedetails_right_vcli h3 {
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: #8692a6;
+  margin-left: 0.3rem;
+}
+.hire__Location_vcli{
+  display: flex;
+  flex-direction: row;
+}
+.hire__employmentype_vcli{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.hire__educationlevel_vcli{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.hire__requiredlanguage_vcli{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
 }

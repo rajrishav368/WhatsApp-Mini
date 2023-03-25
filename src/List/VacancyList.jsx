@@ -12,6 +12,14 @@ import found from "../assets/Found.png";
 import empimage from "../assets/empimgae.png";
 import message from "../assets/message.png";
 import saved from "../assets/saved.png";
+import Language from "../assets/RequiredLanguage.png";
+import Experience from "../assets/YearsExperience.png";
+import Education from "../assets/EducationLevel.png";
+import Salary from "../assets/SalaryRange.png";
+import Employmentype from "../assets/Employmentype.png";
+import EmploymentForm from "../assets/EmploymentForm.png";
+import ApplicationDeadline from "../assets/ApplicationDeadline.png";
+import Location from "../assets/location logo.png"
 
 const VacancyList = () => {
   const options = [
@@ -156,182 +164,286 @@ const VacancyList = () => {
             </div>
           </div>
         </div>
-        <div className="hire__vacancylist_body_left_vcli">
-          <div className="hire__found_viewall_vcli">
-            <div className="hire__foundcompanies_vcli">
-              <h3>
-                <img src={found} alt=""></img> Found Results:
-              </h3>
-              <h1>4</h1>
+        <div className="hire__vacancylist_body_left_right_vcli">
+          <div className="hire__vacancylist_body_left_vcli">
+            <div className="hire__found_viewall_vcli">
+              <div className="hire__foundcompanies_vcli">
+                <h3>
+                  <img src={found} alt=""></img> Found Results:
+                </h3>
+                <h1>4</h1>
+              </div>
+              <div className="hire__viewallcompanies_button_vcli">
+                <button type="button">View All Companies</button>
+              </div>
             </div>
-            <div className="hire__viewallcompanies_button_vcli">
-              <button type="button">View All Companies</button>
+            <div className="hire__jobrolesdescription_vcli">
+              <div className="hire__jobroles1_vcli">
+                <div className="hire__empnamemessage1_vcli">
+                  <div className="hire__empname1_vcli">
+                    <img src={empimage} alt=""></img>
+
+                    <h3>Company Name</h3>
+                  </div>
+                  <div className="hire__empmessage1_vcli">
+                    <div className="hire__image1_vcli">
+                      <img src={message} alt=""></img>
+                    </div>
+                    <div className="hire__image2_vcli">
+                      <img src={saved} alt=""></img>
+                    </div>
+                  </div>
+                </div>
+                <div className="hire__rolenamedescription1_vcli">
+                  <div className="hire__rolename1_vcli">
+                    <h1>Job Title</h1>
+                  </div>
+                  <div className="hire__roledescription1_vcli">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pellentesque sed mauris consectetur, convallis odio sed,
+                      tempus enim. Cras maximus nisi nisi, mattis volutpat
+                      tellus sodales vel.
+                    </p>
+                  </div>
+                </div>
+                <div className="hire__locationjobtypeform1_vcli">
+                  <div className="hire__location1_vcli">
+                    <h3>Location</h3>
+                  </div>
+                  <div className="hire__jobtype1_vcli">
+                    <h3>Job Type</h3>
+                  </div>
+                  <div className="hire__jobform1_vcli">
+                    <h3>Job Form</h3>
+                  </div>
+                </div>
+              </div>
+              <div className="hire__jobroles2_vcli">
+                <div className="hire__empnamemessage2_vcli">
+                  <div className="hire__empname2_vcli">
+                    <img src={empimage} alt=""></img>
+
+                    <h3>Company Name</h3>
+                  </div>
+                  <div className="hire__empmessage2_vcli">
+                    <div className="hire__image3_vcli">
+                      <img src={message} alt=""></img>
+                    </div>
+                    <div className="hire__image4_vcli">
+                      <img src={saved} alt=""></img>
+                    </div>
+                  </div>
+                </div>
+                <div className="hire__rolenamedescription2_vcli">
+                  <div className="hire__rolename2_vcli">
+                    <h1>Job Title</h1>
+                  </div>
+                  <div className="hire__roledescription2_vcli">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pellentesque sed mauris consectetur, convallis odio sed,
+                      tempus enim. Cras maximus nisi nisi, mattis volutpat
+                      tellus sodales vel.
+                    </p>
+                  </div>
+                </div>
+                <div className="hire__locationjobtypeform2_vcli">
+                  <div className="hire__location2_vcli">
+                    <h3>Location</h3>
+                  </div>
+                  <div className="hire__jobtype2_vcli">
+                    <h3>Job Type</h3>
+                  </div>
+                  <div className="hire__jobform2_vcli">
+                    <h3>Job Form</h3>
+                  </div>
+                </div>
+              </div>
+              <div className="hire__jobroles3_vcli">
+                <div className="hire__empnamemessage3_vcli">
+                  <div className="hire__empname3_vcli">
+                    <img src={empimage} alt=""></img>
+
+                    <h3>Company Name</h3>
+                  </div>
+                  <div className="hire__empmessage3_vcli">
+                    <div className="hire__image5_vcli">
+                      <img src={message} alt=""></img>
+                    </div>
+                    <div className="hire__image6_vcli">
+                      <img src={saved} alt=""></img>
+                    </div>
+                  </div>
+                </div>
+                <div className="hire__rolenamedescription3_vcli">
+                  <div className="hire__rolename3_vcli">
+                    <h1>Job Title</h1>
+                  </div>
+                  <div className="hire__roledescription3_vcli">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pellentesque sed mauris consectetur, convallis odio sed,
+                      tempus enim. Cras maximus nisi nisi, mattis volutpat
+                      tellus sodales vel.
+                    </p>
+                  </div>
+                </div>
+                <div className="hire__locationjobtypeform3_vcli">
+                  <div className="hire__location3_vcli">
+                    <h3>Location</h3>
+                  </div>
+                  <div className="hire__jobtype3_vcli">
+                    <h3>Job Type</h3>
+                  </div>
+                  <div className="hire__jobform3_vcli">
+                    <h3>Job Form</h3>
+                  </div>
+                </div>
+              </div>
+              <div className="hire__jobroles4_vcli">
+                <div className="hire__empnamemessage4_vcli">
+                  <div className="hire__empname4_vcli">
+                    <img src={empimage} alt=""></img>
+
+                    <h3>Company Name</h3>
+                  </div>
+                  <div className="hire__empmessage4_vcli">
+                    <div className="hire__image7_vcli">
+                      <img src={message} alt=""></img>
+                    </div>
+                    <div className="hire__image8_vcli">
+                      <img src={saved} alt=""></img>
+                    </div>
+                  </div>
+                </div>
+                <div className="hire__rolenamedescription4_vcli">
+                  <div className="hire__rolename4_vcli">
+                    <h1>Job Title</h1>
+                  </div>
+                  <div className="hire__roledescription4_vcli">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pellentesque sed mauris consectetur, convallis odio sed,
+                      tempus enim. Cras maximus nisi nisi, mattis volutpat
+                      tellus sodales vel.
+                    </p>
+                  </div>
+                </div>
+                <div className="hire__locationjobtypeform4_vcli">
+                  <div className="hire__location4_vcli">
+                    <h3>Location</h3>
+                  </div>
+                  <div className="hire__jobtype4_vcli">
+                    <h3>Job Type</h3>
+                  </div>
+                  <div className="hire__jobform4_vcli">
+                    <h3>Job Form</h3>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="hire__jobrolesdescription_vcli">
-            <div className="hire__jobroles1_vcli">
-              <div className="hire__empnamemessage1_vcli">
-                <div className="hire__empname1_vcli">
-                  <img src={empimage} alt=""></img>
-
-                  <h3>Company Name</h3>
-                </div>
-                <div className="hire__empmessage1_vcli">
-                  <div className="hire__image1_vcli">
-                    <img src={message} alt=""></img>
-                  </div>
-                  <div className="hire__image2_vcli">
-                    <img src={saved} alt=""></img>
-                  </div>
-                </div>
+          <div className="hire__vacancylist_body_right_vcli">
+            <div className="hire__jobtitle_vcli">
+              <h1>Job Title</h1>
+              <h3>Company Name</h3>
+            </div>
+            <div className="hire__horizontaline1_vcli">
+              <hr />
+            </div>
+            <div className="hire__applysavedmessagebutton_vcli">
+              <div className="hire__applybutton_vcli">
+                <button type="button">Apply</button>
               </div>
-              <div className="hire__rolenamedescription1_vcli">
-                <div className="hire__rolename1_vcli">
-                  <h1>Job Title</h1>
+              <div className="hire__savedmessagebutton_vcli">
+                <div className="hire__messagebutton_vcli">
+                  <img src={message} alt=""></img>
                 </div>
-                <div className="hire__roledescription1_vcli">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque sed mauris consectetur, convallis odio sed,
-                    tempus enim. Cras maximus nisi nisi, mattis volutpat tellus
-                    sodales vel.
-                  </p>
-                </div>
-              </div>
-              <div className="hire__locationjobtypeform1_vcli">
-                <div className="hire__location1_vcli">
-                  <h3>Location</h3>
-                </div>
-                <div className="hire__jobtype1_vcli">
-                  <h3>Job Type</h3>
-                </div>
-                <div className="hire__jobform1_vcli">
-                  <h3>Job Form</h3>
+                <div className="hire__savedbutton_vcli">
+                  <img src={saved} alt=""></img>
                 </div>
               </div>
             </div>
-            <div className="hire__jobroles2_vcli">
-              <div className="hire__empnamemessage2_vcli">
-                <div className="hire__empname2_vcli">
-                  <img src={empimage} alt=""></img>
-
-                  <h3>Company Name</h3>
+            <div className="hire__horizontaline1_vcli">
+              <hr />
+            </div>
+            <div className="hire__employeedetails_vcli">
+              <div className="hire__employeedetails_left_vcli">
+                <div className="hire__applicationdeadline_vcli">
+                  <img src={ApplicationDeadline} alt=""></img>
+                  <h3>ApplicationDeadline</h3>
                 </div>
-                <div className="hire__empmessage2_vcli">
-                  <div className="hire__image3_vcli">
-                    <img src={message} alt=""></img>
-                  </div>
-                  <div className="hire__image4_vcli">
-                    <img src={saved} alt=""></img>
-                  </div>
+                <h2>-----</h2>
+                <div className="hire__employmentform_vcli">
+                  <img src={EmploymentForm} alt=""></img>
+                  <h3>Employment Form</h3>
                 </div>
+                <h2>-----</h2>
+                <div className="hire__salaryrange_vcli">
+                  <img src={Salary} alt=""></img>
+                  <h3>Salary Range</h3>
+                </div>
+                <h2>-----</h2>
+                <div className="hire__yearsexperience_vcli">
+                  <img src={Experience} alt=""></img>
+                  <h3>Years of experience</h3>
+                </div>
+                <h2>-----</h2>
               </div>
-              <div className="hire__rolenamedescription2_vcli">
-                <div className="hire__rolename2_vcli">
-                  <h1>Job Title</h1>
-                </div>
-                <div className="hire__roledescription2_vcli">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque sed mauris consectetur, convallis odio sed,
-                    tempus enim. Cras maximus nisi nisi, mattis volutpat tellus
-                    sodales vel.
-                  </p>
-                </div>
-              </div>
-              <div className="hire__locationjobtypeform2_vcli">
-                <div className="hire__location2_vcli">
+              <div className="hire__employeedetails_right_vcli">
+                <div className="hire__Location_vcli">
+                  <img src={Location} alt=""></img>
                   <h3>Location</h3>
                 </div>
-                <div className="hire__jobtype2_vcli">
-                  <h3>Job Type</h3>
+                <h2>-----</h2>
+                <div className="hire__employmentype_vcli">
+                  <img src={Employmentype} alt=""></img>
+                  <h3>Employment Type</h3>
                 </div>
-                <div className="hire__jobform2_vcli">
-                  <h3>Job Form</h3>
+                <h2>-----</h2>
+                <div className="hire__educationlevel_vcli">
+                  <img src={Education} alt=""></img>
+                  <h3>Education Level</h3>
                 </div>
+                <h2>-----</h2>
+                <div className="hire__requiredlanguage_vcli">
+                  <img src={Language} alt=""></img>
+                  <h3>Required Language</h3>
+                </div>
+                <h2>-----</h2>
               </div>
             </div>
-            <div className="hire__jobroles3_vcli">
-              <div className="hire__empnamemessage3_vcli">
-                <div className="hire__empname3_vcli">
-                  <img src={empimage} alt=""></img>
-
-                  <h3>Company Name</h3>
-                </div>
-                <div className="hire__empmessage3_vcli">
-                  <div className="hire__image5_vcli">
-                    <img src={message} alt=""></img>
-                  </div>
-                  <div className="hire__image6_vcli">
-                    <img src={saved} alt=""></img>
-                  </div>
-                </div>
-              </div>
-              <div className="hire__rolenamedescription3_vcli">
-                <div className="hire__rolename3_vcli">
-                  <h1>Job Title</h1>
-                </div>
-                <div className="hire__roledescription3_vcli">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque sed mauris consectetur, convallis odio sed,
-                    tempus enim. Cras maximus nisi nisi, mattis volutpat tellus
-                    sodales vel.
-                  </p>
-                </div>
-              </div>
-              <div className="hire__locationjobtypeform3_vcli">
-                <div className="hire__location3_vcli">
-                  <h3>Location</h3>
-                </div>
-                <div className="hire__jobtype3_vcli">
-                  <h3>Job Type</h3>
-                </div>
-                <div className="hire__jobform3_vcli">
-                  <h3>Job Form</h3>
-                </div>
-              </div>
+            <div className="hire__horizontaline1_vcli">
+              <hr />
             </div>
-            <div className="hire__jobroles4_vcli">
-              <div className="hire__empnamemessage4_vcli">
-                <div className="hire__empname4_vcli">
-                  <img src={empimage} alt=""></img>
-
-                  <h3>Company Name</h3>
-                </div>
-                <div className="hire__empmessage4_vcli">
-                  <div className="hire__image7_vcli">
-                    <img src={message} alt=""></img>
-                  </div>
-                  <div className="hire__image8_vcli">
-                    <img src={saved} alt=""></img>
-                  </div>
-                </div>
+            <div className="hire__marketdescription_vcli">
+              <h2>Markets</h2>
+              <div className="hire__marketbutton_vcli">
+                <button type="button">Market Type</button>
               </div>
-              <div className="hire__rolenamedescription4_vcli">
-                <div className="hire__rolename4_vcli">
-                  <h1>Job Title</h1>
-                </div>
-                <div className="hire__roledescription4_vcli">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque sed mauris consectetur, convallis odio sed,
-                    tempus enim. Cras maximus nisi nisi, mattis volutpat tellus
-                    sodales vel.
-                  </p>
-                </div>
-              </div>
-              <div className="hire__locationjobtypeform4_vcli">
-                <div className="hire__location4_vcli">
-                  <h3>Location</h3>
-                </div>
-                <div className="hire__jobtype4_vcli">
-                  <h3>Job Type</h3>
-                </div>
-                <div className="hire__jobform4_vcli">
-                  <h3>Job Form</h3>
-                </div>
-              </div>
+              <h1>Description</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque sed mauris consectetur, convallis odio sed, tempus
+                enim. Cras maximus nisi nisi, mattis volutpat tellus sodales
+                vel. Quisque urna lacus, laoreet nec metus in, pellentesque
+                cursus magna. Morbi vitae felis et eros fermentum bibendum.
+              </p>
+              <p>
+                Mauris luctus sed libero in iaculis. Nullam tempor, nibh
+                porttitor hendrerit viverra, sapien mi tincidunt mi, et
+                consequat nulla orci vitae leo. Pellentesque auctor gravida
+                rutrum. In pharetra vulputate leo vitae lacinia. Mauris mattis
+                nibh sed ipsum condimentum bibendum non scelerisque nunc. Duis
+                eget imperdiet tellus. Fusce auctor gravida turpis ut
+                pellentesque. Fusce efficitur turpis nunc, quis aliquam elit
+                commodo non. Morbi tempor augue et ipsum porta, eleifend varius
+                ipsum rutrum. Class aptent taciti sociosqu ad litora torquent
+                per conubia nostra, per inceptos himenaeos. Sed iaculis quam
+                purus, et porttitor lectus hendrerit et. Etiam ac vestibulum
+                lorem.{" "}
+              </p>
             </div>
           </div>
         </div>
