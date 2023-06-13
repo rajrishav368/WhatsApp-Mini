@@ -6,101 +6,167 @@ const jwt = require("jsonwebtoken");
 require("../db/conn");
 
 const EmployerUser = require("../UserSchema/signup/SigninEmployer");
-const SigninWorkforce=require("../UserSchema/signup/SigninWorkforce");
-const SigninEmpowerer=require("../UserSchema/signup/SigninEmpowerer");
-const CompanyInfoEmployer=require("../UserSchema/companyinfo/CompanyinfoEmployer");
-const CompanyInfoWorkfoce=require("../UserSchema/companyinfo/CompanyinfoWorkforce");
-const CompanyInfoEmpowerer=require("../UserSchema/companyinfo/CompanyinfoEmpowerer");
+const SigninWorkforce = require("../UserSchema/signup/SigninWorkforce");
+const SigninEmpowerer = require("../UserSchema/signup/SigninEmpowerer");
+const CompanyInfoEmployer = require("../UserSchema/companyinfo/CompanyinfoEmployer");
+const CompanyInfoWorkfoce = require("../UserSchema/companyinfo/CompanyinfoWorkforce");
+const CompanyInfoEmpowerer = require("../UserSchema/companyinfo/CompanyinfoEmpowerer");
+const CreateVacancy = require("../UserSchema/createvacancy/createvacancy");
 
 router.get("/", (req, res) => {
   res.send(`hello world from the server router js`);
 });
 
-router.post("/SigninEmployer",async(req,res)=>{
-  const {name,company,email,password,cpassword}=req.body;
+router.post("/SigninEmployer", async (req, res) => {
+  const { name, company, email, password, cpassword } = req.body;
 
-  const data={
-    name:name,
-    company:company,
-    email:email,
-    password:password,
-    cpassword:cpassword
-  }
+  const data = {
+    name: name,
+    company: company,
+    email: email,
+    password: password,
+    cpassword: cpassword,
+  };
 
-  await EmployerUser.insertMany([data])
+  await EmployerUser.insertMany([data]);
 });
 
-router.post("/SigninWorkforce",async(req,res)=>{
-  const {name,company,email,password,cpassword}=req.body;
+router.post("/SigninWorkforce", async (req, res) => {
+  const { name, company, email, password, cpassword } = req.body;
 
-  const data1={
-    name:name,
-    company:company,
-    email:email,
-    password:password,
-    cpassword:cpassword
-  }
+  const data1 = {
+    name: name,
+    company: company,
+    email: email,
+    password: password,
+    cpassword: cpassword,
+  };
   console.log(data1);
-  await SigninWorkforce.insertMany([data1])
+  await SigninWorkforce.insertMany([data1]);
 });
 
-router.post("/SigninEmpowerer",async(req,res)=>{
-  const {name,company,email,password,cpassword}=req.body;
+router.post("/SigninEmpowerer", async (req, res) => {
+  const { name, company, email, password, cpassword } = req.body;
 
-  const data={
-    name:name,
-    company:company,
-    email:email,
-    password:password,
-    cpassword:cpassword
-  }
+  const data = {
+    name: name,
+    company: company,
+    email: email,
+    password: password,
+    cpassword: cpassword,
+  };
   console.log(data);
-  await SigninEmpowerer.insertMany([data])
+  await SigninEmpowerer.insertMany([data]);
 });
-router.post("/CompanyinfoEmployer",async(req,res)=>{
-  const {company,email,contact,country,region,companysize,description}=req.body;
+router.post("/CompanyinfoEmployer", async (req, res) => {
+  const {
+    company,
+    email,
+    contact,
+    country,
+    region,
+    companysize,
+    description,
+  } = req.body;
 
-  const data={
-    company:company,
-    email:email,
-    contact:contact,
-    country:country,
-    region:region,
-    companysize:companysize,
-    description:description
-  }
+  const data = {
+    company: company,
+    email: email,
+    contact: contact,
+    country: country,
+    region: region,
+    companysize: companysize,
+    description: description,
+  };
   console.log(data);
-  await CompanyInfoEmployer.insertMany([data])
+  await CompanyInfoEmployer.insertMany([data]);
 });
-router.post("/CompanyinfoWorkforce",async(req,res)=>{
-  const {company,email,contact,country,region,companysize,description}=req.body;
+router.post("/CompanyinfoWorkforce", async (req, res) => {
+  const {
+    company,
+    email,
+    contact,
+    country,
+    region,
+    companysize,
+    description,
+  } = req.body;
 
-  const data={
-    company:company,
-    email:email,
-    contact:contact,
-    country:country,
-    region:region,
-    companysize:companysize,
-    description:description
-  }
+  const data = {
+    company: company,
+    email: email,
+    contact: contact,
+    country: country,
+    region: region,
+    companysize: companysize,
+    description: description,
+  };
   console.log(data);
-  await CompanyInfoWorkfoce.insertMany([data])
+  await CompanyInfoWorkfoce.insertMany([data]);
 });
-router.post("/CompanyinfoEmpowerer",async(req,res)=>{
-  const {company,email,contact,country,region,companysize,description}=req.body;
+router.post("/CompanyinfoEmpowerer", async (req, res) => {
+  const {
+    company,
+    email,
+    contact,
+    country,
+    region,
+    companysize,
+    description,
+  } = req.body;
 
-  const data={
-    company:company,
-    email:email,
-    contact:contact,
-    country:country,
-    region:region,
-    companysize:companysize,
-    description:description
-  }
+  const data = {
+    company: company,
+    email: email,
+    contact: contact,
+    country: country,
+    region: region,
+    companysize: companysize,
+    description: description,
+  };
   console.log(data);
-  await CompanyInfoEmpowerer.insertMany([data])
+  await CompanyInfoEmpowerer.insertMany([data]);
+});
+router.post("/CreateVacancy", async (req, res) => {
+  const {
+    title,
+    deadline,
+    // date,
+    employmentype,
+    country,
+    region,
+    // language,
+    emplevel,
+    marketoption,
+    minsalary,
+    maxsalary,
+    currency,
+    salaryperiod,
+    educationlevel,
+    minexperience,
+    description,
+  } = req.body;
+
+  const data = {
+    title: title,
+    deadline: deadline,
+    // date: date,
+    employmentype: employmentype,
+    country: country,
+    region: region,
+    // language: language,
+    emplevel: emplevel,
+    marketoption: marketoption,
+    minsalary: minsalary,
+    maxsalary: maxsalary,
+    currency: currency,
+    salaryperiod: salaryperiod,
+    educationlevel: educationlevel,
+    minexperience: minexperience,
+    description: description,
+  };
+  console.log(data);
+  await CreateVacancy.insertMany([data]);
 });
 
 module.exports = router;
