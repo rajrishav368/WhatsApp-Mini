@@ -55,6 +55,6 @@ const EmployeruserSchema = new mongoose.Schema({
 //     }
 // }
 
-const EmployerUser=mongoose.model("user",EmployeruserSchema);
+const EmployerUser=mongoose.model("SigninEmployer",EmployeruserSchema);
 
 module.exports=EmployerUser;

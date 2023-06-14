@@ -27,7 +27,7 @@ router.post("/SigninEmployer", async (req, res) => {
     password: password,
     cpassword: cpassword,
   };
-
+  console.log(data);
   await EmployerUser.insertMany([data]);
 });
 

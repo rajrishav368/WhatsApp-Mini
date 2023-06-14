@@ -236,13 +236,13 @@ const CreateVacancy = () => {
             />
           </div>
           <div className="hire__languagelevel_crva">
-           {/* <div className="hire__language_crva">
+            <div className="hire__language_crva">
               <LanguageSelector
                 onChange={(e) => {
                   setLanguage(e.target.value);
                 }}
               />
-              </div>*/}
+              </div>
             <div className="hire__employmentlevel_crva">
               <select
                 placeholder="Employment level"
