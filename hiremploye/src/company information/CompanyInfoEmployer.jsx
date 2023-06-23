@@ -87,6 +87,11 @@ const CompanyInfoEmployer = () => {
       console.log(e);
     }
   };
+  const [showInput, setShowInput] = useState(false);
+
+  const handleClick = () => {
+    setShowInput(true);
+  };
 
   return (
     <div className="hire__employerinfo_cie">
@@ -220,7 +225,14 @@ const CompanyInfoEmployer = () => {
         </div>
         <div className="hire__social_links_cie">
           <div className="hire__www_cie">
-            <img src={www} alt=""></img>
+            <img src={www} alt="" onClick={handleClick}></img>
+            {showInput && (
+              <input
+                type="text"
+                placeholder="Enter your Instagram username"
+                className="instagram-input"
+              />
+            )}
           </div>
           <div className="hire__linkedin_cie">
             <img src={linkedin} alt=""></img>

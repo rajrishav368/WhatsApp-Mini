@@ -226,6 +226,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .hire__social_links_cie{
   display: flex;
   flex-direction: row;
@@ -234,6 +235,16 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+.hire__social_links_cie button{
+  border: 1px solid #D2D2D2;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding: 1rem;
+  max-width: 68px;
+  max-height: 68px;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 .hire__www_cie{
   border: 1px solid black;
@@ -351,3 +362,15 @@
     padding: 0 1rem;
     border: none;
 }
+
+
+.hire__www_cie.hide {
+  display: none;
+}
+
+.hire__www_cieinput {
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+

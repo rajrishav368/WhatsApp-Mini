@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 import body from "../assets/employee.png";
 
 import { Link } from "react-router-dom";
+
 const Workforce = () => {
   return (
     <div className="hire__employerdirection_wf">

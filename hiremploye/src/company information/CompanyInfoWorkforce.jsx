@@ -14,7 +14,7 @@ import Select from "react-select";
 import axios from "axios";
 import { CountryDropdown, RegionDropdown } from "react-country-region-selector";
 import downarrow from "../assets/downarrow.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const CompanyInfoWorkfoce = () => {
   const [country, setCountry] = useState("");
@@ -24,6 +24,7 @@ const CompanyInfoWorkfoce = () => {
   const [contact, setContact] = useState("");
   const [companysize, setCompanysize] = useState("");
   const [description, setDescription] = useState("");
+  const Navigate=useNavigate();
 
   // const [openWeb, setOpenWeb] = React.useState(false);
   // const [openLinkedin, setOpenLinkedin] = React.useState(false);
@@ -65,28 +66,26 @@ const CompanyInfoWorkfoce = () => {
 
   let submit = async (e) => {
     e.preventDefault();
-
     try {
       window.alert("submitted");
-      await axios.post("http://localhost:8000/CompanyinfoWorkforce", {
-        company,
-        email,
-        contact,
-        country,
-        region,
-        companysize,
-        description,
-        // websitelink,
-        // linkedinlink,
-        // facebooklink,
-        // githublink,
-        // instagramlink,
-        // telegramlink,
-        // ytlink,
-      });
-    } catch (e) {
-      console.log(e);
+      const token = localStorage.getItem('token');
+      await axios.post(
+        'http://localhost:8000/CompanyInfoWorkforce',
+        { company,
+          email,
+          contact,
+          country,
+          region,
+          companysize,
+          description, },
+        { headers: { Authorization: `Bearer ${token}` } }
+      );
+      Navigate("/CompanyProfileEmployer");
+      
+    } catch (error) {
+      console.error(error)
     }
+    
   };
   return (
     <div className="hire__employerworkforce">

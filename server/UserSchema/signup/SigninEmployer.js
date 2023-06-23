@@ -2,6 +2,7 @@ const mongoose=require("mongoose");
 const bcrypt=require("bcrypt")
 const jwt=require("jsonwebtoken")
 
+
 const EmployeruserSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -56,5 +57,6 @@ const EmployeruserSchema = new mongoose.Schema({
 // }
 
 const EmployerUser=mongoose.model("SigninEmployer",EmployeruserSchema);
+
 
 module.exports=EmployerUser;

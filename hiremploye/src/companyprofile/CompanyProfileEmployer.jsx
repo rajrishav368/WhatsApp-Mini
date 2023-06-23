@@ -13,8 +13,30 @@ import facebook from "../assets/facebook.png";
 import telegram from "../assets/telegram.png";
 import youtube from "../assets/youtube.png";
 import { Link } from "react-router-dom";
+import { useState,useEffect } from "react";
+import axios from "axios";
 
 const CompanyProfileEmployer = () => {
+
+  const [companyInfo, setCompanyInfo] = useState(null);
+
+  useEffect(() => {
+    const fetchCompanyInfo = async () => {
+      try {
+        const token = localStorage.getItem('token');
+        const response = await axios.get('/http://localhost:8000/CompanyInfoWorkforce', {
+          headers: { Authorization: `Bearer ${token}` },
+        });
+        setCompanyInfo(response.data);
+      } catch (error) {
+        console.error(error);
+        // Handle error while fetching company information
+      }
+    };
+
+    fetchCompanyInfo();
+  }, []);
+  
   return (
     <div className="hire__company_profile_cpe">
       <div className="hire__company_profile_left_cpe">
@@ -87,7 +109,7 @@ const CompanyProfileEmployer = () => {
             </div>
 
             <div className="hire__username_text_2_cpe">
-              <h1>Username</h1>
+              <h1>username:{companyInfo.company}</h1>
               <div className="hire__location_logo_cpe">
                 <img src={locationlogo}></img>
                 <h4>Location</h4>
