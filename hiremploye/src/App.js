@@ -56,7 +56,7 @@ const App = () => {
         <Route path="/signupEmpowerer" element={<SignupEmpowerer />} />
         <Route path="/signupWorkforce" element={<SignupWorkforce />} />
         <Route path="/EmployerDirection" element={<Employer />} />
-        <Route path="/WorkforceDirectionn" element={<Workforce />} />
+        <Route path="/WorkforceDirection" element={<Workforce />} />
         <Route path="/EmpowererDirection" element={<Empowerer />} />
         <Route path="/Empowerer2Direction" element={<Empowerer2 />} />
         <Route path="/CompanyInfoEmployer" element={<CompanyInfoEmployer />} />
