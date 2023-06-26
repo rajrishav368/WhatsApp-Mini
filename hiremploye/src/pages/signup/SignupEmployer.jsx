@@ -20,17 +20,20 @@ const SignupEmployer = () => {
     e.preventDefault();
     try {
       window.alert("submitted");
-      await axios.post("http://localhost:8000/SigninEmployer", {
+      const response=await axios.post("http://localhost:8000/SigninEmployer", {
         name,
         company,
         email,
         password,
         cpassword,
       });
+      console.log(response.data);
+      localStorage.setItem('token', response.data.token);
+      navigate('/loginEmployer')
     } catch (e) {
       console.log(e);
     }
-    navigate('/loginEmployer')
+    
   };
   return (
     <div className="hire__signupheader">

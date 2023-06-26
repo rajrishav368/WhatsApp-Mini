@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./signupworkforce.css";
 import logo from "../../assets/logo.svg";
 import back_btn from "../../assets/back-btn.png";
@@ -12,6 +12,7 @@ const SignupWorkforce = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [cpassword, setCpassword] = useState("");
+  const navigate=useNavigate();
 
   let submit = async (e) => {
     e.preventDefault();
@@ -28,6 +29,7 @@ const SignupWorkforce = () => {
     } catch (e) {
       console.log(e);
     }
+    navigate("/loginWorkforce");
   };
 
   return (

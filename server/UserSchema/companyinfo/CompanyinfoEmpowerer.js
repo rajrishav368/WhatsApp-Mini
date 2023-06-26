@@ -22,7 +22,7 @@ const CompanyinfoEmpowererUserSchema = new mongoose.Schema({
         required:true,
     },
     companysize:{
-        type:String,
+        type:Number,
         required:true,
     },
     description:{

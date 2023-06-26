@@ -18,7 +18,7 @@ const CompanyinfoWorkforceUserSchema = new mongoose.Schema({
         required:true,
     },
     region:{
-        type:String,
+        type:Number,
         required:true,
     },
     companysize:{

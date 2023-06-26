@@ -18,25 +18,27 @@ import axios from "axios";
 
 const CompanyProfileEmployer = () => {
 
-  const [companyInfo, setCompanyInfo] = useState(null);
+  const [companyProfile, setCompanyProfile] = useState(null);
 
   useEffect(() => {
-    const fetchCompanyInfo = async () => {
+    const fetchCompanyProfile = async () => {
       try {
-        const token = localStorage.getItem('token');
-        const response = await axios.get('/http://localhost:8000/CompanyInfoWorkforce', {
-          headers: { Authorization: `Bearer ${token}` },
+        const token = localStorage.getItem("token");
+        const response = await axios.get("http://localhost:8000/CompanyInfoEmployer", {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
         });
-        setCompanyInfo(response.data);
+        setCompanyProfile(response.data);
       } catch (error) {
         console.error(error);
-        // Handle error while fetching company information
       }
     };
 
-    fetchCompanyInfo();
+    fetchCompanyProfile();
   }, []);
-  
+
+
   return (
     <div className="hire__company_profile_cpe">
       <div className="hire__company_profile_left_cpe">
@@ -109,7 +111,7 @@ const CompanyProfileEmployer = () => {
             </div>
 
             <div className="hire__username_text_2_cpe">
-              <h1>username:{companyInfo.company}</h1>
+              <h1>username:{companyProfile.username}</h1>
               <div className="hire__location_logo_cpe">
                 <img src={locationlogo}></img>
                 <h4>Location</h4>

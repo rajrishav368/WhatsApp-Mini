@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
 require("../db/conn");
@@ -12,6 +11,8 @@ const CompanyInfoEmployer = require("../UserSchema/companyinfo/CompanyinfoEmploy
 const CompanyInfoWorkfoce = require("../UserSchema/companyinfo/CompanyinfoWorkforce");
 const CompanyInfoEmpowerer = require("../UserSchema/companyinfo/CompanyinfoEmpowerer");
 const CreateVacancy = require("../UserSchema/createvacancy/createvacancy");
+
+const secretKey = "rishavrajmayankrajrakeshgupta";
 
 const authenticateToken = (req, res, next) => {
   const token = req.headers.authorization?.split(" ")[1];
@@ -35,45 +36,50 @@ router.get("/", (req, res) => {
 router.post("/SigninEmployer", async (req, res) => {
   const { name, company, email, password, cpassword } = req.body;
 
-  const data = {
-    name: name,
-    company: company,
-    email: email,
-    password: password,
-    cpassword: cpassword,
-  };
-  console.log(data);
-  await EmployerUser.insertMany([data]);
+  try {
+    // Check if the email already exists
+    const existingUser = await EmployerUser.findOne({ email });
+    if (existingUser) {
+      return res.status(400).json({ message: "Email already exists" });
+    }
+    const data = {
+      name: name,
+      company: company,
+      email: email,
+      password: password,
+      cpassword: cpassword,
+    };
+    console.log(data);
+    await EmployerUser.insertMany([data]);
+
+    const token = jwt.sign({ email }, secretKey);
+
+    res.status(201).json({ token });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
+  }
 });
+router.post("/loginEmployer", async (req, res) => {
+  const { email, password } = req.body;
 
-router.post("/SigninWorkforce", async (req, res) => {
-  const { name, company, email, password, cpassword } = req.body;
+  try {
+    // Check if user exists
+    const user = await EmployerUser.findOne({ email, password });
+    if (!user) {
+      return res.status(400).json({ message: "User does not exist" });
+    }
 
-  const data1 = {
-    name: name,
-    company: company,
-    email: email,
-    password: password,
-    cpassword: cpassword,
-  };
-  console.log(data1);
-  await SigninWorkforce.insertMany([data1]);
+    // Generate and sign a JWT token
+    const token = jwt.sign({ email: user.email }, secretKey);
+
+    res.json({ token });
+  } catch (error) {
+    console.error(error);
+    res.sendStatus(500);
+  }
 });
-
-router.post("/SigninEmpowerer", async (req, res) => {
-  const { name, company, email, password, cpassword } = req.body;
-
-  const data = {
-    name: name,
-    company: company,
-    email: email,
-    password: password,
-    cpassword: cpassword,
-  };
-  console.log(data);
-  await SigninEmpowerer.insertMany([data]);
-});
-router.post("/CompanyinfoEmployer", async (req, res) => {
+router.post("/CompanyInfoEmployer", async (req, res) => {
   const {
     company,
     email,
@@ -84,17 +90,108 @@ router.post("/CompanyinfoEmployer", async (req, res) => {
     description,
   } = req.body;
 
-  const data = {
-    company: company,
-    email: email,
-    contact: contact,
-    country: country,
-    region: region,
-    companysize: companysize,
-    description: description,
-  };
-  console.log(data);
-  await CompanyInfoEmployer.insertMany([data]);
+  try {
+    // Get the email from the JWT token
+    const token = req.headers.authorization.split(" ")[1];
+    const decodedToken = jwt.verify(token, secretKey);
+    const userId = decodedToken.email;
+
+    // Find the user by
+    // console.log(userId);
+    const user = await EmployerUser.findOne({ email:userId });
+    // console.log(user);
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    } else {
+      const data = {
+        company: company,
+        email: email,
+        contact: contact,
+        country: country,
+        region: region,
+        companysize: companysize,
+        description: description,
+      };
+      console.log(data);
+      await CompanyInfoEmployer.insertMany([data]);
+      return res.status(201).json({ message: "Information Submitted" });
+    }
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
+  }
+});
+router.get("/CompanyInfoEmployer", async (req, res) => {
+  try {
+    // Get the email from the JWT token
+    const token = req.headers.authorization.split(' ')[1];
+    const decodedToken = jwt.verify(token, 'secretKey');
+    const email = decodedToken.email;
+
+    // Find the user by email
+    const user = await EmployerUser.findOne({ email:email });
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    // Find the company by companyName
+    const company = await CompanyInfoEmployer.findOne({ companyName: user._id });
+    if (!company) {
+      return res.status(404).json({ message: 'Company not found' });
+    }
+
+    res.status(200).json(company);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Server Error' });
+  }
+});
+
+router.post("/SigninWorkforce", async (req, res) => {
+  const { name, company, email, password, cpassword } = req.body;
+
+  try {
+    // Check if the email already exists
+    const existingUser = await SigninWorkforce.findOne({ email });
+    if (existingUser) {
+      return res.status(400).json({ message: "Email already exists" });
+    }
+    const data = {
+      name: name,
+      company: company,
+      email: email,
+      password: password,
+      cpassword: cpassword,
+    };
+    console.log(data);
+    await SigninWorkforce.insertMany([data]);
+
+    const token = jwt.sign({ email }, "secretKey");
+
+    res.status(201).json({ token });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
+  }
+});
+router.post("/loginWorkforce", async (req, res) => {
+  const { email, password } = req.body;
+
+  try {
+    // Check if user exists
+    const user = await EmployerUser.findOne({ email, password });
+    if (!user) {
+      return res.status(400).json({ message: "User does not exist" });
+    }
+
+    // Generate and sign a JWT token
+    const token = jwt.sign({ email: user.email }, secretKey);
+
+    res.json({ token });
+  } catch (error) {
+    console.error(error);
+    res.sendStatus(500);
+  }
 });
 router.post("/CompanyinfoWorkforce", authenticateToken, async (req, res) => {
   const {
@@ -107,18 +204,85 @@ router.post("/CompanyinfoWorkforce", authenticateToken, async (req, res) => {
     description,
   } = req.body;
 
-  const data = {
-    company: company,
-    email: email,
-    contact: contact,
-    country: country,
-    region: region,
-    companysize: companysize,
-    description: description,
-  };
-  console.log(data);
-  await CompanyInfoWorkfoce.insertMany([data]);
+  try {
+    // Get the email from the JWT token
+    const token = req.headers.authorization.split(" ")[1];
+    const decodedToken = jwt.verify(token, secretKey);
+    const userId = decodedToken.email;
+
+    // Find the user by
+    // console.log(userId);
+    const user = await SigninWorkforce.findOne({ email:userId });
+    // console.log(user);
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    } else {
+      const data = {
+        company: company,
+        email: email,
+        contact: contact,
+        country: country,
+        region: region,
+        companysize: companysize,
+        description: description,
+      };
+      console.log(data);
+      await CompanyInfoWorkfoce.insertMany([data]);
+      return res.status(201).json({ message: "Information Submitted" });
+    }
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
+  }
 });
+
+router.post("/SigninEmpowerer", async (req, res) => {
+  const { name, company, email, password, cpassword } = req.body;
+
+  try {
+    // Check if the email already exists
+    const existingUser = await SigninEmpowerer.findOne({ email });
+    if (existingUser) {
+      return res.status(400).json({ message: "Email already exists" });
+    }
+    const data = {
+      name: name,
+      company: company,
+      email: email,
+      password: password,
+      cpassword: cpassword,
+    };
+    console.log(data);
+    await SigninEmpowerer.insertMany([data]);
+
+    const token = jwt.sign({ email }, "secretKey");
+
+    res.status(201).json({ token });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
+  }
+});
+router.post("/loginEmpowerer", async (req, res) => {
+  const { email, password } = req.body;
+
+  try {
+    // Check if user exists
+    const user = await EmployerUser.findOne({ email, password });
+    if (!user) {
+      return res.status(400).json({ message: "User does not exist" });
+    }
+
+    // Generate and sign a JWT token
+    const token = jwt.sign({ email: user.email }, secretKey);
+
+    res.json({ token });
+  } catch (error) {
+    console.error(error);
+    res.sendStatus(500);
+  }
+});
+
 router.post("/CompanyinfoEmpowerer", async (req, res) => {
   const {
     company,
@@ -130,17 +294,36 @@ router.post("/CompanyinfoEmpowerer", async (req, res) => {
     description,
   } = req.body;
 
-  const data = {
-    company: company,
-    email: email,
-    contact: contact,
-    country: country,
-    region: region,
-    companysize: companysize,
-    description: description,
-  };
-  console.log(data);
-  await CompanyInfoEmpowerer.insertMany([data]);
+  try {
+    // Get the email from the JWT token
+    const token = req.headers.authorization.split(" ")[1];
+    const decodedToken = jwt.verify(token, secretKey);
+    const userId = decodedToken.email;
+
+    // Find the user by
+    // console.log(userId);
+    const user = await SigninEmpowerer.findOne({ email:userId });
+    // console.log(user);
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    } else {
+      const data = {
+        company: company,
+        email: email,
+        contact: contact,
+        country: country,
+        region: region,
+        companysize: companysize,
+        description: description,
+      };
+      console.log(data);
+      await CompanyInfoEmpowerer.insertMany([data]);
+      return res.status(201).json({ message: "Information Submitted" });
+    }
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
+  }
 });
 router.post("/CreateVacancy", async (req, res) => {
   const {
@@ -197,99 +380,81 @@ router.get("/CreateVacancy", async (req, res) => {
   }
 });
 
-router.get("/SigninEmployer", async (req, res) => {
-  const { email, password } = req.query;
+// router.get("/SigninEmployer", async (req, res) => {
+//   const { email, password } = req.query;
 
-  try {
-    // Find the user by username
-    const user = await EmployerUser.findOne({ email, password });
-    if (!user) {
-      return res.status(401).json({ message: "Invalid username or password" });
-    }
+//   try {
+//     // Find the user by username
+//     const user = await EmployerUser.findOne({ email, password });
+//     if (!user) {
+//       return res.status(401).json({ message: "Invalid username or password" });
+//     }
 
-    res.status(200).json({ message: "Login successful" });
-  } catch (err) {
-    console.error("Login error", err);
-    res.status(500).json({ message: "Internal server error" });
-  }
-});
-router.get("/SigninWorkforce", async (req, res) => {
-  const { email, password } = req.query;
+//     res.status(200).json({ message: "Login successful" });
+//   } catch (err) {
+//     console.error("Login error", err);
+//     res.status(500).json({ message: "Internal server error" });
+//   }
+// });
+// router.get("/SigninWorkforce", async (req, res) => {
+//   const { email, password } = req.query;
 
-  try {
-    // Find the user by username
-    const user = await SigninWorkforce.findOne({ email, password });
-    if (!user) {
-      return res.status(401).json({ message: "Invalid username or password" });
-    }
+//   try {
+//     // Find the user by username
+//     const user = await SigninWorkforce.findOne({ email, password });
+//     if (!user) {
+//       return res.status(401).json({ message: "Invalid username or password" });
+//     }
 
-    res.status(200).json({ message: "Login successful" });
-  } catch (err) {
-    console.error("Login error", err);
-    res.status(500).json({ message: "Internal server error" });
-  }
-});
-router.get("/SigninEmpowerer", async (req, res) => {
-  const { email, password } = req.query;
+//     res.status(200).json({ message: "Login successful" });
+//   } catch (err) {
+//     console.error("Login error", err);
+//     res.status(500).json({ message: "Internal server error" });
+//   }
+// });
+// router.get("/SigninEmpowerer", async (req, res) => {
+//   const { email, password } = req.query;
 
-  try {
-    // Find the user by username
-    const user = await SigninEmpowerer.findOne({ email, password });
-    if (!user) {
-      return res.status(401).json({ message: "Invalid username or password" });
-    }
+//   try {
+//     // Find the user by username
+//     const user = await SigninEmpowerer.findOne({ email, password });
+//     if (!user) {
+//       return res.status(401).json({ message: "Invalid username or password" });
+//     }
 
-    res.status(200).json({ message: "Login successful" });
-  } catch (err) {
-    console.error("Login error", err);
-    res.status(500).json({ message: "Internal server error" });
-  }
-});
-router.post("/loginWorkforce", async (req, res) => {
-  const { email, password } = req.body;
+//     res.status(200).json({ message: "Login successful" });
+//   } catch (err) {
+//     console.error("Login error", err);
+//     res.status(500).json({ message: "Internal server error" });
+//   }
+// });
 
-  try {
-    // Check if user exists
-    const user = await EmployerUser.findOne({ email, password });
-    if (!user) {
-      return res.status(400).json({ message: "User does not exist" });
-    }
+// router.post("/CompanyInfoWorkforce", authenticateToken, async (req, res) => {
+//   try {
+//     // Get the user ID from the authenticated token
 
-    // Generate and sign a JWT token
-    const token = jwt.sign({ userId: user._id }, "secretkey");
+//     const userId = req.user.userId;
 
-    res.json({ token });
-  } catch (error) {
-    console.error(error);
-    res.sendStatus(500);
-  }
-});
-router.post("/CompanyInfoWorkforce", authenticateToken, async (req, res) => {
-  try {
-    // Get the user ID from the authenticated token
+//     // // Find the user in the database
+//     const user = await CompanyInfoWorkfoce.findById(userId);
+//     if (!user) {
+//       return res.status(404).json({ message: "User not found" });
+//     }
 
-    const userId = req.user.userId;
+//     // // Find the company profile associated with the user
+//     const companyProfile = await CompanyInfoWorkfoce.findOne({
+//       user: user._id,
+//     });
+//     if (!companyProfile) {
+//       return res.status(404).json({ message: "Company profile not found" });
+//     }
 
-    // // Find the user in the database
-    const user = await CompanyInfoWorkfoce.findById(userId);
-    if (!user) {
-      return res.status(404).json({ message: "User not found" });
-    }
-
-    // // Find the company profile associated with the user
-    const companyProfile = await CompanyInfoWorkfoce.findOne({
-      user: user._id,
-    });
-    if (!companyProfile) {
-      return res.status(404).json({ message: "Company profile not found" });
-    }
-
-    res.json(companyProfile);
-  } catch (error) {
-    console.error(error);
-    res.sendStatus(500);
-  }
-});
+//     res.json(companyProfile);
+//   } catch (error) {
+//     console.error(error);
+//     res.sendStatus(500);
+//   }
+// });
 module.exports = router;
 
 /*using promises*/

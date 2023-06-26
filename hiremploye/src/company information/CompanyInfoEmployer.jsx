@@ -12,7 +12,7 @@ import youtube from "../assets/youtube.png";
 import { useState } from "react";
 import { CountryDropdown, RegionDropdown } from "react-country-region-selector";
 import downarrow from "../assets/downarrow.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const CompanyInfoEmployer = () => {
@@ -23,66 +23,32 @@ const CompanyInfoEmployer = () => {
   const [contact, setContact] = useState("");
   const [companysize, setCompanysize] = useState("");
   const [description, setDescription] = useState("");
-
-  // const [openWeb, setOpenWeb] = React.useState(false);
-  // const [openLinkedin, setOpenLinkedin] = React.useState(false);
-  // const [openFacebook, setOpenFacebook] = React.useState(false);
-  // const [openGithub, setOpenGithub] = React.useState(false);
-  // const [openInstagram, setOpenInstagram] = React.useState(false);
-  // const [openTelegram, setOpenTelegram] = React.useState(false);
-  // const [openYT, setOpenYT] = React.useState(false);
-
-  // const handleOpenWeb = () => {
-  //   setOpenWeb(!openWeb);
-  // };
-  // const handleOpenLinkedin = () => {
-  //   setOpenLinkedin(!openLinkedin);
-  // };
-  // const handleOpenFacebook = () => {
-  //   setOpenFacebook(!openFacebook);
-  // };
-  // const handleOpenGithub = () => {
-  //   setOpenGithub(!openGithub);
-  // };
-  // const handleOpenInstagram = () => {
-  //   setOpenInstagram(!openInstagram);
-  // };
-  // const handleOpenTelegram = () => {
-  //   setOpenTelegram(!openTelegram);
-  // };
-  // const handleOpenYT = () => {
-  //   setOpenYT(!openYT);
-  // };
-
-  // const [websitelink, setWebsitelink] = useState("");
-  // const [linkedinlink, setLinkedinlink] = useState("");
-  // const [facebooklink, setFacebooklink] = useState("");
-  // const [githublink, setGithublink] = useState("");
-  // const [instagramlink, setInstagramlink] = useState("");
-  // const [telegramlink, setTelegramlink] = useState("");
-  // const [ytlink, setYtlink] = useState("");
+  const Navigate = useNavigate();
 
   let submit = async (e) => {
     e.preventDefault();
 
     try {
+      const token = localStorage.getItem("token");
       window.alert("submitted");
-      await axios.post("http://localhost:8000/CompanyinfoEmployer", {
-        company,
-        email,
-        contact,
-        country,
-        region,
-        companysize,
-        description,
-        // websitelink,
-        // linkedinlink,
-        // facebooklink,
-        // githublink,
-        // instagramlink,
-        // telegramlink,
-        // ytlink,
-      });
+      await axios.post(
+        "http://localhost:8000/CompanyInfoEmployer",
+        {
+          company,
+          email,
+          contact,
+          country,
+          region,
+          companysize,
+          description,
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+      Navigate("/CompanyProfileEmployer");
     } catch (e) {
       console.log(e);
     }
