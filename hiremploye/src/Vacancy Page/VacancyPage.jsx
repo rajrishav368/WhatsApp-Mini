@@ -30,11 +30,15 @@ const VacancyPage = () => {
         </div>
 
         <div className="hire__createvacancy_vp">
-          <button type="button">Create Vacancy</button>
+          <Link to="/CreateVacancy">
+            <button type="button">Create Vacancy</button>
+          </Link>
         </div>
 
         <div className="hire__notifications_vp">
-          <button type="button">Notifications</button>
+          <Link to="/Notification">
+            <button type="button">Notifications</button>
+          </Link>
         </div>
 
         <div className="hire__vacancies_vp">
@@ -42,7 +46,9 @@ const VacancyPage = () => {
         </div>
 
         <div className="hire__messages_vp">
-          <button type="button">Messages</button>
+          <Link to="/Messages">
+            <button type="button">Messages</button>
+          </Link>
         </div>
 
         <div className="hire__settings_vp">

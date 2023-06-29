@@ -27,15 +27,21 @@ const Messages = () => {
         </div>
 
         <div className="hire__createvacancy_msg">
-          <button type="button">Create Vacancy</button>
+          <Link to="/CreateVacancy">
+            <button type="button">Create Vacancy</button>
+          </Link>
         </div>
 
         <div className="hire__notificationsbutton_msg">
-          <button type="button">Notifications</button>
+          <Link to="/Notification">
+            <button type="button">Notifications</button>
+          </Link>
         </div>
 
         <div className="hire__vacancies_msg">
-          <button type="button">vacancies</button>
+          <Link to="/VacancyPage">
+            <button type="button">vacancies</button>
+          </Link>
         </div>
 
         <div className="hire__messagesbutton_msg">

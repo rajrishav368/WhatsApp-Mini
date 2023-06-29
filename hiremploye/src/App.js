@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link, Routes } from "react-router-dom";
+import { Route,Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import LoginMain from "./pages/login/LoginMain";
@@ -86,7 +86,7 @@ const App = () => {
           path="/VacancyPageWorkforce"
           element={<VacancyPageWorkforce />}
         />
-        <Route path="/lNotification" element={<Notification />} />
+        <Route path="/Notification" element={<Notification />} />
         <Route
           path="/NotificationWorkforce"
           element={<NotificationWorkforce />}
@@ -122,17 +122,4 @@ const App = () => {
 };
 
 export default App;
-{
-  /*
-      // <div className="hero-image">
-      //   <Navbar />
-      //   <Header />
-      // </div>
-      // <Brand />
-      // <Whathireemp />
-      // <Features />
-      // {/*<Possibility />*/
-}
-// <CTA />
-// {/*<Blog />*/}
-// <Footer />
+

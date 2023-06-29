@@ -27,7 +27,9 @@ const Notification = () => {
         </div>
 
         <div className="hire__createvacancy_nf">
-          <button type="button">Create Vacancy</button>
+          <Link to="/CreateVacancy">
+            <button type="button">Create Vacancy</button>
+          </Link>
         </div>
 
         <div className="hire__notificationsbutton_nf">
@@ -35,11 +37,15 @@ const Notification = () => {
         </div>
 
         <div className="hire__vacancies_nf">
-          <button type="button">vacancies</button>
+          <Link to="/VacancyPage">
+            <button type="button">vacancies</button>
+          </Link>
         </div>
 
         <div className="hire__messages_nf">
-          <button type="button">Messages</button>
+          <Link to="/Messages">
+            <button type="button">Messages</button>
+          </Link>
         </div>
 
         <div className="hire__settings_nf">

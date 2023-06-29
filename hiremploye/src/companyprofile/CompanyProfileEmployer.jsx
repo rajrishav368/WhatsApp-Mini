@@ -13,22 +13,24 @@ import facebook from "../assets/facebook.png";
 import telegram from "../assets/telegram.png";
 import youtube from "../assets/youtube.png";
 import { Link } from "react-router-dom";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 const CompanyProfileEmployer = () => {
-
   const [companyProfile, setCompanyProfile] = useState(null);
 
   useEffect(() => {
     const fetchCompanyProfile = async () => {
       try {
         const token = localStorage.getItem("token");
-        const response = await axios.get("http://localhost:8000/CompanyInfoEmployer", {
-          headers: {
-            Authorization: `Bearer ${token}`
+        const response = await axios.get(
+          "http://localhost:8000/CompanyInfoEmployer",
+          {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
           }
-        });
+        );
         setCompanyProfile(response.data);
       } catch (error) {
         console.error(error);
@@ -37,7 +39,6 @@ const CompanyProfileEmployer = () => {
 
     fetchCompanyProfile();
   }, []);
-
 
   return (
     <div className="hire__company_profile_cpe">
@@ -59,16 +60,24 @@ const CompanyProfileEmployer = () => {
         </div>
 
         <div className="hire__createvacancy_cpe">
-          <button type="button">Create vacancy</button>
+          <Link to="/CreateVacancy">
+            <button type="button">Create vacancy</button>
+          </Link>
         </div>
         <div className="hire__notifications_cpe">
-          <button type="button">Notifications</button>
+          <Link to="/Notification">
+            <button type="button">Notifications</button>
+          </Link>
         </div>
         <div className="hire__vacancies_cpe">
-          <button type="button">Vacancies</button>
+          <Link to="/VacancyPage">
+            <button type="button">Vacancies</button>
+          </Link>
         </div>
         <div className="hire__messages_cpe">
-          <button>Messages</button>
+          <Link to="/Messages">
+            <button>Messages</button>
+          </Link>
         </div>
         <div className="hire__settings_cpe">
           <button type="button">Settings</button>
@@ -111,7 +120,7 @@ const CompanyProfileEmployer = () => {
             </div>
 
             <div className="hire__username_text_2_cpe">
-              <h1>username:{companyProfile.username}</h1>
+              <h1>username</h1>
               <div className="hire__location_logo_cpe">
                 <img src={locationlogo}></img>
                 <h4>Location</h4>

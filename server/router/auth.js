@@ -98,7 +98,7 @@ router.post("/CompanyInfoEmployer", async (req, res) => {
 
     // Find the user by
     // console.log(userId);
-    const user = await EmployerUser.findOne({ email:userId });
+    const user = await EmployerUser.findOne({ email: userId });
     // console.log(user);
     if (!user) {
       return res.status(404).json({ message: "User not found" });
@@ -124,26 +124,28 @@ router.post("/CompanyInfoEmployer", async (req, res) => {
 router.get("/CompanyInfoEmployer", async (req, res) => {
   try {
     // Get the email from the JWT token
-    const token = req.headers.authorization.split(' ')[1];
-    const decodedToken = jwt.verify(token, 'secretKey');
+    const token = req.headers.authorization.split(" ")[1];
+    const decodedToken = jwt.verify(token, secretKey);
     const email = decodedToken.email;
 
     // Find the user by email
-    const user = await EmployerUser.findOne({ email:email });
+    const user = await EmployerUser.findOne({ email: email });
     if (!user) {
-      return res.status(404).json({ message: 'User not found' });
+      return res.status(404).json({ message: "User not found" });
     }
-
+    
     // Find the company by companyName
-    const company = await CompanyInfoEmployer.findOne({ companyName: user._id });
+    const company = await CompanyInfoEmployer.findOne({
+      email: user.email,
+    });
     if (!company) {
-      return res.status(404).json({ message: 'Company not found' });
+      return res.status(404).json({ message: "Company not found" });
     }
 
     res.status(200).json(company);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'Server Error' });
+    res.status(500).json({ message: "Server Error" });
   }
 });
 
@@ -212,7 +214,7 @@ router.post("/CompanyinfoWorkforce", authenticateToken, async (req, res) => {
 
     // Find the user by
     // console.log(userId);
-    const user = await SigninWorkforce.findOne({ email:userId });
+    const user = await SigninWorkforce.findOne({ email: userId });
     // console.log(user);
     if (!user) {
       return res.status(404).json({ message: "User not found" });
@@ -302,7 +304,7 @@ router.post("/CompanyinfoEmpowerer", async (req, res) => {
 
     // Find the user by
     // console.log(userId);
-    const user = await SigninEmpowerer.findOne({ email:userId });
+    const user = await SigninEmpowerer.findOne({ email: userId });
     // console.log(user);
     if (!user) {
       return res.status(404).json({ message: "User not found" });
@@ -380,81 +382,6 @@ router.get("/CreateVacancy", async (req, res) => {
   }
 });
 
-// router.get("/SigninEmployer", async (req, res) => {
-//   const { email, password } = req.query;
-
-//   try {
-//     // Find the user by username
-//     const user = await EmployerUser.findOne({ email, password });
-//     if (!user) {
-//       return res.status(401).json({ message: "Invalid username or password" });
-//     }
-
-//     res.status(200).json({ message: "Login successful" });
-//   } catch (err) {
-//     console.error("Login error", err);
-//     res.status(500).json({ message: "Internal server error" });
-//   }
-// });
-// router.get("/SigninWorkforce", async (req, res) => {
-//   const { email, password } = req.query;
-
-//   try {
-//     // Find the user by username
-//     const user = await SigninWorkforce.findOne({ email, password });
-//     if (!user) {
-//       return res.status(401).json({ message: "Invalid username or password" });
-//     }
-
-//     res.status(200).json({ message: "Login successful" });
-//   } catch (err) {
-//     console.error("Login error", err);
-//     res.status(500).json({ message: "Internal server error" });
-//   }
-// });
-// router.get("/SigninEmpowerer", async (req, res) => {
-//   const { email, password } = req.query;
-
-//   try {
-//     // Find the user by username
-//     const user = await SigninEmpowerer.findOne({ email, password });
-//     if (!user) {
-//       return res.status(401).json({ message: "Invalid username or password" });
-//     }
-
-//     res.status(200).json({ message: "Login successful" });
-//   } catch (err) {
-//     console.error("Login error", err);
-//     res.status(500).json({ message: "Internal server error" });
-//   }
-// });
-
-// router.post("/CompanyInfoWorkforce", authenticateToken, async (req, res) => {
-//   try {
-//     // Get the user ID from the authenticated token
-
-//     const userId = req.user.userId;
-
-//     // // Find the user in the database
-//     const user = await CompanyInfoWorkfoce.findById(userId);
-//     if (!user) {
-//       return res.status(404).json({ message: "User not found" });
-//     }
-
-//     // // Find the company profile associated with the user
-//     const companyProfile = await CompanyInfoWorkfoce.findOne({
-//       user: user._id,
-//     });
-//     if (!companyProfile) {
-//       return res.status(404).json({ message: "Company profile not found" });
-//     }
-
-//     res.json(companyProfile);
-//   } catch (error) {
-//     console.error(error);
-//     res.sendStatus(500);
-//   }
-// });
 module.exports = router;
 
 /*using promises*/

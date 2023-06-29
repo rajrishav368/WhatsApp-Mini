@@ -110,13 +110,19 @@ const CreateVacancy = () => {
           <button type="button">Create vacancy</button>
         </div>
         <div className="hire__notifications_crva">
-          <button type="button">Notifications</button>
+          <Link to="/Notification">
+            <button type="button">Notifications</button>
+          </Link>
         </div>
         <div className="hire__vacancies_crva">
-          <button type="button">Vacancies</button>
+          <Link to="/VacancyPage">
+            <button type="button">Vacancies</button>
+          </Link>
         </div>
         <div className="hire__messages_crva">
-          <button>Messages</button>
+          <Link to="/Messages">
+            <button>Messages</button>
+          </Link>
         </div>
         <div className="hire__settings_crva">
           <button type="button">Settings</button>
@@ -242,7 +248,7 @@ const CreateVacancy = () => {
                   setLanguage(e.target.value);
                 }}
               />
-              </div>
+            </div>
             <div className="hire__employmentlevel_crva">
               <select
                 placeholder="Employment level"
