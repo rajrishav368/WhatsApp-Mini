@@ -22,12 +22,16 @@ const CompanyDescription = () => {
           </Link>
         </div>
         <div className="hire__header_vacancy_code">
-          <p>
-            <a href="#">Vacancy</a>
-          </p>
-          <p>
-            <a href="#">Companies</a>
-          </p>
+          <Link to="/VacancyList">
+            <p>
+              <a href="#">Vacancy</a>
+            </p>
+          </Link>
+          <Link to="/WorkforceList">
+            <p>
+              <a href="#">Companies</a>
+            </p>
+          </Link>
         </div>
         <div className="hire__header_username_code">
           <div className="hire__header_username_background_code">
@@ -166,9 +170,11 @@ const CompanyDescription = () => {
               <div className="hire__rolejoining1_code">
                 <h3>Joining Availability</h3>
               </div>
-              <div className="hire__viewbutton1_code">
-                <button type="button">View</button>
-              </div>
+              <Link to="/EmployeesProfile">
+                <div className="hire__viewbutton1_code">
+                  <button type="button">View</button>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="hire__jobroles2_code">
@@ -209,7 +215,6 @@ const CompanyDescription = () => {
               </div>
             </div>
           </div>
-          
         </div>
         <div className="hire__jobrolesdescription2_code">
           <div className="hire__jobroles3_code">
@@ -288,7 +293,6 @@ const CompanyDescription = () => {
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

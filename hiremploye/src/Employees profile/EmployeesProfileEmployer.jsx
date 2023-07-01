@@ -17,12 +17,16 @@ const EmployeesProfileEmployer = () => {
           </Link>
         </div>
         <div className="hire__header_vacancy_empr">
-          <p>
-            <a href="#">Vacancy</a>
-          </p>
-          <p>
-            <a href="#">Companies</a>
-          </p>
+          <Link to="/VacancyList">
+            <p>
+              <a href="#">Vacancy</a>
+            </p>
+          </Link>
+          <Link to="/WorkforceList">
+            <p>
+              <a href="#">Companies</a>
+            </p>
+          </Link>
         </div>
         <div className="hire__header_username_empr">
           <div className="hire__header_username_background_empr">
@@ -147,7 +151,9 @@ const EmployeesProfileEmployer = () => {
           </div>
         </div>
         <div className="hire__notify_button_empr">
-          <button type="button">Notify</button>
+          <Link to="/Messages">
+            <button type="button">Notify</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -102,7 +102,7 @@ const App = () => {
         />
         <Route path="/ApplicantsProfile" element={<ApplicantsProfile />} />
         <Route
-          path="/EmployeesProfileEmployer"
+          path="/EmployeesProfile"
           element={<EmployeesProfileEmployer />}
         />
         <Route

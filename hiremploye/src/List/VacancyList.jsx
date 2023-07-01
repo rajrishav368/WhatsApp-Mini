@@ -73,9 +73,11 @@ const VacancyList = () => {
           <p>
             <a href="#">Vacancy</a>
           </p>
+          <Link to="/WorkforceList">
           <p>
             <a href="#">Companies</a>
           </p>
+          </Link>
         </div>
         <div className="hire__header_username_vcli">
           <div className="hire__header_username_background_vcli">
@@ -354,7 +356,9 @@ const VacancyList = () => {
             </div>
             <div className="hire__applysavedmessagebutton_vcli">
               <div className="hire__applybutton_vcli">
+              <Link to="/WorkforceApply">
                 <button type="button">Apply</button>
+                </Link>
               </div>
               <div className="hire__savedmessagebutton_vcli">
                 <div className="hire__messagebutton_vcli">

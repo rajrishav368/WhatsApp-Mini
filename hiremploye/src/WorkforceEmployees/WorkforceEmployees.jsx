@@ -28,29 +28,39 @@ const WorkforceEmployees = () => {
         </div>
 
         <div className="hire__createvacancy_wf_emp">
-          <button type="button">Create Vacancy</button>
+        <Link to="/VacancyList">
+          <button type="button">Search Vacancy</button>
+          </Link>
         </div>
 
         <div className="hire__notificationsbutton_wf_emp">
+        <Link to="/NotificationWorkforce">
           <button type="button">Notifications</button>
+          </Link>
         </div>
 
         <div className="hire__vacancies_wf_emp">
-          <button type="button">vacancies</button>
+        <Link to="/VacancyPageWorkforce">
+          <button type="button">Applications</button>
+          </Link>
         </div>
 
         <div className="hire__messagesbutton_wf_emp">
+        <Link to="/MessagesWorkforce">
           <button type="button">Messages</button>
+          </Link>
         </div>
 
         <div className="hire__settings_wf_emp">
-          <button type="button">Settings</button>
+        <Link to="/WorkforceEmployees">
+          <button type="button">Employees</button>
+          </Link>
         </div>
 
         <div className="hire__feedback_wf_emp">
           <div className="hire__feedback_text_wf_emp">
             <button type="button">
-              <img src={feedback} alt=""></img>Feedback
+              Settings
             </button>
           </div>
         </div>
@@ -66,7 +76,9 @@ const WorkforceEmployees = () => {
       <div className="hire__workforceemployees_right_wf_emp">
         <div className="hire__workforceemployees_header_wf_emp">
           <h2>Employees</h2>
-          <button type="button">Add Employees</button>
+          <Link to="/WorkforceAddEmployees">
+            <button type="button">Add Employees</button>
+          </Link>
         </div>
 
         <div className="hire__jobrolesdescription1_wf_emp">
@@ -104,7 +116,9 @@ const WorkforceEmployees = () => {
                 <h3>Joining Availability</h3>
               </div>
               <div className="hire__viewbutton1_wf_emp">
-                <button type="button">View</button>
+                <Link to="/EmployeesProfileWorkforce">
+                  <button type="button">View</button>
+                </Link>
               </div>
             </div>
           </div>

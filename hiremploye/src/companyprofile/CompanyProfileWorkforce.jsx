@@ -37,25 +37,35 @@ const CompanyProfileWorkforce = () => {
         </div>
 
         <div className="hire__createvacancy_cpwf">
-          <button type="button">Create vacancy</button>
+          <Link to="/VacancyList">
+            <button type="button">Search Vacancy</button>
+          </Link>
         </div>
         <div className="hire__notifications_cpwf">
-          <button type="button">Notifications</button>
+          <Link to="/NotificationWorkforce">
+            <button type="button">Notifications</button>
+          </Link>
         </div>
         <div className="hire__vacancies_cpwf">
-          <button type="button">Vacancies</button>
+          <Link to="/VacancyPageWorkforce">
+            <button type="button">Applications</button>
+          </Link>
         </div>
         <div className="hire__messages_cpwf">
-          <button>Messages</button>
+          <Link to="/MessagesWorkforce">
+            <button>Messages</button>
+          </Link>
         </div>
         <div className="hire__settings_cpwf">
-          <button type="button">Settings</button>
+          <Link to="/WorkforceEmployees">
+            <button type="button">Employees</button>
+          </Link>
         </div>
 
         <div className="hire__feedback_cpwf">
           <div className="hire__feedback_text_cpwf">
             <button type="button">
-              <img src={feedback} alt=""></img>Feedback
+              Settings
             </button>
           </div>
         </div>
@@ -70,7 +80,6 @@ const CompanyProfileWorkforce = () => {
       </div>
 
       <div className="hire__company_profile_right_cpwf">
-
         <div className="hire__company_header_cpwf">
           <div className="hire__company_profile_header_cpwf">
             <h2>Application completeness</h2>
@@ -79,7 +88,6 @@ const CompanyProfileWorkforce = () => {
         </div>
 
         <div className="hire__photocompany_cpwf">
-
           <div className="hire__addphoto_cpwf">
             <div className="hire__addphoto_logo_cpwf">
               <img src={addphoto} alt=""></img>
@@ -88,7 +96,7 @@ const CompanyProfileWorkforce = () => {
               <h4>Add a photo</h4>
             </div>
           </div>
-          
+
           <div className="hire__aboutcompany_cpwf">
             <div className="hire__aboutcompany_logo_cpwf">
               <img src={building} alt=""></img>
@@ -107,7 +115,6 @@ const CompanyProfileWorkforce = () => {
             <button type="button">Edit</button>
           </div>
         </div>
-       
 
         <div className="hire__company_body_cpwf">
           <div className="hire__rectangle_username_location_cpwf">

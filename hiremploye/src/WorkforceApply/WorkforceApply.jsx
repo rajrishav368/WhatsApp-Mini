@@ -21,12 +21,16 @@ const WorkforceApply = () => {
           </Link>
         </div>
         <div className="hire__header_vacancy_wfap">
-          <p>
-            <a href="#">Vacancy</a>
-          </p>
-          <p>
-            <a href="#">Companies</a>
-          </p>
+          <Link to="/VacancyList">
+            <p>
+              <a href="#">Vacancy</a>
+            </p>
+          </Link>
+          <Link to="/WorkforceList">
+            <p>
+              <a href="#">Companies</a>
+            </p>
+          </Link>
         </div>
         <div className="hire__header_username_wfap">
           <div className="hire__header_username_background_wfap">
@@ -243,7 +247,9 @@ const WorkforceApply = () => {
           </div>
         </div>
         <div className="hire__sendapplication_button_wfap">
-          <button type="button">Send Application</button>
+          <Link to="/VacancyPageWorkforce">
+            <button type="button">Send Application</button>
+          </Link>
         </div>
       </div>
     </div>

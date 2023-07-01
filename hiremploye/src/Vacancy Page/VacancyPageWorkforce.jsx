@@ -30,30 +30,38 @@ const VacancyPageWorkforce = () => {
         </div>
 
         <div className="hire__createvacancy_vp_wf">
-          <button type="button">Create Vacancy</button>
+          <Link to="/VacancyList">
+            <button type="button">Find Vacancy</button>
+          </Link>
         </div>
 
         <div className="hire__notifications_vp_wf">
-          <button type="button">Notifications</button>
+          <Link to="/NotificationWorkforce">
+            <button type="button">Notifications</button>
+          </Link>
         </div>
 
         <div className="hire__vacancies_vp_wf">
-          <button type="button">vacancies</button>
+          <Link to="/VacancyPageWorkforce">
+            <button type="button">Applications</button>
+          </Link>
         </div>
 
         <div className="hire__messages_vp_wf">
-          <button type="button">Messages</button>
+          <Link to="/MessagesWorkforce">
+            <button type="button">Messages</button>
+          </Link>
         </div>
 
         <div className="hire__settings_vp_wf">
-          <button type="button">Settings</button>
+          <Link to="/WorkforceEmployees">
+            <button type="button">Employees</button>
+          </Link>
         </div>
 
         <div className="hire__feedback_vp_wf">
           <div className="hire__feedback_text_vp_wf">
-            <button type="button">
-              <img src={feedback} alt=""></img>Feedback
-            </button>
+            <button type="button">Feedback</button>
           </div>
         </div>
 
@@ -86,11 +94,15 @@ const VacancyPageWorkforce = () => {
               <h3>Job Title 1</h3>
             </div>
             <div className="hire__job_title_1_image_vp_wf">
-              <img src={Pencil} alt=""></img>
+              <Link to="/WorkforceApply">
+                <img src={Pencil} alt=""></img>
+              </Link>
               <img src={Trash} alt=""></img>
             </div>
             <div className="hire__job_tile_1_viewapplication_vp_wf">
-              <button type="button">View applicants</button>
+              <Link to="/WorkforceApply">
+                <button type="button">View application</button>
+              </Link>
             </div>
           </div>
 
@@ -103,7 +115,7 @@ const VacancyPageWorkforce = () => {
               <img src={Trash} alt=""></img>
             </div>
             <div className="hire__job_tile_2_viewapplication_vp_wf">
-              <button type="button">View applicants</button>
+              <button type="button">View application</button>
             </div>
           </div>
 
@@ -116,7 +128,7 @@ const VacancyPageWorkforce = () => {
               <img src={Trash} alt=""></img>
             </div>
             <div className="hire__job_tile_3_viewapplication_vp_wf">
-              <button type="button">View applicants</button>
+              <button type="button">View application</button>
             </div>
           </div>
         </div>

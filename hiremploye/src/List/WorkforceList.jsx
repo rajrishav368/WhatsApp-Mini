@@ -59,9 +59,11 @@ const WorkforceList = () => {
           </Link>
         </div>
         <div className="hire__header_vacancy_wfli">
-          <p>
-            <a href="#">Vacancy</a>
-          </p>
+          <Link to="/VacancyList">
+            <p>
+              <a href="#">Vacancy</a>
+            </p>
+          </Link>
           <p>
             <a href="#">Companies</a>
           </p>
@@ -159,17 +161,20 @@ const WorkforceList = () => {
             <h1>40</h1>
           </div>
         </div>
+
         <div className="hire__employeedescription1_wfli">
-          <div className="hire__employee_details1_wfli">
-            <div className="hire__photoname1_wfli">
-              <img src={black} alt=""></img>
-              <h3>Company 1</h3>
+          <Link to="/CompanyDescription">
+            <div className="hire__employee_details1_wfli">
+              <div className="hire__photoname1_wfli">
+                <img src={black} alt=""></img>
+                <h3>Company 1</h3>
+              </div>
+              <div className="hire__location_employeesavailable1_wfli">
+                <h3>Location</h3>
+                <h3>6 employees available</h3>
+              </div>
             </div>
-            <div className="hire__location_employeesavailable1_wfli">
-              <h3>Location</h3>
-              <h3>6 employees available</h3>
-            </div>
-          </div>
+          </Link>
           <div className="hire__employee_details2_wfli">
             <div className="hire__photoname2_wfli">
               <img src={black} alt=""></img>
