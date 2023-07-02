@@ -1,5 +1,5 @@
 import React from "react";
-import { Route,Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import LoginMain from "./pages/login/LoginMain";
@@ -45,7 +45,6 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
-      
         <Route path="/" element={<Home />} />
         <Route path="/loginMain" element={<LoginMain />} />
         <Route path="/loginEmployer" element={<LoginEmployer />} />
@@ -114,12 +113,9 @@ const App = () => {
         <Route path="/WorkforceEmployees" element={<WorkforceEmployees />} />
         <Route path="/WorkforceList" element={<WorkforceList />} />
         <Route path="/VacancyList" element={<VacancyList />} />
-
       </Routes>
-      
     </div>
   );
 };
 
 export default App;
-

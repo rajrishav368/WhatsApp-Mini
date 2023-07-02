@@ -11,6 +11,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import axios from "axios";
 import LanguageSelector from "@marcoparrone/react-language-selector";
 import { CountryDropdown, RegionDropdown } from "react-country-region-selector";
+import { useNavigate } from "react-router-dom";
 
 const CreateVacancy = () => {
   const options = [
@@ -59,6 +60,7 @@ const CreateVacancy = () => {
   const [educationlevel, setEducationlevel] = useState("");
   const [minexperience, setMinexperience] = useState(experience[0].value);
   const [description, setDescription] = useState("");
+  const Navigate=useNavigate();
 
   let submit = async (e) => {
     e.preventDefault();
@@ -82,6 +84,7 @@ const CreateVacancy = () => {
         minexperience,
         description,
       });
+      Navigate("/VacancyPage");
     } catch (e) {
       console.log(e);
     }
